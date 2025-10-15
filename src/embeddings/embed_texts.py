@@ -9,6 +9,7 @@ collection = chroma_client.create_collection(name="astro_corpus")
 data = json.load(open("../../data/processed/clean_chunks.json"))
 
 for i, item in enumerate(data):
+    print(item)
     embedding = model.encode(item["text"]).tolist()
     collection.add(
         ids=[str(i)],
