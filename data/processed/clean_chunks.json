@@ -1,0 +1,1489 @@
+[
+  {
+    "title": "The Sunburst Arc with JWST. IV. The importance of interaction, turbulence, and feedback for Lyman-continuum escape",
+    "text": "At present, the best opportunity for detailed Lyman Continuum escape studies is in gravitationally lensed galaxies at z >= 2. Only one such galaxy currently exists in the literature with sufficient spatial magnification: The Sunburst Arc at redshift z = 2.37. Here, we present rest-frame optical JWST NIRSpec integral field observations of the Sunburst Arc that cover a large fraction of the source plane. From this dataset, we generate precise maps of ISM kinematics, dust geometry, ionization, and chemical enrichment. We find that the galaxy rotates but also shows strong, possibly dominant, signatures of turbulence, which are indicative of recent or ongoing major interaction. The cluster that leaks ionizing photons shows little variation in kinematics or dust coverage, but dramatically elevated ionization, indicating that photoionization is the predominant mechanism that creates paths for LyC escape. We conjecture that tidal stripping of H I gas due to an interaction could have removed a large portion of the neutral ISM around the LyC emitting cluster, making it easier for the cluster to completely ionize the rest.",
+    "url": "http://arxiv.org/abs/2510.11702v1",
+    "authors": [
+      "T. Emil Rivera-Thorsen",
+      "Brian Welch",
+      "Taylor Hutchison",
+      "Matthew J. Hayes",
+      "Jane R. Rigby",
+      "Keunho Kim",
+      "Suhyeon Choe",
+      "Michael Florian",
+      "Matthew B. Bayliss",
+      "Gourav Khullar",
+      "Keren Sharon",
+      "H\u00e5kon Dahle",
+      "John Chisholm",
+      "Erik Solhaug",
+      "M. Riley Owens",
+      "Michael D. Gladders"
+    ]
+  },
+  {
+    "title": "Ultra-Faint Milky Way Satellites Discovered in Carina, Phoenix, and Telescopium with DELVE Data Release 3",
+    "text": "We report the discovery of three Milky Way satellite candidates: Carina IV, Phoenix III, and DELVE 7, in the third data release of the DECam Local Volume Exploration survey (DELVE). The candidate systems were identified by cross-matching results from two independent search algorithms. All three are extremely faint systems composed of old, metal-poor stellar populations ($\\tau \\gtrsim 10 \\lesssim -1.4M_V = -2.8;\\ r_{1/2} = 40 {\\rm pc}M_V = -1.2;\\ r_{1/2} = 19 {\\rm pc}$) have half-light radii that are consistent with the known population of dwarf galaxies, while DELVE 7 () is very compact and seems more likely to be a star cluster, though its nature remains ambiguous without spectroscopic followup. The Gaia proper motions of stars in Carina IV () indicate that it is unlikely to be associated with the LMC, while DECam CaHK photometry confirms that its member stars are metal-poor. Phoenix III () is the faintest known satellite in the extreme outer stellar halo ($D_{\\rm GC} > 100M_* = 60^{+120}_{-40} {\\rm M_\\odot}$) is the faintest known satellite with kpc.",
+    "url": "http://arxiv.org/abs/2510.11684v1",
+    "authors": [
+      "C. Y. Tan",
+      "W. Cerny",
+      "A. B. Pace",
+      "J. A. Sharp",
+      "K. Overdeck",
+      "A. Drlica-Wagner",
+      "J. D. Simon",
+      "B. Mutlu-Pakdil",
+      "D. J. Sand",
+      "A. M. Senkevich",
+      "D. Erkal",
+      "P. S. Ferguson",
+      "F. Sobreira",
+      "K. R. Atzberger",
+      "J. L. Carlin",
+      "A. Chiti",
+      "D. Crnojevi\u0107",
+      "A. P. Ji",
+      "L. C. Johnson",
+      "T. S. Li",
+      "G. Limberg",
+      "C. E. Mart\u00ednez-V\u00e1zquez",
+      "G. E. Medina",
+      "V. M. Placco",
+      "A. H. Riley",
+      "E. J. Tollerud",
+      "A. K. Vivas",
+      "T. M. C. Abbott",
+      "M. Aguena",
+      "O. Alves",
+      "D. Bacon",
+      "S. Bocquet",
+      "D. Brooks",
+      "D. L. Burke",
+      "R. Camilleri",
+      "J. A. Carballo-Bello",
+      "A. Carnero Rosell",
+      "J. Carretero",
+      "T. -Y. Cheng",
+      "Y. Choi",
+      "L. N. da Costa",
+      "M. E. da Silva Pereira",
+      "T. M. Davis",
+      "J. De Vicente",
+      "S. Desai",
+      "P. Doel",
+      "S. Everett",
+      "B. Flaugher",
+      "J. Frieman",
+      "J. Garc\u00eda-Bellido",
+      "D. Gruen",
+      "G. Gutierrez",
+      "S. R. Hinton",
+      "D. L. Hollowood",
+      "D. J. James",
+      "K. Kuehn",
+      "S. Lee",
+      "J. L. Marshall",
+      "J. Mena-Fern\u00e1ndez",
+      "F. Menanteau",
+      "R. Miquel",
+      "J. Myles",
+      "M. Navabi",
+      "D. L. Nidever",
+      "R. L. C. Ogando",
+      "A. A. Plazas Malag\u00f3n",
+      "A. Porredon",
+      "S. Samuroff",
+      "E. Sanchez",
+      "D. Sanchez Cid",
+      "I. Sevilla-Noarbe",
+      "M. Smith",
+      "E. Suchyta",
+      "M. E. C. Swanson",
+      "V. Vikram",
+      "A. R. Walker",
+      "A. Zenteno"
+    ]
+  },
+  {
+    "title": "The Magic Barrier before Thermalization",
+    "text": "We investigate the time dependence of anti-flatness in the entanglement spectrum, a measure for non-stabilizerness and lower bound for non-local quantum magic, on a subsystem of a linear SU(2) plaquette chain during thermalization. Tracing the time evolution of a large number of initial states, we find that the anti-flatness exhibits a barrier-like maximum during the time period when the entanglement entropy of the subsystem grows rapidly from the initial value to the microcanonical entropy. The location of the peak is strongly correlated with the time when the entanglement exhibits the strongest growth. This behavior is found for generic highly excited initial computational basis states and persists for coupling constants across the ergodic regime, revealing a universal structure of the entanglement spectrum during thermalization. We conclude that quantitative simulations of thermalization for nonabelian gauge theories require quantum computing. We speculate that this property generalizes to other quantum chaotic systems.",
+    "url": "http://arxiv.org/abs/2510.11681v1",
+    "authors": [
+      "Lukas Ebner",
+      "Berndt M\u00fcller",
+      "Andreas Sch\u00e4fer",
+      "Leonhard Schmotzer",
+      "Clemens Seidl",
+      "Xiaojun Yao"
+    ]
+  },
+  {
+    "title": "Compositional difference-in-differences for categorical outcomes",
+    "text": "In difference-in-differences (DiD) settings with categorical outcomes, treatment effects often operate on both total quantities (e.g., voter turnout) and category shares (e.g., vote distribution across parties). In this context, linear DiD models can be problematic: they suffer from scale dependence, may produce negative counterfactual quantities, and are inconsistent with discrete choice theory. We propose compositional DiD (CoDiD), a new method that identifies counterfactual categorical quantities, and thus total levels and shares, under a parallel growths assumption. The assumption states that, absent treatment, each category's size grows or shrinks at the same proportional rate in treated and control groups. In a random utility framework, we show that this implies parallel evolution of relative preferences between any pair of categories. Analytically, we show that it also means the shares are reallocated in the same way in both groups in the absence of treatment. Finally, geometrically, it corresponds to parallel trajectories (or movements) of probability mass functions of the two groups in the probability simplex under Aitchison geometry. We extend CoDiD to i) derive bounds under relaxed assumptions, ii) handle staggered adoption, and iii) propose a synthetic DiD analog. We illustrate the method's empirical relevance through two applications: first, we examine how early voting reforms affect voter choice in U.S. presidential elections; second, we analyze how the Regional Greenhouse Gas Initiative (RGGI) affected the composition of electricity generation across sources such as coal, natural gas, nuclear, and renewables.",
+    "url": "http://arxiv.org/abs/2510.11659v1",
+    "authors": [
+      "Onil Boussim"
+    ]
+  },
+  {
+    "title": "Triaxiality and shape dynamics in $^{70}$Ge",
+    "text": "The electromagnetic properties of low-lying states in Ge were investigated via multi-step Coulomb excitation of a Ge beam impinging on a Pb target at the ATLAS facility of the Argonne National Laboratory. A total of 27 transitional elements and six diagonal matrix elements coupling 11 low-lying states, were extracted from the measured cross sections. These were used to calculate reduced transition probabilities, spectroscopic quadrupole moments, and rotational invariant shape parameters, providing enhanced precision and expanding on previous studies. The experimental data were compared within several theoretical frameworks, including the generalized triaxial rotor model, configuration interaction shell-model calculations, and computations within the combined frameworks of relativistic density functional theory and the five-dimensional collective Hamiltonian. The results demonstrate a good agreement with the experimental data and, in conjunction with calculations using a two-state mixing model, support significant triaxiality and strong mixing between the and states. This results in the magnitudes of their respective quadrupole deformations being more similar than previously observed. The implications of these results for understanding the complex shape coexistence phenomena, the role of triaxiality, and shape evolution along the Ge isotopic chain are discussed.",
+    "url": "http://arxiv.org/abs/2510.11641v1",
+    "authors": [
+      "T. M. Kowalewski",
+      "A. D. Ayangeakaa",
+      "N. Sensharma",
+      "R. V. F. Janssens",
+      "Y. M. Wang",
+      "Q. B. Chen",
+      "J. M. Allmond",
+      "C. M. Campbell",
+      "S. Carmichael",
+      "M. P. Carpenter",
+      "P. Copp",
+      "C. Cousins",
+      "M. Devlin",
+      "U. Garg",
+      "C. M\u00fcller-Gatermann",
+      "T. J. Gray",
+      "D. J. Hartley",
+      "J. Heery",
+      "J. Henderson",
+      "H. Jayatissa",
+      "S. R. Johnson",
+      "S. P. Kisyov",
+      "F. G. Kondev",
+      "T. Lauritsen",
+      "S. Nandi",
+      "R. Rathod",
+      "W. Reviol",
+      "M. Rocchini",
+      "E. Rubino",
+      "R. Russell",
+      "A. Saracino",
+      "D. Seweryniak",
+      "M. Siciliano",
+      "C. Y. Wu"
+    ]
+  },
+  {
+    "title": "Hints of Dark Matter Spikes in Low-mass X-ray Binaries: a critical assessment",
+    "text": "Three black-hole low-mass X-ray binaries (LMXBs) in the Milky Way show rates of period decay which cannot be easily explained by standard mechanisms. Recently, it has been claimed that the anomalous period decays in two of these systems may be explained by dynamical friction due to very high dark matter (DM) densities around the black holes. We critically assess these claims by performing -body simulations of binaries embedded in dense DM ``spikes\". We simulate the previously-studied systems XTE J1118+480 and A0620--00, as well as studying the third binary Nova Muscae 1991 for the first time in this context. These simulations show that feedback on the DM distribution plays a crucial role and we rule out previously-claimed shallow DM spikes. We set lower limits on the steepness of DM density profiles required to explain the period decay in these LMXBs, requiring in XTE J1118+480 and A0620--00 and in Nova Muscae 1991. Improved modeling of the long-term evolution of binaries embedded in DM spikes may allow us to exclude even larger densities in future.",
+    "url": "http://arxiv.org/abs/2510.11635v1",
+    "authors": [
+      "Francesca Scarcella",
+      "Bradley J. Kavanagh"
+    ]
+  },
+  {
+    "title": "From Primordial Stars to Early Galaxies: A Semi-Analytic Model Calibrated with Aeos and Renaissance",
+    "text": "We present an extension of our semi-analytic model that follows the formation of Population III stars and their metal-enriched descendants, incorporating dark matter halo merger trees from cosmological -body simulations and feedback from reionization. Our extended model is calibrated using two complementary cosmological hydrodynamical simulations: Aeos, which resolves individual Population III and II stars to , and Renaissance, which is lower resolution but follows large-scale metal-enriched star formation to $z \\sim 11$. With a combined calibration, we capture small-scale physics of primordial star formation over a large range in halo mass. We find good agreement between our calibrated model and Aeos, reproducing the evolution in number of star-forming halos and total stellar mass. Achieving this agreement requires increasing the normalization of, flattening the redshift dependence of, and adding scatter to the commonly used critical mass threshold . Our treatment of the delay between Pop III stellar death and subsequent Pop II star formation emphasizes the need to account for halos that have yet to transition to Pop II, since incomplete sampling of this delay in simulations limits physically motivated calibrations. Finally, we apply our model to larger-volume dark matter only simulations and predict active Pop III sources at lie within the area strongly lensed by galaxy cluster MACS J0416 with a magnification exceeding . These results demonstrate that semi-analytic approaches, when calibrated to hydrodynamical simulations, can provide accurate, computationally efficient predictions for the earliest stages of cosmic star formation.",
+    "url": "http://arxiv.org/abs/2510.11629v1",
+    "authors": [
+      "Ryan Hazlett",
+      "Jennifer Mead",
+      "Eli Visbal",
+      "Greg L. Bryan",
+      "Mordecai-Mark Mac Low",
+      "Mihir Kulkarni",
+      "Eric P. Andersson",
+      "Kaley Brauer",
+      "John H. Wise"
+    ]
+  },
+  {
+    "title": "JADES Dark Horse: demonstrating high-multiplex observations with JWST/NIRSpec dense-shutter spectroscopy in the JADES Origins Field",
+    "text": "We present JWST/NIRSpec dense-shutter spectroscopy (DSS). This novel observing strategy with the NIRSpec micro-shutter assembly (MSA) deliberately permits a high number of controlled spectral overlaps to reach extreme multiplex while retaining the low background of slit spectroscopy. In a single configuration over the JADES Origins Field we opened shutters on all faint (F444W<30 mag) z>3 candidates in the MSA, prioritising emission-line science and rejecting only bright continuum sources. Using 33.6 and 35.8 ks on-source in G235M and G395M, we observed a single mask with ~850 sources, obtaining secure spectroscopic redshifts for ~540 galaxies over 2.5<z<8.9. The per-configuration target density in DSS mode is 4-5x higher than standard no- and low-overlap MSA strategies (<200 sources), with no loss in redshift precision or accuracy. Line-flux sensitivities are 30 percent lower at fixed exposure time, matching the expected increase in background noise, but the gain in survey speed is 5x in our setup, more than justifying the penalty. The measured line sensitivity exceeds NIRCam WFSS by a minimum factor of ~5 (i.e. ~25 in exposure time) at ~4 m, demonstrating that controlled overlap is a compelling method to gain deep, wide-band spectra for large samples. Crucially, we envisage the MSA could deliver even higher target allocation densities than what used here. We derive Balmer-line based SFRs, gas-phase metallicities (including a large sample suitable for strong-line calibrations), and identify rare sources (mini-quenched systems and broad-line AGN). This approach is immediately applicable wherever deep imaging enables robust pre-selection and astrometry, providing an efficient method to obtain large samples of faint emission-line galaxies, a compelling middle ground between the completeness of slitless surveys and the sensitivity and bandwidth of NIRSpec/MSA.",
+    "url": "http://arxiv.org/abs/2510.11626v1",
+    "authors": [
+      "Francesco D'Eugenio",
+      "Erica J. Nelson",
+      "Daniel J. Eisenstein",
+      "Roberto Maiolino",
+      "Stefano Carniani",
+      "Jan Scholtz",
+      "Mirko Curti",
+      "Christopher N. A. Willmer",
+      "Andrew J. Bunker",
+      "Jakob M. Helton",
+      "Ignas Juod\u017ebalis",
+      "Fengwu Sun",
+      "Sandro Tacchella",
+      "Santiago Arribas",
+      "Alex J. Cameron",
+      "St\u00e9phane Charlot",
+      "Emma Curtis-Lake",
+      "Kevin Hainline",
+      "Benjamin D. Johnson",
+      "Brant Robertson",
+      "Christina C. Williams",
+      "Chris Willott",
+      "William M. Baker",
+      "Jacopo Chevallard",
+      "A. Lola Danhaive",
+      "Yuki Isobe",
+      "Xihan Ji",
+      "Zhiyuan Ji",
+      "Gareth C. Jones",
+      "Nimisha Kumari",
+      "Tobias J. Looser",
+      "Jianwei Lyu",
+      "Eleonora Parlanti",
+      "Michele Perna",
+      "D\u00e1vid Pusk\u00e1s",
+      "Pierluigi Rinaldi",
+      "Charlotte Simmonds",
+      "Yang Sun",
+      "Giacomo Venturi",
+      "Joris Witstok",
+      "Zihao Wu",
+      "Yongda Zhu"
+    ]
+  },
+  {
+    "title": "JWST/MIRI-MRS view of the metal-poor galaxy CGCG 007-025: the spatial location of PAHs and very highly ionized gas",
+    "text": "Polycyclic Aromatic Hydrocarbons (PAHs) are key diagnostics of the physical conditions in the interstellar medium and are widely used to trace star formation in the mid-infrared (mid-IR). The relative strengths of mid-IR PAH emission features (e.g., 6.2, 7.7, 11.3 um) are sensitive to both the size and ionization state of the molecules and can be strongly influenced by the local radiation field. However, at low metallicities ( Z < 0.2 Zsun), detecting PAHs remains notoriously difficult, likely reflecting a combination of suppressed formation and enhanced destruction mechanisms. We present new JWST/MIRI MRS observations of the metal-poor (Z = 0.1 Zsun) dwarf galaxy CGCG 007-025. We confirm the tentative PAH detection previously reported from Spitzer data and, for the first time, identify a compact (approx. 50 pc) PAH-emitting region nearly co-spatial with the newly detected [NeV](I.P. = 97 eV) emission and the galaxy's most metal-poor, strongly star-forming region. The 11.3 um PAH feature is clearly detected, while no emission is found from the other typically brighter features, suggesting a PAH population dominated by large, neutral molecules resilient to hard ionizing fields. When compared with models, mid-IR line ratios involving [NeIII], [OIV], and [NeV] can only be reproduced by a combination of star formation and AGN ionization, with the latter contributing 4--8%. The [OIV] and [NeV] luminosities exceed what massive stars or shocks can produce, highlighting a puzzling scenario in line with recent JWST observations of similar galaxies. This work provides a crucial reference for studying the physical conditions of the dust and star formation in low-metallicity starburst regions, environments typical of the early universe.",
+    "url": "http://arxiv.org/abs/2510.11581v1",
+    "authors": [
+      "Macarena G. del Valle-Espinosa",
+      "Matilde Mingozzi",
+      "Bethan James",
+      "Ruben Sanchez-Janssen",
+      "Juan Antonio Fernandez-Ontiveros",
+      "Ryan J. Rickards Vaught",
+      "Ricardo O. Amorin",
+      "Leslie Hunt",
+      "Alessandra Aloisi",
+      "Karla Z. Arellano-Cordova",
+      "Danielle A. Berg",
+      "John Chisholm",
+      "Matthew Hayes",
+      "Svea Hernandez",
+      "Alec Hirschauer",
+      "Logan Jones",
+      "Crystal L. Martin",
+      "Livia Vallini",
+      "Xinfeng Xu"
+    ]
+  },
+  {
+    "title": "Benchmarking foundation models for hyperspectral image classification: Application to cereal crop type mapping",
+    "text": "Foundation models are transforming Earth observation, but their potential for hyperspectral crop mapping remains underexplored. This study benchmarks three foundation models for cereal crop mapping using hyperspectral imagery: HyperSigma, DOFA, and Vision Transformers pre-trained on the SpectralEarth dataset (a large multitemporal hyperspectral archive). Models were fine-tuned on manually labeled data from a training region and evaluated on an independent test region. Performance was measured with overall accuracy (OA), average accuracy (AA), and F1-score. HyperSigma achieved an OA of 34.5% (+/- 1.8%), DOFA reached 62.6% (+/- 3.5%), and the SpectralEarth model achieved an OA of 93.5% (+/- 0.8%). A compact SpectralEarth variant trained from scratch achieved 91%, highlighting the importance of model architecture for strong generalization across geographic regions and sensor platforms. These results provide a systematic evaluation of foundation models for operational hyperspectral crop mapping and outline directions for future model development.",
+    "url": "http://arxiv.org/abs/2510.11576v1",
+    "authors": [
+      "Walid Elbarz",
+      "Mohamed Bourriz",
+      "Hicham Hajji",
+      "Hamd Ait Abdelali",
+      "Fran\u00e7ois Bourzeix"
+    ]
+  },
+  {
+    "title": "A fourth-order active flux method for parabolic problems with application to porous medium equation",
+    "text": "The active flux (AF) method is a compact high-order finite volume method originally proposed for solving hyperbolic conservation laws, in which cell averages and point values at cell interfaces are evolved simultaneously. This paper develops a fourth-order AF method for one- and two-dimensional parabolic problems, employing the explicit strong-stability-preserving Runge-Kutta (SSP-RK) method for time integration. The proposed method is built on a degenerate first-order system with auxiliary variables representing the derivatives of the primal variable, similar to local discontinuous Galerkin (LDG) methods, which avoids introducing pseudo-time or performing iterations within a physical time step in the existing hyperbolic formulations. The evolution of cell averages follows the standard finite volume method, ensuring conservation, while the point values of both the primal and auxiliary variables are updated using fourth-order central finite difference operators. A discrete Fourier analysis confirms the fourth-order accuracy in 1D. With the third-order SSP-RK method, the maximum CFL number for stability is in 1D, as obtained by von Neumann analysis, larger than that of LDG methods. The proposed method is further applied to the porous medium equation, and positivity-preserving limitings are incorporated to guarantee the non-negativity of the numerical solutions. Several numerical experiments validate the theoretical results and efficacy of the method.",
+    "url": "http://arxiv.org/abs/2510.11527v1",
+    "authors": [
+      "Junming Duan"
+    ]
+  },
+  {
+    "title": "A Self-Organized Tower of Babel: Diversification through Competition",
+    "text": "We introduce a minimal evolutionary model to show how local cooperation and global competition can create a transition to the diversity of communities such as linguistic groups. By using a lattice model with high-dimensional state agents and evolution under a fitness that depends on an agent's local neighborhood and global dissimilarity, clusters of diverse communities with different fitness are organized by equalizing the finesses on the boundaries, where their numbers and sizes are robust to parameters. We observe successive transitions over quasi-stationary states, as triggered by the emergence of new communities on the boundaries. Our abstract framework provides a simple mechanism for the diversification of culture.",
+    "url": "http://arxiv.org/abs/2510.11522v1",
+    "authors": [
+      "Riz Fernando Noronha",
+      "Kunihiko Kaneko"
+    ]
+  },
+  {
+    "title": "Uncertainty Quantification for Retrieval-Augmented Reasoning",
+    "text": "Retrieval-augmented reasoning (RAR) is a recent evolution of retrieval-augmented generation (RAG) that employs multiple reasoning steps for retrieval and generation. While effective for some complex queries, RAR remains vulnerable to errors and misleading outputs. Uncertainty quantification (UQ) offers methods to estimate the confidence of systems' outputs. These methods, however, often handle simple queries with no retrieval or single-step retrieval, without properly handling RAR setup. Accurate estimation of UQ for RAR requires accounting for all sources of uncertainty, including those arising from retrieval and generation. In this paper, we account for all these sources and introduce Retrieval-Augmented Reasoning Consistency (R2C)--a novel UQ method for RAR. The core idea of R2C is to perturb the multi-step reasoning process by applying various actions to reasoning steps. These perturbations alter the retriever's input, which shifts its output and consequently modifies the generator's input at the next step. Through this iterative feedback loop, the retriever and generator continuously reshape one another's inputs, enabling us to capture uncertainty arising from both components. Experiments on five popular RAR systems across diverse QA datasets show that R2C improves AUROC by over 5% on average compared to the state-of-the-art UQ baselines. Extrinsic evaluations using R2C as an external signal further confirm its effectiveness for two downstream tasks: in Abstention, it achieves ~5% gains in both F1Abstain and AccAbstain; in Model Selection, it improves the exact match by ~7% over single models and ~3% over selection methods.",
+    "url": "http://arxiv.org/abs/2510.11483v1",
+    "authors": [
+      "Heydar Soudani",
+      "Hamed Zamani",
+      "Faegheh Hasibi"
+    ]
+  },
+  {
+    "title": "A Metal-Rich Atmosphere with a Super-Solar C/O Ratio for the Extreme Ultra-Hot Jupiter WASP-178b",
+    "text": "The population of ultra-hot Jupiters (UHJs) provide unique opportunities to probe the extreme formation and evolutionary pathways in exoplanets. Owing to their very high temperatures and inflated atmospheres, UHJs are among the most favorable targets for both transmission and emission spectroscopy, enabling detailed characterization of their atmospheric properties. Here, we present a reanalysis of the JWST NIRSpec/G395H transmission spectra of the extreme ultra-hot Jupiter (EUHJ) WASP-178b, aimed at precisely characterizing its atmospheric composition. Our approach combines data reduction using two independent pipelines, lightcurve modeling with robust detrending techniques, and rigorous atmospheric retrievals. We report statistically significant detections of CO (7.24 ) and CO (7.22 ), along with marginal evidence for CH (1.34 ), but no clear evidence for HO, suggesting depletion. From these retrieved abundances, we constrain the C/O ratio to a precise super-solar value of 0.9540.033, consistent with an emerging trend in other UHJs. We also infer a very high atmospheric metallicity for a Jupiter-sized gas giant11.44 solarindicating unique atmospheric evolutions. These findings provide a critical benchmark for an extreme exoplanet atmosphere, offering a testbed for developing next-generation atmospheric evolution models and enabling comparative population-level studies across the UHJ population.",
+    "url": "http://arxiv.org/abs/2510.11479v1",
+    "authors": [
+      "Suman Saha",
+      "James S. Jenkins"
+    ]
+  },
+  {
+    "title": "Proton-rich production of lanthanides: the \u03bdi process",
+    "text": "The astrophysical origin of the lanthanides is an open question in nuclear astrophysics. Besides the widely studied , , and processes in moderately-to-strongly neutron-rich environments, an intriguing alternative site for lanthanide production could in fact be robustly matter outflows from core-collapse supernovae under specific conditions -- in particular, high-entropy winds with enhanced neutrino luminosity and fast dynamical timescales. In this environment, excess protons present after charged particle reactions have ceased can continue to be converted to neutrons by (anti-)neutrino interactions, producing a neutron capture reaction flow up to A~200. This scenario, christened the process in a recent paper, has previously been discussed as a possibility. Here, we examine the prospects for process through the lens of stellar abundance patterns, bolometric lightcurves, and galactic chemical evolution models, with a particular focus on hypernovae as candidate sites. We identify specific lanthanide signatures for which the process can provide a credible alternative to / processes.",
+    "url": "http://arxiv.org/abs/2510.11467v1",
+    "authors": [
+      "Xilu Wang",
+      "Amol V. Patwardhan",
+      "Yangming Lin",
+      "Junbo Zheng",
+      "Michael J. Cervia",
+      "Yanwen Deng",
+      "A. Baha Balantekin",
+      "Haining Li",
+      "Ian U. Roederer",
+      "Rebecca Surman"
+    ]
+  },
+  {
+    "title": "Efficient and accurate tensor network algorithm for Anderson impurity problems",
+    "text": "The Anderson impurity model (AIM) is of fundamental importance in condensed matter physics to study strongly correlated effects. However, accurately solving its long-time dynamics still remains a great numerical challenge. An emergent and rapidly developing numerical strategy to solve the AIM is to represent the Feynman-Vernon influence functional (IF), which encodes all the bath effects on the impurity dynamics, as a matrix product state (MPS) in the temporal domain. The computational cost of this strategy is basically determined by the bond dimension of the temporal MPS. In this work, we propose an efficient and accurate method which, when the hybridization function in the IF can be approximated as the summation of exponential functions, can systematically build the IF as a MPS by multiplying small MPSs, each with bond dimension . Our method gives a worst case scaling of as and for real- and imaginary-time evolution respectively. We demonstrate the performance of our method for two commonly used bath spectral functions, where we show that the actually required s are much smaller than the worst case.",
+    "url": "http://arxiv.org/abs/2510.11459v1",
+    "authors": [
+      "Zhijie Sun",
+      "Zhenyu Li",
+      "Chu Guo"
+    ]
+  },
+  {
+    "title": "Feeding the dead: neutral gas inflow with suppressed star formation in a long-quenched ancient massive galaxy at z~2.7 observed with JWST/NIRSpec",
+    "text": "We report the spectroscopic detection of neutral gas inflow into a massive () quiescent galaxy observed at with JWST. From the redshifted absorption of the NaI doublet at Ang, we estimate an inflow velocity km s and a column density $\\log(N_{NaI}/\\rm{cm^2}) = 13.02^{+0.03}_{-0.03}M_{in} = 1.6^{+0.1}_{-0.1} \\times 10^8 M_\\odot\\dot{M}_{in} = 19^{+6}_{-7} \\, M_\\odot \\, \\rm{yr}^{-1}$. The presence of several surrounding galaxies suggests that the galaxy may be accreting gas from nearby companions. However, we cannot confirm it with current data and the intergalactic medium or cosmic filaments are also viable sources of the inflowing gas. Despite the ongoing inflow, the galaxy remains quiescent, with an upper limit to the star formation rate of . Moreover, its star formation history suggests that the galaxy has remained quiescent during the past Gyr, with half of its stars formed by redshift . We discuss that the inflow is not massive, dense, or long-lived enough to ignite significant star formation, or it is fueling low-level AGN activity instead. This is direct evidence that quiescent galaxies can accrete cold gas after their quenching while keeping their star formation subdued. Follow-up observations with JWST and ALMA will be needed to constraint the nature of the inflowing gas.",
+    "url": "http://arxiv.org/abs/2510.11455v1",
+    "authors": [
+      "Davide Bevacqua",
+      "Danilo Marchesini",
+      "Paolo Saracco",
+      "Francesco La Barbera",
+      "Richard Pan",
+      "Sirio Belli",
+      "Gabriel Brammer",
+      "Guido De Marchi",
+      "Fabio R. Ditrani",
+      "Giovanna Giardino",
+      "Karl Glazebrook",
+      "Valentina La Torre",
+      "Jamie Lin",
+      "Adam Muzzin",
+      "Namrata Roy",
+      "Paola Santini",
+      "Benedetta Vulcani",
+      "Peter J. Watson",
+      "Xin Wang"
+    ]
+  },
+  {
+    "title": "Ly\u03b1 Intensity Mapping in HETDEX: Galaxy-Ly\u03b1 Intensity Cross-Power Spectrum",
+    "text": "We present a measurement of the Lyman- (Ly) intensity mapping power spectrum from the Hobby-Eberly Telescope Dark Energy Experiment (HETDEX). We measure the cross-power spectrum of the Ly intensity and Ly-emitting galaxies (LAEs) in a redshift range of . We calculate the intensity from HETDEX spectra that do not contain any detected LAEs above a signal-to-noise ratio of . To produce a power spectrum model and its covariance matrix, we simulate the data using lognormal mocks for the LAE catalog and Ly intensity in redshift space. The simulations include the HETDEX sensitivity, selection function, and mask. The measurements yield the product of the LAE bias, the intensity bias, the mean intensity of undetected sources, and the ratio of the actual and fiducial redshift-space distortion parameters, $b_\\mathrm{g} b_I \\langle I \\rangle \\bar{F}_{\\rm RSD} / \\bar{F}^{\\rm fid}_{\\rm RSD}= (6.7 \\pm 3.1)(11.7 \\pm 1.4)(8.3 \\pm 1.5) \\times 10^{-22} \\, \\text{erg}\\, \\text{s}^{-1} \\, \\text{cm}^{-2} \\, \\text{arcsec}^{-2} \\, \\text{{\\AA}}^{-1}$ in three redshift bins centered at , 2.6, and 3.2, respectively. The results are reasonably consistent with cosmological hydrodynamical simulations that include Ly radiative transfer. They are, however, significantly smaller than previous results from cross-correlations of quasars with Ly intensity. These results demonstrate the statistical power of HETDEX for Ly intensity mapping and pave the way for a more comprehensive analysis. They will also be useful for constraining models of Ly emission from galaxies used in modern cosmological simulations of galaxy formation and evolution.",
+    "url": "http://arxiv.org/abs/2510.11427v1",
+    "authors": [
+      "Maja Lujan Niemeyer",
+      "Eiichiro Komatsu",
+      "Jos\u00e9 Luis Bernal",
+      "Chris Byrohl",
+      "Robin Ciardullo",
+      "Olivia Curtis",
+      "Daniel J. Farrow",
+      "Steven L. Finkelstein",
+      "Karl Gebhardt",
+      "Caryl Gronwall",
+      "Gary J. Hill",
+      "Matt J. Jarvis",
+      "Donghui Jeong",
+      "Erin Mentuch Cooper",
+      "Deeshani Mitra",
+      "Shiro Mukae",
+      "Julian B. Mu\u00f1oz",
+      "Masami Ouchi",
+      "Shun Saito",
+      "Donald P. Schneider",
+      "Lutz Wisotzki"
+    ]
+  },
+  {
+    "title": "Charged wormholes can be long-lived",
+    "text": "Ellis-Bronnikov wormholes suffer from an unstable radial mode. Here we investigate the evolution of the unstable mode(s) for charged wormholes. We show that the instability remains in the presence of charge, but exhibits a very fast decrease to zero, suggesting that wormholes that approach a near-extremal metric could be long-lived. For so-called supercritical wormholes, two purely imaginary unstable modes merge and continue with degenerate imaginary parts and opposite real parts. By analogy, we conjecture an analogous behavior for rotating wormholes.",
+    "url": "http://arxiv.org/abs/2510.11406v1",
+    "authors": [
+      "Jose Luis Bl\u00e1zquez-Salcedo",
+      "Luis Manuel Gonz\u00e1lez-Romero",
+      "Fech Scen Khoo",
+      "Jutta Kunz",
+      "Pablo Navarro Moreno"
+    ]
+  },
+  {
+    "title": "Islands in Simulated Cosmos: Probing the Hubble Flow around Groups and Clusters",
+    "text": "The local Hubble flow offers a powerful laboratory to study the interplay between cosmic expansion and gravitational dynamics. On large scales, galaxy velocities follow Hubble's law, but within groups and clusters local gravitational effects introduce significant departures from linearity. Using the IllustrisTNG cosmological simulations, we investigate whether dark energy leaves detectable imprints on the local velocity-radius relation. We model the kinematics with extensions of the Lemaitre-Tolman framework and apply Bayesian inference to recover halo masses and the Hubble constant H0. The fits reveal systematic biases: halo masses are underestimated with a median ratio , while the inferred Hubble constant clusters around , compared to the simulation input of 67.74. This corresponds to an average 25\\% uncertainty in H0 recovery from the local flow method. While the mass and expansion rate can be constrained, different model variants whether including angular momentum, friction, or altered radial scaling-remain statistically indistinguishable. Our results highlight both the promise and the limitations of using local kinematics as a precision probe of dark energy.",
+    "url": "http://arxiv.org/abs/2510.11382v1",
+    "authors": [
+      "David Benisty",
+      "Antonino Del Popolo"
+    ]
+  },
+  {
+    "title": "JWST COSMOS-3D: Spectroscopic Census and Luminosity Function of [O III] Emitters at 6.75<z<9.05 in COSMOS",
+    "text": "We present a spectroscopically-selected [OIII]+Hb emitters catalogue at 6.75<z<9.05 and the resulting [OIII] 5008 \\AA Luminosity Function (LF) in the COSMOS field. We leverage the 0.3 deg covered to date by COSMOS-3D using NIRCam/WFSS F444W (90% of the survey) to perform the largest spectroscopic search for [OIII] emitters at 6.75<z<9.05. We present our catalogue of 237 [OIII] emitters and their associated completeness function. The inferred constraints on the [OIII] LF enable us to characterise the knee of the [OIII] LF, resulting in improved [OIII] LF constraints at z~7,8. Notably, we find evidence for an accelerated decline of the [OIII] luminosity density between z~7 and z~8, which could be expected if the metallicity of [OIII] emitters, as well as the cosmic star-formation rate density, is declining at these redshifts. We find that theoretical models that reproduce the z~7,8 [OIII] LF do not reproduce well the [OIII] equivalent width distribution, pointing to potential challenges in the modelling of[OIII] and other nebular lines in the early Universe. Finally, we provide the first constraints on the cosmic variance of [OIII] emitters, estimating at 15% the relative uncertainty for the z~7,8 [OIII] LF in the 0.3 deg field. This estimate is in good agreement with that inferred from clustering, and shows that the [OIII] LF derived from smaller extragalactic legacy fields is strongly affected by cosmic variance. Our results highlight the fundamental role that wide-area JWST slitless surveys play to map the galaxy large-scale structure down into the reionisation era, serving as a springboard for a variety of science cases.",
+    "url": "http://arxiv.org/abs/2510.11373v1",
+    "authors": [
+      "Romain A. Meyer",
+      "Feige Wang",
+      "Koki Kakiichi",
+      "Gabe Brammer",
+      "Jackie Champagne",
+      "Katharina Jurk",
+      "Zihao Li",
+      "Zijian Li",
+      "Marat Musin",
+      "Sindhu Satyavolu",
+      "Jan-Torge Schindler",
+      "Marko Shuntov",
+      "Yi Xu",
+      "Siwei Zou",
+      "Fuyan Bian",
+      "Caitlin Casey",
+      "Eiichi Egami",
+      "Xiaohui Fan",
+      "Danyang Jiang",
+      "Nicolas Laporte",
+      "Weizhe Liu",
+      "Pascal Oesch",
+      "Lidia Tasca",
+      "Jinyi Yang",
+      "Zijian Zhang",
+      "Hollis Akins",
+      "Zheng Cai",
+      "Dave A. Coulter",
+      "Jiamu Huang",
+      "Mingyu Li",
+      "Weizhe Liu",
+      "Yongming Liang",
+      "Xiangyu Jin",
+      "Jeyhan Kartaltepe",
+      "Jasleen Matharu",
+      "Maria Pudoka",
+      "Wei-Leong Tee",
+      "Callum Witten",
+      "Haowen Zhang",
+      "Yongda Zhu"
+    ]
+  },
+  {
+    "title": "Variation of the disk thickness across ice bands: A method to determine ice abundances in highly inclined protoplanetary disks",
+    "text": "The James Webb Space Telescope provides unprecedented information to study ices in protoplanetary disks. However, the saturation of ice bands in highly inclined disks hinders the measurement of ice abundances using classical spectroscopy. This is unfortunate as the presence and more importantly abundance of ices plays a key role in, e.g., the evolution of dust (because it modifies the sticking properties) and the composition of planetesimals and exoplanetary atmospheres. To overcome this issue and quantify the ice abundance within disks, we introduce a new method based on measuring the changes in the apparent disk thickness as a function of wavelength, which is directly and quantitatively related to the grain opacity. Specifically, we expect i) that the increased opacity within ice bands should result in a thicker disk than in the adjacent continuum, and ii) the thickness variations to be proportional to the abundance of ice. We extracted the disk thickness in model images of edge-on disks containing different abundances of water ice, as well as in James Webb Space Telescope spectral imaging of four edge-on disks. For both models and observations, the disk thickness decreases toward longer wavelengths except across the positions of ice absorption features where the thickness is enhanced across the band. In the model images, we demonstrate that this effect increases with ice abundance without any hint of saturation. This definitely demonstrates the presence of the ice species within each disk and confirms our expectation that this method can be applied to estimate ice abundances. Thanks to this method, it will thus be possible to constrain the ice abundance in highly inclined disks with disks model fitting. Unlike spectroscopic analysis, this method is not subject to saturation and should therefore be more robust and applicable to all disks for which the two surfaces can be resolved.",
+    "url": "http://arxiv.org/abs/2510.11359v1",
+    "authors": [
+      "Laurine Martinien",
+      "Gaspard Duch\u00eane",
+      "Fran\u00e7ois M\u00e9nard",
+      "Karl R. Stapelfeldt",
+      "Ryo Tazaki",
+      "Jennifer B. Bergner",
+      "Emmanuel Dartois",
+      "Jennifer A. Noble",
+      "William Thompson"
+    ]
+  },
+  {
+    "title": "Locating Centers of Clusters of Galaxies with Quadruple Images: Witt's Hyperbola and a New Figure of Merit",
+    "text": "For any elliptical potential with an external parallel shear, Witt has proven that the gravitational center lies on a rectangular hyperbola derived from the image positions of a single quadruply lensed object. Moreover, it is predicted that for an isothermal elliptical potential the source position both lies on Witt's Hyperbola and coincides with the center of Wynne's Ellipse (fitted through the four images). Thus, by fitting Witt's Hyperbolae to several quartets of images - ten are known in Abell 1689 - the points of intersection provide an estimate for the center for the assumed isothermal elliptical potential. We introduce a new figure of merit defined by the offset of the center of Wynne's Ellipse from Witt's Hyperbola. This offset quantifies deviations from an ideal elliptical isothermal potential and serves as a discriminant to exclude poorly fitted quadruples and assign greater weight to intersections of hyperbolae of better fitting systems. Applying the method to 10 quads (after excluding 7 poorly fitted quads) in Abell 1689, we find the potential is centered within 11\" of the BCG, X-ray center, flexion-based center and the center found from a total strong lensing analysis. The Wynne-Witt framework thus delivers a fast, analytic, and self-consistency-checked estimator for centers in clusters with multiple quads.",
+    "url": "http://arxiv.org/abs/2510.11356v1",
+    "authors": [
+      "Nixon Hanna",
+      "Paul L. Schechter",
+      "Michael A. McDonald",
+      "Marceau Limousin"
+    ]
+  },
+  {
+    "title": "Revisiting FRB 20121102A: milliarcsecond localisation and a decreasing dispersion measure",
+    "text": "FRB 20121102A is the original repeating fast radio burst (FRB) source and also the first to be localised to milliarcsecond precision using very-long-baseline interferometry (VLBI). It has been active for over 13 years and resides in an extreme magneto-ionic environment in a dwarf host galaxy at a distance of ~1 Gpc. In this work, we use the European VLBI Network (EVN) to (re-)localise FRB 20121102A and its associated persistent radio source (PRS). We confirm that the two are co-located -- improving on previous results by a factor of ~4 and constraining the FRB and PRS co-location to ~12 pc transverse offset. Over a decade, the PRS luminosity on milliarcsecond scales remains consistent with measurements on larger angular scales, showing that the PRS is still compact. We also present the detection of 18 bursts with the Nancay Radio Telescope (NRT) as part of our \\'ECLAT monitoring program. These bursts, together with previously published results, show that the observed dispersion measure (DM) of FRB 20121102A has dropped by ~25 pc/cc in the past five years, highlighting a fractional decrease in the local DM contribution of >15%. We discuss potential physical scenarios and highlight possible future observations that will help reveal the nature of FRB 20121102A, which is one of only a few known FRBs with a luminous PRS.",
+    "url": "http://arxiv.org/abs/2510.11352v1",
+    "authors": [
+      "M. P. Snelders",
+      "J. W. T. Hessels",
+      "J. Huang",
+      "N. Sridhar",
+      "B. Marcote",
+      "A. M. Moroianu",
+      "O. S. Ould-Boukattine",
+      "F. Kirsten",
+      "S. Bhandari",
+      "D. M. Hewitt",
+      "D. Pelliciari",
+      "L. Rhodes",
+      "R. Anna-Thomas",
+      "U. Bach",
+      "E. K. Bempong-Manful",
+      "V. Bezrukovs",
+      "J. D. Bray",
+      "S. Buttaccio",
+      "I. Cognard",
+      "A. Corongiu",
+      "R. Feiler",
+      "M. P. Gawro\u0144ski",
+      "M. Giroletti",
+      "L. Guillemot",
+      "R. Karuppusamy",
+      "M. Lindqvist",
+      "K. Nimmo",
+      "A. Possenti",
+      "W. Puchalska",
+      "D. Williams-Baldwin"
+    ]
+  },
+  {
+    "title": "REBELS-IFU: Linking damped Lyman-$\u03b1$ absorption to [CII] emission and dust content in the EoR",
+    "text": "Neutral gas in galaxies during the Epoch of Reionisation regulates star formation, dust growth, and the escape of ionising photons, making it a key ingredient in understanding both galaxy assembly and reionisation. Yet, direct constraints on the HI content of galaxies at z>6 have been scarce. With JWST, Ly damping wings in galaxy spectra can now provide a direct probe of this neutral component. We analyse JWST/NIRSpec prism spectra of 12 UV-luminous galaxies from the REBELS-IFU program at z~6.5-7.7, deriving HI column densities by modelling Ly damping wings. Significant damped Ly absorption is detected in eight galaxies, with cm. We use the column densities and sizes derived for these sources to estimate their HI mass and compare with - calibrations. The resulting HI masses show a tentative correlation with those inferred from [CII], although the [CII]-based estimates are systematically larger, suggesting that the HI reservoirs may extend beyond the [CII]-emitting gas. We also combine the DLA-based measurements with FIR-derived dust-to-gas ratios, dust attenuation, and gas-phase metallicities. No correlation is found between DLA-based and FIR-based dust-to-gas ratios, but combining the REBELS-IFU sample with literature samples at lower metallicities reveals a strong correlation between and metallicity. These findings suggest that by massive galaxies can already host substantial, enriched reservoirs of neutral gas and dust, consistent with /-metallicity trends at lower redshift. At the highest redshifts (), however, we see tentative evidence for systematically lower / at fixed metallicity, which may point to pristine gas accretion or more efficient dust destruction/expulsion.",
+    "url": "http://arxiv.org/abs/2510.11351v1",
+    "authors": [
+      "Lucie E. Rowland",
+      "Kasper E. Heintz",
+      "Hiddo Algera",
+      "Mauro Stefanon",
+      "Jacqueline Hodge",
+      "Rychard Bouwens",
+      "Manuel Aravena",
+      "Elisabete da Cunha",
+      "Pratika Dayal",
+      "Andrea Ferrara",
+      "Rebecca Fisher",
+      "Valentino Gonz\u00e1lez",
+      "Hanae Inami",
+      "Olena Komarova",
+      "Ilse de Looze",
+      "Themiya Nanayakkara",
+      "Katherine Ormerod",
+      "Andrea Pallottini",
+      "Clara L. Pollock",
+      "Renske Smit",
+      "Paul van der Werf",
+      "Joris Witstok"
+    ]
+  },
+  {
+    "title": "MSA-3D: Uncovering Weak AGNs and Resolved Outflows in Disguise in $z\\sim1$ Star-Forming Galaxies",
+    "text": "We present spatially resolved rest-optical spectroscopy of 38 star-forming galaxies at 0.5 < z < 1.7 from the JWST/NIRSpec MSA-3D survey, which uses slit-stepping to build IFU-like datacubes at 0.1'' resolution. We map emission-line morphology, excitation, and kinematics of the warm ionized gas using [N II]/H, [S II]/H, and [O III]/H. Relative to z0 galaxies at fixed stellar mass, our sources show systematically lower [N II]/H and [S II]/H and elevated [O III]/H, consistent with harder radiation fields and lower metallicities. Radially, [O III]/H profiles are typically flat or mildly positive, whereas [N II]/H also remains flat or declines outward, mirroring metallicity trends. On kpc scales, we find a strong positive correlation between [N II]/H and velocity dispersion (), linking local excitation to turbulent or shock-driven kinematics. Six galaxies ( 16% of the sample) host spatially localized regions with elevated [N II]/H, high EW(H), and V_RMS = km/s, indicative of weak AGN activity, shocks, or outflows. For these candidates we infer modest warm-ionized outflow rates of 1-4 Msun/yr and kinetic powers 0.1-1% of the AGN bolometric luminosity (from central [O III] or H). These values place our sample at the low-energy tail of known AGN-driven outflows yet in continuity with scaling relations across 0 < z < 6. A completeness assessment shows MSA-3D is sensitive to AGN with $L_{AGN} \\geq 10^{43}$ erg/s, underscoring both the promise and current limitations of detecting weak AGN activity in distant galaxies with resolved spectroscopy.",
+    "url": "http://arxiv.org/abs/2510.11326v1",
+    "authors": [
+      "Namrata Roy",
+      "Alaina Henry",
+      "Tucker Jones",
+      "Ivana Barisic",
+      "Ryan L. Sanders",
+      "Kevin Bundy",
+      "Matthew A. Malkan",
+      "Themiya Nanayakkara",
+      "Karl Glazebrook",
+      "Timothy Heckman",
+      "Juan M. Espejo Salcedo",
+      "Xin Wang",
+      "Danail Obreschkow",
+      "Tommaso Treu"
+    ]
+  },
+  {
+    "title": "Next Interest Flow: A Generative Pre-training Paradigm for Recommender Systems by Modeling All-domain Movelines",
+    "text": "Click-Through Rate (CTR) prediction, a cornerstone of modern recommender systems, has been dominated by discriminative models that react to past user behavior rather than proactively modeling user intent. Existing generative paradigms attempt to address this but suffer from critical limitations: Large Language Model (LLM) based methods create a semantic mismatch by forcing e-commerce signals into a linguistic space, while ID-based generation is constrained by item memorization and cold-start issues. To overcome these limitations, we propose a novel generative pre-training paradigm. Our model learns to predict the Next Interest Flow, a dense vector sequence representing a user's future intent, while simultaneously modeling its internal Interest Diversity and Interest Evolution Velocity to ensure the representation is both rich and coherent. However, this two-stage approach introduces a critical objective mismatch between the generative and discriminative stages. We resolve this via a bidirectional alignment strategy, which harmonizes the two stages through cross-stage weight initialization and a dynamic Semantic Alignment Module for fine-tuning. Additionally, we enhance the underlying discriminative model with a Temporal Sequential Pairwise (TSP) mechanism to better capture temporal causality. We present the All-domain Moveline Evolution Network (AMEN), a unified framework implementing our entire pipeline. Extensive offline experiments validate AMEN's superiority over strong baselines, and a large-scale online A/B test demonstrates its significant real-world impact, delivering substantial improvements in key business metrics.",
+    "url": "http://arxiv.org/abs/2510.11317v1",
+    "authors": [
+      "Chen Gao",
+      "Zixin Zhao",
+      "Lv Shao",
+      "Tong Liu"
+    ]
+  },
+  {
+    "title": "Evolution in Simulation: AI-Agent School with Dual Memory for High-Fidelity Educational Dynamics",
+    "text": "Large language models (LLMs) based Agents are increasingly pivotal in simulating and understanding complex human systems and interactions. We propose the AI-Agent School (AAS) system, built around a self-evolving mechanism that leverages agents for simulating complex educational dynamics. Addressing the fragmented issues in teaching process modeling and the limitations of agents performance in simulating diverse educational participants, AAS constructs the Zero-Exp strategy, employs a continuous \"experience-reflection-optimization\" cycle, grounded in a dual memory base comprising experience and knowledge bases and incorporating short-term and long-term memory components. Through this mechanism, agents autonomously evolve via situated interactions within diverse simulated school scenarios. This evolution enables agents to more accurately model the nuanced, multi-faceted teacher-student engagements and underlying learning processes found in physical schools. Experiment confirms that AAS can effectively simulate intricate educational dynamics and is effective in fostering advanced agent cognitive abilities, providing a foundational stepping stone from the \"Era of Experience\" to the \"Era of Simulation\" by generating high-fidelity behavioral and interaction data.",
+    "url": "http://arxiv.org/abs/2510.11290v1",
+    "authors": [
+      "Sheng Jin",
+      "Haoming Wang",
+      "Zhiqi Gao",
+      "Yongbo Yang",
+      "Bao Chunjia",
+      "Chengliang Wang"
+    ]
+  },
+  {
+    "title": "The chemodynamical memory of a major merger in a NIHAO-UHD Milky Way analogue I: A golden thread through time and space",
+    "text": "Understanding how the Milky Way's present-day structure was shaped by past major mergers is a key goal of Galactic archaeology. The chemical and dynamical structure of the Galaxy retains the imprint of such events, including a major accretion episode around 8-10 Gyr ago. Recent findings suggest that present-day orbital energy correlates with stellar chemistry and birth location within the merging progenitor galaxy. Using a high-resolution NIHAO-UHD cosmological zoom-in simulation of a Milky Way analogue, we trace the birth positions, ages, and present-day orbits of stars accreted in its last major merger. We show that stars born in the progenitor's core are more tightly bound to the Milky Way and chemically enriched, while those from the outskirts are less bound and metal-poor. This supports the scenario proposed by Sk\\'ulad\\'ottir et al. (2025) using idealised simulations, now demonstrated in a cosmological context. The preserved chemodynamical memory is also evident in elemental planes such as [Al/Fe] vs. [Mg/Mn], reflecting gradients in star formation efficiency. The median abundance trends for different orbital energies are broadly similar, though less pronounced and more non-linear than the linear relations reported by Sk\\'ulad\\'ottir et al. (2025), with relatively good agreement at the highest metallicities. Our results reveal that spatial and temporal memory is retained across the merger -- connecting birth locations to present-day properties like a golden thread. We demonstrate that selection methods in integrals-of-motion space systematically bias progenitor reconstructions by missing its enriched core, and we outline strategies to obtain a more representative census of accreted stars.",
+    "url": "http://arxiv.org/abs/2510.11284v1",
+    "authors": [
+      "Sven Buder",
+      "Tobias Buck",
+      "\u00c1sa Sk\u00falad\u00f3ttir",
+      "Melissa Ness",
+      "Madeleine McKenzie",
+      "Stephanie Monty"
+    ]
+  },
+  {
+    "title": "PDRs4All XVII: Formation and excitation of HD in photodissociation regions. Application to the Orion Bar",
+    "text": "The James Webb Space Telescope enabled the first detection of several rovibrational emission lines of HD in the Orion Bar, a prototypical photodissociation region. This provides an incentive to examine the physics of HD in dense and strong PDRs. Using the latest data available on HD excitation by collisional, radiative and chemical processes, our goal is to unveil HD formation and excitation processes in PDRs by comparing our state-of-the-art PDR model with observations made in the Orion Bar and discuss if and how HD can be used as a complementary tracer of physical parameters in the emitting region. We compute detailed PDR models, using an upgraded version of the Meudon PDR code, which are compared to NIRSpec data using excitation diagrams and synthetic emission spectra. The models predict that HD is mainly produced in the gas phase via the reaction D + H2 = H + HD at the front edge of the PDR and that the D/HD transition is located slightly closer to the edge than the H/H2 transition. Rovibrational levels are excited by UV pumping. In the observations, HD rovibrational emission is detected close to the H/H2 dissociation fronts of the Orion Bar and peaks where vibrationally excited H2 peaks, rather than at the maximum emission of pure rotational H2 levels. We derive an excitation temperature around Tex ~ 480 - 710 K. Due to high continuum in the Orion Bar, fringes lead to high noise levels beyond 15 m, no pure rotational lines of HD are detected. The comparison to PDR models shows that a range of thermal pressure P = (3-9)x10 K cm with no strong constraints on the intensity of the UV field are compatible with HD observations. This range of pressure is compatible with previous estimates from H2 observations with JWST. This is the first time that observations of HD emission lines in the near-infrared are used to put constraints on the thermal pressure in the PDR.",
+    "url": "http://arxiv.org/abs/2510.11248v1",
+    "authors": [
+      "Marion Zannese",
+      "Jacques Le Bourlot",
+      "Evelyne Roueff",
+      "Emeric Bron",
+      "Franck Le Petit",
+      "Dries Van De Putte",
+      "Maryvonne Gerin",
+      "Naslim Neelamkodan",
+      "Javier R. Goicoechea",
+      "John Black",
+      "Ryan Chown",
+      "Ameek Sidhu",
+      "Emilie Habart",
+      "Els Peeters",
+      "Olivier Bern\u00e9"
+    ]
+  },
+  {
+    "title": "Tensor-Network-Based Unraveling of Non-Markovian Dynamics in Large Spin Chains via the Influence Martingale Approach",
+    "text": "Classical simulation of open quantum system dynamics remains challenging due to the exponential growth of the Hilbert space, the need to accurately capture dissipation and decoherence, and the added complexity of memory effects in the non-Markovian regime. We develop an efficient algorithm for simulating both Markovian and non-Markovian dynamics in large one-dimensional quantum systems. Extending the Tensor Jump Method, which combines TDVP-based tensor-network evolution with a Suzuki-Trotter decomposition of stochastic trajectories, our approach incorporates time-dependent decay rates-treating positive rates as time-inhomogeneous Markovian processes and negative rates via the Influence Martingale formalism to unravel time-local non-Markovian dynamics. This resource-efficient framework enables scalable simulations of open-system dynamics in the non-Markovian regime, as demonstrated for a one-dimensional transverse-field Ising chain comprising up to 100 spin qubits.",
+    "url": "http://arxiv.org/abs/2510.11200v1",
+    "authors": [
+      "Sujay Mondal",
+      "Siddhartha Dutta",
+      "Abhijit Bandyopadhyay"
+    ]
+  },
+  {
+    "title": "Weyl asymptotics for pseudodifferential operators in a discrete setting",
+    "text": "We prove a sharp Weyl estimate for the number of eigenvalues belonging to a fixed interval of energy of a self-adjoint difference operator acting on if the associated symplectic volume of phase space in accessible for the Hamiltonian flow of the principal symbol is finite. Here is a semiclassical parameter. Our proof depends crucially on the construction of a good semiclassical approximation for the time evolution induced by the self-adjoint operator on . This extends previous semiclassical results to a broad class of difference operators on a scaled lattice.",
+    "url": "http://arxiv.org/abs/2510.11193v1",
+    "authors": [
+      "Markus Klein",
+      "Enrico Reiss",
+      "Elke Rosenberger"
+    ]
+  },
+  {
+    "title": "Poseidon: A OneGraph Engine",
+    "text": "We present the Poseidon engine behind the Neptune Analytics graph database service. Customers interact with Poseidon using the declarative openCypher query language, which enables requests that seamlessly combine traditional querying paradigms (such as graph pattern matching, variable length paths, aggregation) with algorithm invocations and has been syntactically extended to facilitate OneGraph interoperability, such as the disambiguation between globally unique IRIs (as exposed via RDF) vs. local identifiers (as encountered in LPG data). Poseidon supports a broad range of graph workloads, from simple transactions, to top-k beam search algorithms on dynamic graphs, to whole graph analytics requiring multiple full passes over the data. For example, real-time fraud detection, like many other use cases, needs to reflect current committed state of the dynamic graph. If a users cell phone is compromised, then all newer actions by that user become immediately suspect. To address such dynamic graph use cases, Poseidon combines state-of-the-art transaction processing with novel graph data indexing, including lock-free maintenance of adjacency lists, secondary succinct indices, partitioned heaps for data tuple storage with uniform placement, and innovative statistics for cost-based query optimization. The Poseidon engine uses a logical log for durability, enabling rapid evolution of in-memory data structures. Bulk data loads achieve more than 10 million property values per second on many data sets while simple transactions can execute in under 20ms against the storage engine.",
+    "url": "http://arxiv.org/abs/2510.11166v1",
+    "authors": [
+      "Brad Bebee",
+      "\u00dcmit V. \u00c7ataly\u00fcrek",
+      "Olaf Hartig",
+      "Ankesh Khandelwal",
+      "Simone Rondelli",
+      "Michael Schmidt",
+      "Lefteris Sidirourgos",
+      "Bryan Thompson"
+    ]
+  },
+  {
+    "title": "Optimal Policy Characterization for a Class of Multi-Dimensional Ergodic Singular Stochastic Control Problems",
+    "text": "In ergodic singular stochastic control problems, a decision-maker can instantaneously adjust the evolution of a state variable using a control of bounded variation, with the goal of minimizing a long-term average cost functional. The cost of control is proportional to the magnitude of adjustments. This paper characterizes the optimal policy and the value in a class of multi-dimensional ergodic singular stochastic control problems. These problems involve a linearly controlled one-dimensional stochastic differential equation, whose coefficients, along with the cost functional to be optimized, depend on a multi-dimensional uncontrolled process Y. We first provide general verification theorems providing an optimal control in terms of a Skorokhod reflection at Y-dependent free boundaries, which emerge from the analysis of an auxiliary Dynkin game. We then fully solve two two-dimensional optimal inventory management problems. To the best of our knowledge, this is the first paper to establish a connection between multi-dimensional ergodic singular stochastic control and optimal stopping, and to exploit this connection to achieve a complete solution in a genuinely two-dimensional setting.",
+    "url": "http://arxiv.org/abs/2510.11158v1",
+    "authors": [
+      "Alessandro Calvia",
+      "Federico Cannerozzi",
+      "Giorgio Ferrari"
+    ]
+  },
+  {
+    "title": "Measuring the Evolution of Bulge, Disk and Colour Gradients in HST Observations of Galaxies with 3D Modelling",
+    "text": "We measure galaxy structural properties and colour gradients using HST images to trace the evolution of galaxy components. We jointly fit 3D bulge and disk models to 2505 galaxies in GOODS-South across seven bands (bvizYJH) to IAB = 25.5, accounting for different component ellipticities and inclination-dependent dust extinction. Extinction strongly affects structural parameters and colour gradients in ~26% of the sample - primarily edge-on galaxies with central obscuration (B-band face-on optical depth tau ~ 4) that reveal clear bulge components in the near-infrared. Despite irregular morphologies, the model captures observed colour gradients well. Bulges at z ~ 1 differ markedly from z ~ 0, with typical Sersic index n ~ 1.0 and bulge-to-disc size ratio Re/hd ~ 0.15, suggesting most galaxies host pseudo-bulges formed via secular evolution. Galaxy ellipticity correlates strongly with disk scale-length and absolute magnitude, partly driven by dust extinction variations. We trace bulge and disk evolution from z ~ 0 to z ~ 2.5: bulges are redder than disks (observed-frame) at z < 1.4, but colours converge at higher redshifts and fainter magnitudes. Redder galaxies show redder cores relative to their outskirts, and brighter galaxies have redder cores.",
+    "url": "http://arxiv.org/abs/2510.11156v1",
+    "authors": [
+      "N. Welikala",
+      "L. Miller",
+      "A. N. Taylor",
+      "G. Congedo"
+    ]
+  },
+  {
+    "title": "The evolution of CH in Planck Galactic Cold Clumps",
+    "text": "Methylidyne (CH) has long been considered a reliable tracer of molecular gas in the low-to-intermediate extinction range. Although extended CH 3.3 GHz emission is commonly observed in diffuse and translucent clouds, observations in cold, dense clumps are rare. In this work, we conducted high-sensitivity CH observations toward 27 PGCCs with the Arecibo 305m telescope. Toward each source, the CH data were analyzed in conjunction with CO (1--0), HINSA, and H column densities. Our results revealed ubiquitous subsonic velocity dispersions of CH, in contrast to CO, which is predominantly supersonic. The findings suggest that subsonic CH emissions may trace dense, low-turbulent gas structures in PGCCs. To investigate environmental effects, particularly the cosmic-ray ionization rate (CRIR), we estimated CRIR upper limits from HINSA, yielding values from to s ( from to ~cm). This result favors theoretical predictions of a cosmic-ray attenuation model, in which the interstellar spectra of low-energy CR protons and electrons match {\\it Voyager} measurements, although alternative models cannot yet be ruled out. The abundance of CH decreases with increasing column density, while showing a positive dependence on the CRIR, which requires atomic oxygen not heavily depleted to dominate CH destruction in PGCCs. By fitting the abundance of CH with an analytic formula, we place constraints on atomic O abundance ( with respect to total H) and C abundance (). These findings indicate that CH formation is closely linked to the C abundance, regulated by cosmic-ray ionization, while other processes, such as turbulent diffusive transport, might also contribute a non-negligible effect.",
+    "url": "http://arxiv.org/abs/2510.11146v1",
+    "authors": [
+      "Gan Luo",
+      "Arshia M. Jacob",
+      "Marco Padovani",
+      "Daniele Galli",
+      "Ana L\u00f3pez-Sepulcre",
+      "Ningyu Tang",
+      "Di Li",
+      "Jing Zhou",
+      "Pei Zuo"
+    ]
+  },
+  {
+    "title": "Machine Learning Frameworks for Large-Scale Radio Surveys: A Summary of Recent Studies",
+    "text": "The rapid growth of large-scale radio surveys, generating over 100 petabytes of data annually, has created a pressing need for automated data analysis methods. Recent research has explored the application of machine learning techniques to address the challenges associated with detecting and classifying radio galaxies, as well as discovering peculiar radio sources. This paper provides an overview of our investigations with the Evolutionary Map of the Universe (EMU) survey, detailing the methodologies employed-including supervised, unsupervised, self-supervised, and weakly supervised learning approaches -- and their implications for ongoing and future radio astronomical surveys.",
+    "url": "http://arxiv.org/abs/2510.11145v1",
+    "authors": [
+      "Nikhel Gupta"
+    ]
+  },
+  {
+    "title": "What Slows Down FMware Development? An Empirical Study of Developer Challenges and Resolution Times",
+    "text": "Foundation Models (FMs), such as OpenAI's GPT, are fundamentally transforming the practice of software engineering by enabling the development of \\emph{FMware} -- applications and infrastructures built around these models. FMware systems now support tasks such as code generation, natural-language interaction, knowledge integration, and multi-modal content creation, underscoring their disruptive impact on current software engineering workflows. However, the design, implementation, and evolution of FMware present significant new challenges, particularly across cloud-based and on-premise platforms where goals, processes, and tools often diverge from those of traditional software development. To our knowledge, this is the first large-scale analysis of FMware development across both cloud-based platforms and open-source repositories. We empirically investigate the FMware ecosystem through three focus areas: (1) the most common application domains of FMware, (2) the key challenges developers encounter, and (3) the types of issues that demand the greatest effort to resolve. Our analysis draws on data from GitHub repositories and from leading FMware platforms, including HuggingFace, GPTStore, Ora, and Poe. Our findings reveal a strong focus on education, content creation, and business strategy, alongside persistent technical challenges in memory management, dependency handling, and tokenizer configuration. On GitHub, bug reports and core functionality issues are the most frequently reported problems, while code review, similarity search, and prompt template design are the most time-consuming to resolve. By uncovering developer practices and pain points, this study points to opportunities to improve FMware tools, workflows, and community support, and provides actionable insights to help guide the future of FMware development.",
+    "url": "http://arxiv.org/abs/2510.11138v1",
+    "authors": [
+      "Zitao Wang",
+      "Zhimin Zhao",
+      "Michael W. Godfrey"
+    ]
+  },
+  {
+    "title": "Wide Area VISTA Extragalactic Survey (WAVES): Selection of targets for the Wide survey using decision-tree classification",
+    "text": "The Wide-Area VISTA Extragalactic Survey (WAVES) on the 4-metre Multi-Object Spectroscopic Telescope (4MOST) includes two flux-limited subsurveys with very high (95\\%) completeness requirements: Wide over deg and Deep over deg. Both are -band selected, respectively as and mag, and additionally redshift-limited, while the true redshifts are not known a priori but will be only measured by 4MOST. Here, we present a classification-based method to select the targets for WAVES-Wide. Rather than estimating individual redshifts for the input photometric objects, we assign probabilities of them being below , the redshift limit of the subsurvey. This is done with the supervised machine learning approach of eXtreme Gradient Boosting (XGB), trained on a comprehensive spectroscopic sample overlapping with WAVES fields. Our feature space is composed of nine VST+VISTA magnitudes from to and all the possible colors, but most relevant for the classification are the -band and the , and colors. We check the performance of our classifier both for the fiducial WAVES-Wide limits, as well as for a range of neighboring redshift and magnitude thresholds, consistently finding purity and completeness at the level of 94-95\\%. We note, however, that this performance deteriorates for sources close to the selection limits, due to deficiencies of the current spectroscopic training sample and the decreasing signal-to-noise of the photometry. We apply the classifier trained on the full spectroscopic sample to 14 million photometric galaxies from the WAVES input catalog, which have all 9 bands measured. Our work demonstrates that a machine-learning classifier could be used to select a flux- and redshift-limited sample from deep photometric data.",
+    "url": "http://arxiv.org/abs/2510.11132v1",
+    "authors": [
+      "G. Kaur",
+      "M. Bilicki",
+      "S. Bellstedt",
+      "E. Tempel",
+      "W. A. Hellwing",
+      "I. Baldry",
+      "B. Bandi",
+      "S. Barsanti",
+      "S. Driver",
+      "N. Guerra-Varas",
+      "B. Holwerda",
+      "C. Lagos",
+      "J. Loveday",
+      "A. Robotham"
+    ]
+  },
+  {
+    "title": "Intrinsic alignment of disks and ellipticals across hydrodynamical simulations",
+    "text": "The correlations between the positions and shapes of galaxies, i.e. intrinsic alignments, have been measured in many observational studies and hydrodynamical simulations. The alignments of disk galaxies in hydrodynamical simulations have been measured to be positive, null and negative with varying methodologies, samples and hydrodynamical simulations. This work compares the correlations of disks and ellipticals around all galaxies and disks around ellipticals at and for simple and reduced shapes in TNG300, Horizon-AGN and EAGLE for multiple morphological definitions in a consistent way. All types of signals are positive and robust in TNG300 and EAGLE and positive or null in Horizon-AGN, except for the disks around ellipticals correlation for reduced shapes at when defined by , which is negative. A re-weighting of the ellipticals around galaxies signals in TNG300, according to the underlying stellar mass distributions of the samples, highlights the importance of the influence of (sub-grid) physics at these non-linear scales.",
+    "url": "http://arxiv.org/abs/2510.11118v1",
+    "authors": [
+      "M. L. van Heukelum",
+      "N. E. Chisari"
+    ]
+  },
+  {
+    "title": "Future-Aware End-to-End Driving: Bidirectional Modeling of Trajectory Planning and Scene Evolution",
+    "text": "End-to-end autonomous driving methods aim to directly map raw sensor inputs to future driving actions such as planned trajectories, bypassing traditional modular pipelines. While these approaches have shown promise, they often operate under a one-shot paradigm that relies heavily on the current scene context, potentially underestimating the importance of scene dynamics and their temporal evolution. This limitation restricts the model's ability to make informed and adaptive decisions in complex driving scenarios. We propose a new perspective: the future trajectory of an autonomous vehicle is closely intertwined with the evolving dynamics of its environment, and conversely, the vehicle's own future states can influence how the surrounding scene unfolds. Motivated by this bidirectional relationship, we introduce SeerDrive, a novel end-to-end framework that jointly models future scene evolution and trajectory planning in a closed-loop manner. Our method first predicts future bird's-eye view (BEV) representations to anticipate the dynamics of the surrounding scene, then leverages this foresight to generate future-context-aware trajectories. Two key components enable this: (1) future-aware planning, which injects predicted BEV features into the trajectory planner, and (2) iterative scene modeling and vehicle planning, which refines both future scene prediction and trajectory generation through collaborative optimization. Extensive experiments on the NAVSIM and nuScenes benchmarks show that SeerDrive significantly outperforms existing state-of-the-art methods.",
+    "url": "http://arxiv.org/abs/2510.11092v1",
+    "authors": [
+      "Bozhou Zhang",
+      "Nan Song",
+      "Jingyu Li",
+      "Xiatian Zhu",
+      "Jiankang Deng",
+      "Li Zhang"
+    ]
+  },
+  {
+    "title": "Modeling AI-Driven Production and Competitiveness A Multi-Agent Economic Simulation of China and the United States",
+    "text": "With the rapid development of artificial intelligence (AI) technology, socio-economic systems are entering a new stage of \"human-AI co-creation.\" Building upon a previously established multi-level intelligent agent economic model, this paper conducts simulation-based comparisons of macroeconomic output evolution in China and the United States under different mechanisms-AI collaboration, network effects, and AI autonomous production. The results show that: (1) when AI functions as an independent productive entity, the overall growth rate of social output far exceeds that of traditional human-labor-based models; (2) China demonstrates clear potential for acceleration in both the expansion of intelligent agent populations and the pace of technological catch-up, offering the possibility of achieving technological convergence or even partial surpassing. This study provides a systematic, model-based analytical framework for understanding AI-driven production system transformation and shifts in international competitiveness, as well as quantitative insights for relevant policy formulation.",
+    "url": "http://arxiv.org/abs/2510.11085v1",
+    "authors": [
+      "Yuxinyue Qian",
+      "Jun Liu"
+    ]
+  },
+  {
+    "title": "Efficient Edge Test-Time Adaptation via Latent Feature Coordinate Correction",
+    "text": "Edge devices face significant challenges due to limited computational resources and distribution shifts, making efficient and adaptable machine learning essential. Existing test-time adaptation (TTA) methods often rely on gradient-based optimization or batch processing, which are inherently unsuitable for resource-constrained edge scenarios due to their reliance on backpropagation and high computational demands. Gradient-free alternatives address these issues but often suffer from limited learning capacity, lack flexibility, or impose architectural constraints. To overcome these limitations, we propose a novel single-instance TTA method tailored for edge devices (TED), which employs forward-only coordinate optimization in the principal subspace of latent using the covariance matrix adaptation evolution strategy (CMA-ES). By updating a compact low-dimensional vector, TED not only enhances output confidence but also aligns the latent representation closer to the source latent distribution within the latent principal subspace. This is achieved without backpropagation, keeping the model parameters frozen, and enabling efficient, forgetting-free adaptation with minimal memory and computational overhead. Experiments on image classification and keyword spotting tasks across the ImageNet and Google Speech Commands series datasets demonstrate that TED achieves state-of-the-art performance while , offering a practical and scalable solution for real-world edge applications. Furthermore, we successfully , demonstrating its feasibility and effectiveness for resource-constrained edge devices in real-world deployments.",
+    "url": "http://arxiv.org/abs/2510.11068v1",
+    "authors": [
+      "Xinyu Luo",
+      "Jie Liu",
+      "Kecheng Chen",
+      "Junyi Yang",
+      "Bo Ding",
+      "Arindam Basu",
+      "Haoliang Li"
+    ]
+  },
+  {
+    "title": "Resonant W and Z Boson Production in FSRQ Jets: Implications for Diffuse Neutrino Fluxes",
+    "text": "Blazars, particularly Flat Spectrum Radio Quasars (FSRQs), are well-known for their ability to accelerate a substantial population of electrons and positrons, as inferred from multiwavelength radiation observations. Therefore, these astrophysical objects are promising candidates for studying high-energy electron--positron interactions, such as the production of and bosons. In this work, we explore the implications of electron--positron annihilation processes in the jet environments of FSRQs, focusing on the resonant production of electroweak bosons and their potential contribution to the diffuse neutrino flux. By modeling the electron distribution in the jet of the FSRQ 3C~279 during a flaring state, we calculate the reaction rates for and bosons and estimate the resulting diffuse fluxes from the cosmological population of FSRQs.We incorporate the FSRQ luminosity function and its redshift evolution to account for the population distribution across cosmic time, finding that the differential flux contribution exhibits a pronounced peak at redshift . While the expected fluxes remain well below the detection thresholds of current neutrino observatories such as IceCube, KM3NeT, or Baikal-GVD, the expected flux from the boson production could account for approximately of the total diffuse astrophysical neutrino flux. These results provide a theoretical benchmark for the role of Standard Model electroweak processes in extreme astrophysical environments and emphasize the interplay between particle physics and astrophysics, illustrating that even rare high-energy interactions can leave a subtle but quantifiable imprint on the diffuse astrophysical neutrinos.",
+    "url": "http://arxiv.org/abs/2510.11030v1",
+    "authors": [
+      "J. -H. Ha",
+      "I. Alikhanov"
+    ]
+  },
+  {
+    "title": "Fast radio bursts shed light on direct gravity test on cosmological scales",
+    "text": "A key measure of gravity is the relation between the Weyl potential and the matter overdensity , capsulized as an effective gravitational constant for light motion. Its value, together with the possible spatial and temporal variation, is essential in probing physics beyond Einstein gravity. However, the lack of an unbiased proxy of prohibits direct measurement of . We point out that the equivalence principle ensures the dispersion measure (DM) of localized fast radio bursts (FRBs) as a good proxy of . We further propose a FRB-based method to directly measure , combining galaxy-DM of localized FRBs and galaxy-weak lensing cross-correlations. The measurement, with a conservative cut /Mpc, can achieve a precision of $\\lesssim 10\\% \\sqrt{10^5/N_{\\rm FRB}}z\\lesssim 1$. The major systematic error, arising from the clustering bias of electrons traced by the FRB DM, is subdominant (). It can be further mitigated to the level, based on the gastrophysics-agnostic behavior that the bias of total baryonic matter (ionized diffuse gas, stars, neutral hydrogen, etc) approaches unity at sufficiently large scales. Therefore, FRBs shed light on gravitational physics across spatial and temporal scales spanning over 20 orders of magnitude.",
+    "url": "http://arxiv.org/abs/2510.11022v1",
+    "authors": [
+      "Shuren Zhou",
+      "Pengjie Zhang"
+    ]
+  },
+  {
+    "title": "On The Orbital Evolution of Multiple Wide Super-Jupiters: How Disk Migration and Dispersal Shape the Stability of The PDS 70 System",
+    "text": "Direct imaging has revealed exoplanet systems hosting multiple wide-orbit Super-Jupiters, where planet-planet interactions can shape their long-term dynamical evolution. These strong perturbations may lead to orbital instability, raising questions about the long-term survival of such systems. Shortly after formation, planet-disk interactions can shepherd planets into mean-motion resonances, which may promote long-term stability as seen in HR 8799. However, early-stage processes such as disk photoevaporation and viscosity can influence these outcomes. The 5 Myr-old PDS 70 system offers a unique laboratory to investigate these processes: its two massive (4 ), wide-orbit (20 AU) giants are still embedded in their natal disk. We perform 2D hydrodynamic simulations of the system, allowing the disk to disperse via photoevaporation. Once the disk dissipates, we continue to track the planets' orbital evolution over Gyr timescales using N-body simulations. We find that the system is likely to remain stable for 1 Gyr. To assess the importance of disk-driven evolution, we compare these results with disk-free N-body simulations using orbital parameters constrained by orbit fits that include recent relative astrometry and radial velocities from the literature. In this case, we find that only of posterior is stable for 100 Myr, highlighting the importance of considering disk-driven evolution for long-term dynamics stability of exoplanetary systems. We also simulate two three-planet configurations including the proposed inner candidate \"PDS 70 d\", finding that a higher photoevaporation leads the system to become unstable in 10 Myr.",
+    "url": "http://arxiv.org/abs/2510.11021v1",
+    "authors": [
+      "Clarissa R. Do \u00d3",
+      "Jaehan Bae",
+      "Quinn M. Konopacky",
+      "Jayke S. Nguyen",
+      "Patrick Diamond",
+      "Krzysztof Go\u017adziewski",
+      "Dawid Jankowski"
+    ]
+  },
+  {
+    "title": "The Relation Between AGN and Host Galaxy Properties in the JWST Era: II. The merger-driven evolution of Seyferts at Cosmic Noon",
+    "text": "In Paper I, we exploited the unsurpassed resolution and depth of JWST/NIRCam imagery to investigate the relationship between AGN and host-galaxy properties in the JWST era, finding a correlation between the level of spatial disturbance (as measured by shape asymmetry, ) and obscuration (). Here in Paper II, we report an expansion of our X-ray and infrared analysis of Seyfert-luminosity host galaxies with four additional metrics to the single-metric morphology analysis of Paper I, as well as new samples of inactive control galaxies. This expanded study of one of the largest and most complete, multi-wavelength samples of AGN detected at in the GOODS-South and North fields, confirms that mergers surprisingly play a significant role in obscured, sub-quasar AGN host galaxies. Additionally, the pattern of morphological disturbances observed amongst the X-ray- and mid-IR-selected AGN suggests that these represent different phases of AGN evolution tied to a major-merger timeline, as opposed to distinct populations of AGN. These results indicate that mergers are important in triggering sub-quasar AGN at these redshifts.",
+    "url": "http://arxiv.org/abs/2510.11010v1",
+    "authors": [
+      "Nina Bonaventura",
+      "Jianwei Lyu",
+      "George H. Rieke",
+      "Andrew J. Bunker",
+      "Chris J. Willott",
+      "Christopher N. A. Willmer"
+    ]
+  },
+  {
+    "title": "Three Birds with One Stone: Core-Collapsed SIDM Halos as the Common Origin of Dense Perturbers in Lenses, Streams, and Satellites",
+    "text": "We show that core-collapsed self-interacting dark matter halos of mass $\\sim 10^6\\,{M_\\odot}$, originally simulated to explain the dense perturber of the GD-1 stellar stream, also reproduce the structural properties inferred for the dense perturber detected in the strong lensing system JVAS B1938+666 from radio observations. Furthermore, these halos are sufficiently compact and dense to gravitationally capture field stars in satellite galaxies of the Milky Way, providing a natural explanation for the origin of Fornax 6, a stellar cluster in the Fornax dwarf spheroidal galaxy. Our results demonstrate that observations of halos with similar masses but residing in different cosmic environments offer a powerful and complementary probe of self-interacting dark matter.",
+    "url": "http://arxiv.org/abs/2510.11006v1",
+    "authors": [
+      "Hai-Bo Yu"
+    ]
+  },
+  {
+    "title": "Secret-Protected Evolution for Differentially Private Synthetic Text Generation",
+    "text": "Text data has become extremely valuable on large language models (LLMs) and even lead to general artificial intelligence (AGI). A lot of high-quality text in the real world is private and cannot be freely used due to privacy concerns. Therefore, differentially private (DP) synthetic text generation has been proposed, aiming to produce high-utility synthetic data while protecting sensitive information. However, existing DP synthetic text generation imposes uniform guarantees that often overprotect non-sensitive content, resulting in substantial utility loss and computational overhead. Therefore, we propose Secret-Protected Evolution (SecPE), a novel framework that extends private evolution with secret-aware protection. Theoretically, we show that SecPE satisfies -secret protection, constituting a relaxation of Gaussian DP that enables tighter utility-privacy trade-offs, while also substantially reducing computational complexity relative to baseline methods. Empirically, across the OpenReview, PubMed, and Yelp benchmarks, SecPE consistently achieves lower Fr\\'echet Inception Distance (FID) and higher downstream task accuracy than GDP-based Aug-PE baselines, while requiring less noise to attain the same level of protection. Our results highlight that secret-aware guarantees can unlock more practical and effective privacy-preserving synthetic text generation.",
+    "url": "http://arxiv.org/abs/2510.10990v1",
+    "authors": [
+      "Tianze Wang",
+      "Zhaoyu Chen",
+      "Jian Du",
+      "Yingtai Xiao",
+      "Linjun Zhang",
+      "Qiang Yan"
+    ]
+  },
+  {
+    "title": "Slitless Spectroscopy Source Detection Using YOLO Deep Neural Network",
+    "text": "Slitless spectroscopy eliminates the need for slits, allowing light to pass directly through a prism or grism to generate a spectral dispersion image that encompasses all celestial objects within a specified area. This technique enables highly efficient spectral acquisition. However, when processing CSST slitless spectroscopy data, the unique design of its focal plane introduces a challenge: photometric and slitless spectroscopic images do not have a one-to-one correspondence. As a result, it becomes essential to first identify and count the sources in the slitless spectroscopic images before extracting spectra. To address this challenge, we employed the You Only Look Once (YOLO) object detection algorithm to develop a model for detecting targets in slitless spectroscopy images. This model was trained on 1,560 simulated CSST slitless spectroscopic images. These simulations were generated from the CSST Cycle 6 and Cycle 9 main survey data products, representing the Galactic and nearby galaxy regions and the high galactic latitude regions, respectively. On the validation set, the model achieved a precision of 88.6% and recall of 90.4% for spectral lines, and 87.0% and 80.8% for zeroth-order images. In testing, it maintained a detection rate >80% for targets brighter than 21 mag (medium-density regions) and 20 mag (low-density regions) in the Galactic and nearby galaxies regions, and >70% for targets brighter than 18 mag in high galactic latitude regions.",
+    "url": "http://arxiv.org/abs/2510.10922v1",
+    "authors": [
+      "Xiaohan Chen",
+      "Man I Lam",
+      "Yingying Zhou",
+      "Hongrui Gu",
+      "Jinzhi Lai",
+      "Zhou Fan",
+      "Jing Li",
+      "Xin Zhang",
+      "Hao Tian"
+    ]
+  },
+  {
+    "title": "Interplay of Fidelity and Diversity in the Evolution of the Genetic Code",
+    "text": "The origin and organizing principles of the genetic code remain fundamental puzzles in life science. The vanishingly low probability of the natural codon-to-amino acid mapping arising by chance has spurred the hypothesis that its structure is a solution optimized for robustness against mutations and translational errors. For the construction of effective molecular machines, the dictionary of encoded amino acids must also be diverse enough in physicochemical features. Here, we examine whether the standard genetic code can be understood as a near-optimal solution balancing these two objectives: minimizing error load and aligning codon assignments with the naturally occurring amino acid composition. Using simulated annealing, we explore this trade-off across a broad range of parameters. We find that the standard genetic code lies near local optima within the multidimensional parameter space. It is a highly effective solution that balances fidelity against resource availability constraints. These results suggest that the present genetic code reflects coevolution under conflicting pressures of fidelity and diversity, offering new insight into its emergence and evolution.",
+    "url": "http://arxiv.org/abs/2510.10871v1",
+    "authors": [
+      "Yudam Seo",
+      "Tsvi Tlusty",
+      "Junghyo Jo"
+    ]
+  },
+  {
+    "title": "A Joint Learning Approach to Hardware Caching and Prefetching",
+    "text": "Several learned policies have been proposed to replace heuristics for scheduling, caching, and other system components in modern systems. By leveraging diverse features, learning from historical trends, and predicting future behaviors, such models promise to keep pace with ever-increasing workload dynamism and continuous hardware evolution. However, policies trained in isolation may still achieve suboptimal performance when placed together. In this paper, we inspect one such instance in the domain of hardware caching -- for the policies of cache replacement and prefetching. We argue that these two policies are bidirectionally interdependent and make the case for training the two jointly. We propose a joint learning approach based on developing shared representations for the features used by the two policies. We present two approaches to develop these shared representations, one based on a joint encoder and another based on contrastive learning of the embeddings, and demonstrate promising preliminary results for both of these. Finally, we lay down an agenda for future research in this direction.",
+    "url": "http://arxiv.org/abs/2510.10862v1",
+    "authors": [
+      "Samuel Yuan",
+      "Divyanshu Saxena",
+      "Jiayi Chen",
+      "Nihal Sharma",
+      "Aditya Akella"
+    ]
+  },
+  {
+    "title": "HI terminal velocity curves -- Lessons learned from N-body/hydrodynamic `surrogate' models of the Milky Way",
+    "text": "The development of an N-body/hydrodynamic `surrogate' model of the Milky Way (MW) - a model that resembles the MW in several key aspects after many Gyrs of evolution - would be extremely beneficial for Galactic Archaeology. Here we present four new `surrogate' models, all built with the Nexus framework. The simulations contain stars, dark matter and gas. Our most sophisticated model allows gas to evolve thermodynamically, and includes star formation, metal production, and stellar feedback. The other three models in this work have an isothermal gas disc. We examine these new simulations in the context of cold gas observations of the Galaxy. Our focus is the so-called `HI terminal velocity curve' - a heliocentric measurement of the maximum Vlos as a function of Galactic longitude, which dates back to the early days of radio astronomy. It is a powerful approach to indirectly estimating the gas dynamics because it does not require knowledge about the distance to individual gas clouds, which is difficult to estimate. A comparison of the terminal velocities and recovered rotation curve values in the simulations against observations suggests that our models are in need of further refinement. The gravitational torques associated with our synthetic bars are too strong, driving excessive streaming motion in the inner gas disc. This causes the simulated terminal velocity curves in the Galactic Quadrant I and IV to deviate substantially from each other, unlike what is seen in observed HI terminal velocities of the MW. We suggest possible ways forward for future models.",
+    "url": "http://arxiv.org/abs/2510.10845v1",
+    "authors": [
+      "Hillary Davis",
+      "Thor Tepper-Garcia",
+      "Naomi McClure-Griffiths",
+      "Joss Bland-Hawthorn",
+      "Oscar Agertz"
+    ]
+  },
+  {
+    "title": "Software Defect Prediction using Autoencoder Transformer Model",
+    "text": "An AI-ML-powered quality engineering approach uses AI-ML to enhance software quality assessments by predicting defects. Existing ML models struggle with noisy data types, imbalances, pattern recognition, feature extraction, and generalization. To address these challenges, we develop a new model, Adaptive Differential Evolution (ADE) based Quantum Variational Autoencoder-Transformer (QVAET) Model (ADE-QVAET). ADE combines with QVAET to obtain high-dimensional latent features and maintain sequential dependencies, resulting in enhanced defect prediction accuracy. ADE optimization enhances model convergence and predictive performance. ADE-QVAET integrates AI-ML techniques such as tuning hyperparameters for scalable and accurate software defect prediction, representing an AI-ML-driven technology for quality engineering. During training with a 90% training percentage, ADE-QVAET achieves high accuracy, precision, recall, and F1-score of 98.08%, 92.45%, 94.67%, and 98.12%, respectively, when compared to the Differential Evolution (DE) ML model.",
+    "url": "http://arxiv.org/abs/2510.10840v1",
+    "authors": [
+      "Seshu Barma",
+      "Mohanakrishnan Hariharan",
+      "Satish Arvapalli"
+    ]
+  },
+  {
+    "title": "Spinning into Quantum Geometry: Dirac and Wheeler-DeWitt Dynamics from Stochastic Helicity",
+    "text": "Spin networks in loop quantum gravity provide a kinematical picture of quantum geometry but lack a natural mechanism for dynamical Dirac-type evolution, while the Wheeler--DeWitt equation typically enters only as an imposed constraint. We propose a stochastic framework in which each spin-network edge carries helicity-resolved amplitudes -- two-state internal labels that undergo Poisson-driven flips. The resulting coupled master equations, after analytic continuation and the introduction of a fundamental length scale, generate Dirac-type dynamics on discrete geometry. At long times, the same process relaxes to helicity-symmetric equilibrium states, which are shown to satisfy a Wheeler--DeWitt-type condition. In this way, both quantum evolution and the gravitational constraint emerge within a single probabilistic framework. Our approach thus provides a background-independent and stochastic route to quantum geometry, offering an alternative to canonical quantization and a fresh perspective on the problem of time.",
+    "url": "http://arxiv.org/abs/2510.10836v1",
+    "authors": [
+      "Partha Nandi",
+      "Partha Ghose",
+      "Francesco Petruccione"
+    ]
+  },
+  {
+    "title": "Existence and numerical approximation of a one-dimensional Boussinesq system with variable coefficients on a finite interval",
+    "text": "In this paper, we investigate the well-posedness of a nonlinear dispersive model with variable coefficients that describes the evolution of surface waves propagating through a one-dimensional shallow water channel of finite length with irregular bottom topography. To complement the theoretical analysis, we utilize the numerical solver developed by the authors in \\cite{PizoMunoz} to approximate solutions of the model on a finite spatial interval, considering various parameter values and forms of the variable coefficients in the Boussinesq system under study. Additionally, we present preliminary numerical experiments addressing an inverse problem: the reconstruction of the initial wave elevation and fluid velocity from measurements taken at a final time. This is achieved by formulating an optimization problem in which the initial conditions are estimated as minimizers of a functional that quantifies the discrepancy between the observed final state and the numerical solution evolved from a trial initial state.",
+    "url": "http://arxiv.org/abs/2510.10829v1",
+    "authors": [
+      "Juan Carlos Mu\u00f1oz Grajales",
+      "Deissy Marcela Pizo"
+    ]
+  },
+  {
+    "title": "Co-evolution of Nuclear Star Clusters and Massive Black Holes: Extreme Mass-Ratio Inspirals",
+    "text": "We explore extreme mass-ratio inspirals (EMRIs) in the co-evolution of massive black holes (MBHs) and nuclear star clusters (NSCs), which host diverse stellar populations across a wide range of masses. The dynamics are simulated self-consistently with GNC, which we have updated to incorporate gravitational wave orbital decay, the loss cone of a spinning MBH, and stellar evolution. Over Gyr, we investigate the evolution of the NSC with a mass-growing MBH, as well as the EMRIs of stellar black holes, neutron stars, white dwarfs, brown dwarfs (BDs), and low-mass main-sequence stars (MSs), along with tidal disruption events (TDEs) involving MSs, BDs, and post-MSs. The mass growth of the MBH contributed by TDEs is typically , $\\sim 10^6\\,M_{\\odot}\\sim 5\\times10^4\\,M_{\\odot}$ for massive, Milky-Way-like, and smaller NSCs, respectively. Between and of the stellar mass is lost during stellar evolution, which dominates the mass growth of the MBH if a significant fraction of the lost mass is accreted. The evolution of EMRI rates is generally affected by the cluster's size expansion or contraction, stellar population evolution, MBH mass growth, and the stellar initial mass function. The EMRI rates for compact objects peak at early epochs ( Gyr) and then gradually decline over cosmic time. LISA-band ( mHz) EMRIs involving compact objects around Milky-Way-like MBHs tend to have high eccentricities, while those around spinning MBHs preferentially occupy low-inclination (prograde) orbits. In contrast, MS- and BD-EMRIs usually have eccentricity and inclination distributions that are distinct from those of compact objects.",
+    "url": "http://arxiv.org/abs/2510.10821v1",
+    "authors": [
+      "Fupeng Zhang",
+      "Pau Amaro Seoane"
+    ]
+  },
+  {
+    "title": "Black Holes in the Shadow: The Missing High-Ionization Lines in the Earliest JWST AGNs",
+    "text": "Observations with the James Webb Space Telescope (JWST) have uncovered a substantial population of high-redshift, broad-line active galactic nuclei (AGNs), whose properties challenge standard models of black hole growth and AGN emission. We analyze a spectroscopic sample of 34 Type 1 AGNs from the JWST Advanced Deep Survey (JADES) survey, spanning redshifts 1.7 < z < 9, to constrain the physical nature of the accretion flows powering these sources with broad-line diagnostics statistically for the first time. At z > 5, we find a marked suppression of high-ionization emission lines (HeII, CIV, NV) relative to prominent broad Halpha and narrow [OIII] features. This contrast places strong constraints on the shape of the ionizing spectral energy distribution (SED) and on the physical conditions in the broad-line region (BLR). By comparing the observations to photoionization models based on SEDs of black holes accreting at sub-Eddington ratios, we show that standard AGN continua struggle to reproduce the observed broad line ratios and equivalent widths across a wide ionization parameter range. These results suggest the need for modified SEDs -- either intrinsically softened due to super-Eddington accretion or radiative inefficiencies in the innermost disk, or externally filtered by intervening optically thick gas that absorbs or scatters the highest-energy photons before they reach the BLR.",
+    "url": "http://arxiv.org/abs/2510.10772v1",
+    "authors": [
+      "Greta Zucchi",
+      "Xihan Ji",
+      "Piero Madau",
+      "Roberto Maiolino",
+      "Ignas Joudzbalis",
+      "Francesco D'Eugenio",
+      "Sophia Geris",
+      "Yuki Isobe"
+    ]
+  },
+  {
+    "title": "First galaxy ultraviolet luminosity function limits on dark matter-proton scattering",
+    "text": "Scattering between dark matter (DM) and protons leads to suppressed small-scale fluctuations, with implications for a variety of cosmological observables. In this work, we search for evidence of DM-proton scattering with an interaction cross section for and , corresponding e.g. to velocity-independent contact interactions from heavy mediators, velocity-dependent pseudoscalar-mediated scattering, and higher-order dipole interactions, respectively, using high-redshift ($z \\sim4-10$) ultraviolet galaxy luminosity functions (UVLFs) observed by Hubble Space Telescope (HST). We employ an adjusted implementation of GALLUMI combined with the modified Boltzmann solver CLASS DMeff that accounts for interacting DM, and incorporate UVLF data from both blank and lensed HST fields, alongside Planck CMB data and the Pantheon supernova catalog in a Bayesian analysis framework to set constraints on . Our results show that including lensed UVLF data, which probe fainter galaxies than the blank HST fields and thus smaller scales, leads to a substantial improvement in the constraints on for , surpassing existing bounds from Milky-Way (MW) satellite abundance and CMB anisotropies. For , for example, we set the upper bounds at for and for . For , our bound is within an order of magnitude of those from the Lyman- forest and MW satellites.",
+    "url": "http://arxiv.org/abs/2510.10757v1",
+    "authors": [
+      "Hovav Lazare",
+      "Ely D. Kovetz",
+      "Kimberly K. Boddy",
+      "Julian B. Munoz"
+    ]
+  },
+  {
+    "title": "The JWST-NIRCam View of Sagittarius C. III. The Extinction Curve",
+    "text": "Determining the infrared extinction curve towards the Galactic centre is crucial for accurately correcting observed data and deriving the underlying stellar populations. However, extinction curves reported in the literature often show discrepancies. We aim to derive the infrared extinction curve towards the Galactic centre based on JWST-NIRCam data for the first time, using observations of the Sagittarius C region in the 1-5 m range. We determined extinction ratios using two different methods, both based on measuring the reddening vector using the slope of red clump stars, whose intrinsic properties are well known, in observed colour-magnitude diagrams. The extinction curve derived in this work is in good agreement with previous results in the literature. We obtained the following extinction ratios relative to F162M: $A_\\mathrm{F115W} : A_\\mathrm{F162M} : A_\\mathrm{F182M} : A_\\mathrm{F212N} : A_\\mathrm{F360M} : A_\\mathrm{F405N} : A_\\mathrm{F470N} : A_\\mathrm{F480M} = 1.84 \\pm 0.03 : 1.00 : 0.789 \\pm 0.005 : 0.607 \\pm 0.014 : 0.306 \\pm 0.011 : 0.248 \\pm 0.017 : 0.240 \\pm 0.019 : 0.21 \\pm 0.03$. Besides, we found different values of the extinction index for the short- (m, ) and long-wavelength (m, $\\alpha \\sim 1.4$) regimes, with the extinction curve flattening at longer wavelengths. Comparison with extinction curves derived both inside and outside the Galactic centre suggests that the infrared extinction curve does not significantly vary in the central regions, and shows no significant evidence for variations between different lines of sight beyond the inner Galaxy within the uncertainties.",
+    "url": "http://arxiv.org/abs/2510.10749v1",
+    "authors": [
+      "Luc\u00eda Bravo Ferres",
+      "Francisco Nogueras-Lara",
+      "Rainer Sch\u00f6del",
+      "Rub\u00e9n Fedriani",
+      "Adam Ginsburg",
+      "Samuel Crowe",
+      "Jonathan C. Tan",
+      "Morten Andersen",
+      "Joseph Armstrong",
+      "Yu Cheng",
+      "Zhi-Yun Li"
+    ]
+  },
+  {
+    "title": "State-Dependent X-ray Variability in Cygnus X-1: A 12-Year NuSTAR Timing Study of Accretion Flow Geometry",
+    "text": "We present a comprehensive timing analysis of the black hole X-ray binary Cygnus X-1 using 26 NuSTAR observations spanning 2012-2024, providing the most detailed characterization to date of its accretion flow variability across spectral states. Our analysis reveals fundamental insights into the physics governing state transitions in stellar-mass black holes. We discover distinct bimodal flux distributions in the 8-79 keV band with well-separated peaks, contrasting with overlapping distributions in the 3-8 keV band. This energy-dependent bimodality establishes hard X-rays as the optimal diagnostic for state classification, directly tracing the geometric transformation between corona-dominated and disk-dominated configurations. Power spectral analysis uncovers state-dependent characteristic frequencies shifting from 0.050 Hz (hard) to 0.074 Hz (intermediate), with featureless red noise in soft states. These frequencies correspond to disk truncation radii evolving from 5.5 to 2 , providing direct observational evidence for the inward progression of the accretion disk during state transitions. Frequency-dependent time lags evolve systematically from 50 ms hard lags at 0.1 Hz in hard states to near-zero in soft states, quantifying the collapse of the Comptonizing corona. Linear rms-flux relations persist across all states with parameters that precisely track the relative contributions of thermal versus non-thermal emission components. Most remarkably, we identify a failed state transition (observation 30302019006) exhibiting anticorrelated band behavior, suppressed variability ( < 1.38\\%), and apparent sub-ISCO truncation. This discovery challenges standard transition models and suggests new pathways for accretion flow evolution in wind-fed systems.",
+    "url": "http://arxiv.org/abs/2510.10746v1",
+    "authors": [
+      "Kshitij Duraphe",
+      "Kartik Mandar",
+      "Chooda Khanal",
+      "Abha Pareek",
+      "Tejaswi Kondhiya",
+      "V Sree Suswara",
+      "Deeksha Dinesh",
+      "Vidyasagar Bhat",
+      "Gopal Bhatta"
+    ]
+  },
+  {
+    "title": "Selecting Clusters and Protoclusters via Stellar Mass Density: II. Application to HSC-SSP Observations",
+    "text": "We present a selection of candidates of clusters and protoclusters of galaxies identified in the photometric data of the HSC-SSP Wide Public Data Release 3 (PDR3), spanning the redshift range . The selection method, detailed in Vicentin et al. (2025), involves detecting massive galaxies located in high-density regions of matter, identified as potential central dominant galaxies, i.e., (proto)BCGs. Probabilistic criteria based on proximity to the candidate central galaxy and the expected stellar mass of member galaxies are applied to identify likely members of each structure. We produced updated photometric redshift estimates using deep learning methods trained on a dataset combining spectroscopic redshifts from the HSC-SSP Wide PDR3, high-accuracy photometric redshifts from the COSMOS2020 catalog, and mid-infrared data from the unWISE catalog for matched sources. Our method achieves a predicted purity of in detecting (proto)clusters, with correctly identifying the (proto)BCG. A total of 16,007 candidate (proto)clusters were identified over an effective area of $\\rm \\sim 850 \\ deg^{2}$ within the HSC-SSP Wide footprint. Comparisons with other existing catalogs reveal a good level of consistency, while also highlighting that different methods yield complementary discoveries. We further compare richness and halo masses from our optical catalog with those from recent X-ray cluster catalogs (eROSITA and MCXC-II), finding a moderate positive correlation and a scatter of dex. This catalog provides a valuable new set of targets for the Prime Focus Spectrograph (PFS) instrument.",
+    "url": "http://arxiv.org/abs/2510.10736v1",
+    "authors": [
+      "Marcelo C. Vicentin",
+      "Laerte Sodr\u00e9 Jr.",
+      "Michael A. Strauss",
+      "Erik V. R. de Lima",
+      "Pablo Araya-Araya"
+    ]
+  },
+  {
+    "title": "Selecting Clusters and Protoclusters via Stellar Mass Density: I. Method and tests on Mock HSC-SSP catalogs",
+    "text": "We present an algorithm designed to identify galaxy (proto)clusters in wide-area photometric surveys by first selecting their dominant galaxy-i.e., the Brightest Cluster Galaxy (BCG) or protoBCG-through the local stellar mass density traced by massive galaxies. We focus on its application to the Hyper Suprime-Cam Subaru Strategic Program (HSC-SSP) Wide Survey to detect candidates up to . In this work, we apply the method to mock galaxy catalogs that replicate the observational constraints of the HSC-SSP Wide Survey. We derive functions that describe the probability of a massive galaxy being the dominant galaxy in a structure as a function of its stellar mass density contrast within a given redshift interval. We show that galaxies with probabilities greater than 50\\% yield a sample of BCGs/protoBCGs with $\\gtrsim 65\\%$ purity, where most of the contamination arises from galaxies in massive groups below our cluster threshold. Using the same threshold, the resulting (proto)cluster sample achieves 80\\% purity and 50\\% completeness for halos with , reaching nearly 100\\% completeness for . We also assign probabilistic membership to surrounding galaxies based on stellar mass and distance to the dominant galaxy, from which we define the cluster richness as the number of galaxies more likely to be true members than contaminants. This allows us to derive a halo mass-richness relation. In a companion paper, we apply the algorithm to the HSC-SSP data and compare our catalog with others based on different cluster-finding techniques and X-ray detections.",
+    "url": "http://arxiv.org/abs/2510.10735v1",
+    "authors": [
+      "Marcelo C. Vicentin",
+      "Pablo Araya-Araya",
+      "Laerte Sodr\u00e9 Jr.",
+      "Michael A. Strauss"
+    ]
+  },
+  {
+    "title": "Deep Learning in Astrophysics",
+    "text": "Deep learning has generated diverse perspectives in astronomy, with ongoing discussions between proponents and skeptics motivating this review. We examine how neural networks complement classical statistics, extending our data analytical toolkit for modern surveys. Astronomy offers unique opportunities through encoding physical symmetries, conservation laws, and differential equations directly into architectures, creating models that generalize beyond training data. Yet challenges persist as unlabeled observations number in billions while confirmed examples with known properties remain scarce and expensive. This review demonstrates how deep learning incorporates domain knowledge through architectural design, with built-in assumptions guiding models toward physically meaningful solutions. We evaluate where these methods offer genuine advances versus claims requiring careful scrutiny. - Neural architectures overcome trade-offs between scalability, expressivity, and data efficiency by encoding physical symmetries and conservation laws into network structure, enabling learning from limited labeled data. - Simulation-based inference and anomaly detection extract information from complex, non-Gaussian distributions where analytical likelihoods fail, enabling field-level cosmological analysis and systematic discovery of rare phenomena. - Multi-scale neural modeling bridges resolution gaps in astronomical simulations, learning effective subgrid physics from expensive high-fidelity runs to enhance large-volume calculations where direct computation remains prohibitive. - Emerging paradigms-reinforcement learning for telescope operations, foundation models learning from minimal examples, and large language model agents for research automation-show promise though are still developing in astronomical applications.",
+    "url": "http://arxiv.org/abs/2510.10713v1",
+    "authors": [
+      "Yuan-Sen Ting"
+    ]
+  },
+  {
+    "title": "Superoscillations and the Klein-Gordon equation via the Fourier method",
+    "text": "We investigate the time-evolution problem associated with the Klein-Gordon equation, using superoscillations as initial data. Additionally, the Segal-Bargmann transform is used to derive integral representations of the resulting solutions.",
+    "url": "http://arxiv.org/abs/2510.10700v1",
+    "authors": [
+      "Kamal Diki",
+      "Simon Verbruggen"
+    ]
+  },
+  {
+    "title": "Interactive Atmospheric Composition Emulation for Next-Generation Earth System Models",
+    "text": "Interactive composition simulations in Earth System Models (ESMs) are computationally expensive as they transport numerous gaseous and aerosol tracers at each timestep. This limits higher-resolution transient climate simulations with current computational resources. ESMs like NASA GISS-ModelE3 (ModelE) often use pre-computed monthly-averaged atmospheric composition concentrations (Non-Interactive Tracers or NINT) to reduce computational costs. While NINT significantly cuts computations, it fails to capture real-time feedback between aerosols and other climate processes by relying on pre-calculated fields. We extended the ModelE NINT version using machine learning (ML) to create Smart NINT, which emulates interactive emissions. Smart NINT interactively calculates concentrations using ML with surface emissions and meteorological data as inputs, avoiding full physics parameterizations. Our approach utilizes a spatiotemporal architecture that possesses a well-matched inductive bias to effectively capture the spatial and temporal dependencies in tracer evolution. Input data processed through the first 20 vertical levels (from the surface up to 656 hPa) using the ModelE OMA scheme. This vertical range covers nearly the entire BCB concentration distribution in the troposphere, where significant variation on short time horizons due to surface-level emissions is observed. Our evaluation shows excellent model performance with R-squared values of 0.92 and Pearson-r of 0.96 at the first pressure level. This high performance continues through level 15 (808.5 hPa), then gradually decreases as BCB concentrations drop significantly. The model maintains acceptable performance even when tested on data from entirely different periods outside the training domain, which is a crucial capability for climate modeling applications requiring reliable long-term projections.",
+    "url": "http://arxiv.org/abs/2510.10654v1",
+    "authors": [
+      "Seyed Mohammad Hassan Erfani",
+      "Kara Lamb",
+      "Susanne Bauer",
+      "Kostas Tsigaridis",
+      "Marcus van Lier-Walqui",
+      "Gavin Schmidt"
+    ]
+  },
+  {
+    "title": "Non-unitary Time Evolution via the Chebyshev Expansion Method",
+    "text": "The Chebyshev expansion method is a well-established technique for computing the time evolution of quantum states, particularly in Hermitian systems with a bounded spectrum. Here, we show that the applicability of the Chebyshev expansion method extends well beyond this constraint: It remains valid across the entire complex plane and is thus suitable for arbitrary non-Hermitian matrices. We identify that numerical rounding errors are the primary source of errors encountered when applying the method outside the conventional spectral bounds, and they are not caused by fundamental limitations. By carefully selecting the spectral radius and the time step, we show how these errors can be effectively suppressed, enabling accurate time evolution calculations in non-Hermitian systems. We derive an analytic upper bound for the rounding error, which serves as a practical guideline for selecting time steps in numerical simulations. As an application, we illustrate the performance of the method by computing the time evolution of wave packets in the Hatano-Nelson model.",
+    "url": "http://arxiv.org/abs/2510.10643v1",
+    "authors": [
+      "\u00c1ron Holl\u00f3",
+      "D\u00e1niel Varjas",
+      "Cosma Fulga",
+      "L\u00e1szl\u00f3 Oroszl\u00e1ny",
+      "Viktor K\u00f6nye"
+    ]
+  },
+  {
+    "title": "Hierarchical Optimization via LLM-Guided Objective Evolution for Mobility-on-Demand Systems",
+    "text": "Online ride-hailing platforms aim to deliver efficient mobility-on-demand services, often facing challenges in balancing dynamic and spatially heterogeneous supply and demand. Existing methods typically fall into two categories: reinforcement learning (RL) approaches, which suffer from data inefficiency, oversimplified modeling of real-world dynamics, and difficulty enforcing operational constraints; or decomposed online optimization methods, which rely on manually designed high-level objectives that lack awareness of low-level routing dynamics. To address this issue, we propose a novel hybrid framework that integrates large language model (LLM) with mathematical optimization in a dynamic hierarchical system: (1) it is training-free, removing the need for large-scale interaction data as in RL, and (2) it leverages LLM to bridge cognitive limitations caused by problem decomposition by adaptively generating high-level objectives. Within this framework, LLM serves as a meta-optimizer, producing semantic heuristics that guide a low-level optimizer responsible for constraint enforcement and real-time decision execution. These heuristics are refined through a closed-loop evolutionary process, driven by harmony search, which iteratively adapts the LLM prompts based on feasibility and performance feedback from the optimization layer. Extensive experiments based on scenarios derived from both the New York and Chicago taxi datasets demonstrate the effectiveness of our approach, achieving an average improvement of 16% compared to state-of-the-art baselines.",
+    "url": "http://arxiv.org/abs/2510.10644v1",
+    "authors": [
+      "Yi Zhang",
+      "Yushen Long",
+      "Yun Ni",
+      "Liping Huang",
+      "Xiaohong Wang",
+      "Jun Liu"
+    ]
+  },
+  {
+    "title": "Dynamic Topic Evolution with Temporal Decay and Attention in Large Language Models",
+    "text": "This paper proposes a modeling framework for dynamic topic evolution based on temporal large language models. The method first uses a large language model to obtain contextual embeddings of text and then introduces a temporal decay function and an attention mechanism. These components allow the model to adjust the importance of semantic units according to time intervals and capture topic variations across different periods. The temporal representations are then mapped into a latent topic space, where a state transition matrix is applied to describe the dynamic evolution of topics. A joint optimization objective constrains both semantic modeling and temporal consistency, ensuring diversity and smoothness in topic generation. The design emphasizes the unified modeling of semantic representation and temporal evolution, which improves topic coherence and diversity while enhancing stability and interpretability over time. Experiments on real-world corpora show that the framework effectively captures the generation, expansion, and decline of topics and outperforms existing models across multiple metrics. Overall, the proposed method provides a systematic solution for understanding dynamic semantic patterns in large-scale text, enriches the research paradigm of topic modeling, and supports complex text analysis tasks in multiple domains.",
+    "url": "http://arxiv.org/abs/2510.10613v1",
+    "authors": [
+      "Di Wu abd Shuaidong Pan"
+    ]
+  },
+  {
+    "title": "The Green Bank Ammonia Survey: Data Release 2",
+    "text": "We present an overview of the final data release (DR2) from the Green Bank Ammonia Survey (GAS). GAS is a Large Program at the Green Bank Telescope to map all Gould Belt star-forming regions with ~mag visible from the northern hemisphere in emission from NH and other key molecular tracers. This final release includes the data for all the regions observed: Heiles Cloud 2 and B18 in Taurus; Barnard 1, Barnard 1-E, IC348, NGC 1333, L1448, L1451, and Per7/34 in Perseus; L1688 and L1689 in Ophiuchus; Orion A (North and South) and Orion B in Orion; Cepheus, B59 in Pipe; Corona Australis (CrA) East and West; IC5146; and Serpens Aquila and MWC297 in Serpens. Similar to what was presented in GAS DR1, we find that the NH emission and dust continuum emission from Herschel correspond closely. We find that the NH emission is generally extended beyond the typical 0.1 pc length scales of dense cores, and we find that the transition between coherent core and turbulent cloud is a common result. This shows that the regions of coherence are common throughout different star forming regions, with a substantial fraction of the high column density regions displaying subsonic non-thermal velocity dispersions. We produce maps of the gas kinematics, temperature, and NH column densities through forward modeling of the hyperfine structure of the NH (1,1) and (2,2) lines. We show that the NH velocity dispersion, , and gas kinetic temperature, , vary systematically between the regions included in this release, with an increase in both the mean value and spread of and with increasing star formation activity. The data presented in this paper are publicly available via \\dataset[DOI: 10.11570/24.0091]{https://doi.org/10.11570/24.0091}.",
+    "url": "http://arxiv.org/abs/2510.10607v1",
+    "authors": [
+      "Jaime E. Pineda",
+      "Rachel K. Friesen",
+      "Erik Rosolowsky",
+      "Ana Chac\u00f3n-Tanarro",
+      "Michael Chun-Yuan Chen",
+      "James Di Francesco",
+      "Helen Kirk",
+      "Anna Punanova",
+      "Youngmin Seo",
+      "Yancy Shirley",
+      "Adam Ginsburg",
+      "Stella S. R. Offner",
+      "Ayush Pandhi",
+      "Ayushi Singh",
+      "Feiyu Quan",
+      "H\u00e9ctor G. Arce",
+      "Paola Caselli",
+      "Spandan Choudhury",
+      "Alyssa A. Goodman",
+      "Fabian Heitsch",
+      "Peter G. Martin",
+      "Christopher D. Matzner",
+      "Philip C. Myers",
+      "Elena Redaelli",
+      "Samantha Scibelli"
+    ]
+  },
+  {
+    "title": "Breaking the Sabatier Principle by Dynamic Adsorption-Desorption Decoupling in Electrocatalytic Hydrogen Evolution",
+    "text": "The Sabatier principle establishes a fundamental trade-off in heterogeneous electrocatalysis.In the hydrogen evolution reaction (HER), this trade-off is manifested by the coupling of Volmer step, which requires strong hydrogen adsorption, with the Heyrovsky/Tafel step, which favors facile desorption, thus giving rise to the classical volcano relationship and limiting activity even at . Here, we demonstrate a ferroelectric platform with dynamic tunability -- monolayer GeS decorated with transition metal atoms as a proof-of-concept -- where polarization-driven surface electronic reconstruction enables real-time modulation of intermediate binding strength, thereby breaking the Sabatier constraint. Reversible control of hydrogen adsorption allows strong H binding to accelerate the Volmer step, followed by weakened adsorption to promote the Heyrovsky/Tafel step.This dynamic adsorption-desorption decoupling not only surpasses the volcano limit to achieve unprecedented HER activity, but also establishes a general paradigm for designing adaptive electrocatalysts capable of reconfiguring under operating conditions.",
+    "url": "http://arxiv.org/abs/2510.10555v1",
+    "authors": [
+      "Zi-Xuan Yang",
+      "Lei Li",
+      "Tao Huang",
+      "Hui Wan",
+      "X. S. Wang",
+      "Gui-Fang Huang",
+      "Wangyu Hu",
+      "Wei-Qing Huang"
+    ]
+  },
+  {
+    "title": "Coherence of Supermassive Black Hole Binary Demographics with the nHz Stochastic Gravitational Wave Background",
+    "text": "We present a refined estimation of the stochastic gravitational wave background (SGWB) based on observed dual active galactic nuclei (AGNs) together with AGN X-ray luminosity functions, in light of recent Pulsar Timing Array detections of an nHz SGWB. We identify a characteristic luminosity dependence in dual AGN fractions by compiling recent observational datasets, providing crucial constraints on supermassive black hole binary (SMBHB) populations. Our AGN-based model reproduces the current SGWB measurements within PTA observational uncertainties of uncertainties, demonstrating consistency between electromagnetic and gravitational wave observations. These findings establish SMBHBs as the dominant source of the nHz gravitational wave signal, providing crucial insights into their demographics and evolution.",
+    "url": "http://arxiv.org/abs/2510.10548v1",
+    "authors": [
+      "Katsunori Kusakabe",
+      "Yoshiyuki Inoue",
+      "Daisuke Toyouchi"
+    ]
+  },
+  {
+    "title": "Oscillator-qubit generalized quantum signal processing for vibronic models: a case study of uracil cation",
+    "text": "Hybrid oscillator-qubit processors have recently demonstrated high-fidelity control of both continuous- and discrete-variable information processing. However, most of the quantum algorithms remain limited to homogeneous quantum architectures. Here, we present a compiler for hybrid oscillator-qubit processors, implementing state preparation and time evolution. In hybrid oscillator-qubit processors, this compiler invokes generalized quantum signal processing (GQSP) to constructively synthesize arbitrary bosonic phase gates with moderate circuit depth O(log(1/{\\varepsilon})). The approximation cost is scaled by the Fourier bandwidth of the target bosonic phase, rather than by the degree of nonlinearity. Armed with GQSP, nonadiabatic molecular dynamics can be decomposed with arbitrary-phase potential propagators. Compared to fully discrete encodings, our approach avoids the overhead of truncating continuous variables, showing linear dependence on the number of vibration modes while trading success probability for circuit depth. We validate our method on the uracil cation, a canonical system whose accurate modeling requires anharmonic vibronic models, estimating the cost for state preparation and time evolution.",
+    "url": "http://arxiv.org/abs/2510.10495v1",
+    "authors": [
+      "Jungsoo Hong",
+      "Seong Ho Kim",
+      "Seung Kyu Min",
+      "Joonsuk Huh"
+    ]
+  },
+  {
+    "title": "Tracing the Traces: Latent Temporal Signals for Efficient and Accurate Reasoning",
+    "text": "Reasoning models improve their problem-solving ability through inference-time scaling, allocating more compute via longer token budgets. Identifying which reasoning traces are likely to succeed remains a key opportunity: reliably predicting productive paths can substantially reduce wasted computation and improve overall efficiency. We introduce Latent-Trajectory signals that characterize the temporal evolution of a model's internal representations during the generation of intermediate reasoning tokens. By measuring the overall change in latent representations between the start and end of reasoning, the change accumulated across intermediate steps, and the extent to which these changes advance toward the final state, we show that these signals predict solution accuracy more reliably than both cross-layer metrics and output-based confidence measures. When used to guide answer selection across multiple sampled generations, Latent-Trajectory signals make test-time scaling more effective and efficient than majority voting, reducing token usage by up to 70% while preserving and even improving accuracy by 2.6% on average. Moreover, these predictive signals often emerge early in the reasoning trace, enabling early selection and allocation of compute to the most promising candidates. Our findings contribute not only practical strategies for inference-time efficiency, but also a deeper interpretability perspective on how reasoning processes are represented and differentiated in latent space.",
+    "url": "http://arxiv.org/abs/2510.10494v1",
+    "authors": [
+      "Martina G. Vilas",
+      "Safoora Yousefi",
+      "Besmira Nushi",
+      "Eric Horvitz",
+      "Vidhisha Balachandran"
+    ]
+  },
+  {
+    "title": "Towards Efficient 3D Gaussian Human Avatar Compression: A Prior-Guided Framework",
+    "text": "This paper proposes an efficient 3D avatar coding framework that leverages compact human priors and canonical-to-target transformation to enable high-quality 3D human avatar video compression at ultra-low bit rates. The framework begins by training a canonical Gaussian avatar using articulated splatting in a network-free manner, which serves as the foundation for avatar appearance modeling. Simultaneously, a human-prior template is employed to capture temporal body movements through compact parametric representations. This decomposition of appearance and temporal evolution minimizes redundancy, enabling efficient compression: the canonical avatar is shared across the sequence, requiring compression only once, while the temporal parameters, consisting of just 94 parameters per frame, are transmitted with minimal bit-rate. For each frame, the target human avatar is generated by deforming canonical avatar via Linear Blend Skinning transformation, facilitating temporal coherent video reconstruction and novel view synthesis. Experimental results demonstrate that the proposed method significantly outperforms conventional 2D/3D codecs and existing learnable dynamic 3D Gaussian splatting compression method in terms of rate-distortion performance on mainstream multi-view human video datasets, paving the way for seamless immersive multimedia experiences in meta-verse applications.",
+    "url": "http://arxiv.org/abs/2510.10492v1",
+    "authors": [
+      "Shanzhi Yin",
+      "Bolin Chen",
+      "Xinju Wu",
+      "Ru-Ling Liao",
+      "Jie Chen",
+      "Shiqi Wang",
+      "Yan Ye"
+    ]
+  },
+  {
+    "title": "Cosmological implications of LRS Bianchi type-I cosmological model in $f(T)$ gravity",
+    "text": "We perform the dynamical system analysis of the Locally Rotationally Symmetric (LRS) Bianchi type-I cosmological model in f(T) gravity in the presence of energy interaction . A cosmologically viable form of is chosen (where is the torsion scalar in teleparallelism) in the background of homogenous and anisotropic. For our model, we take where is a constant. The evolution equations are reduced to the autonomous system of differential equations by suitable transformation of variables. The behaviour of the equilibrium points is examined by calculating the eigenvalues corresponding to these equilibrium points. We get four equilibrium points for our cosmological model out of which one equilibrium point is stable, two are saddle points and one is an unstable equilibrium point. Corresponding to equilibrium point , our model is consistent with the quintessence dark energy cosmological model. Along the equilibrium points and , our model is consistent to phantom dark energy model. After that, we utilize the autonomous equations to analyse the cosmographic parameters along with the state-finder parameter. We demonstrate the phase plot analysis for our model.",
+    "url": "http://arxiv.org/abs/2510.10428v1",
+    "authors": [
+      "Shivangi Rathore",
+      "S. Surendra Singh"
+    ]
+  },
+  {
+    "title": "Dark gaps and resonances in barred galaxies",
+    "text": "Dark gaps, low surface brightness regions along the bar minor axis, are expected to form as a consequence of secular evolution in barred galaxies. Although several studies have proposed links between dark gap locations and dynamical resonances, the results remain inconclusive. Using DESI Legacy Imaging Survey data, we find that approximately 61% of barred galaxies exhibit pronounced dark gaps. We compare the location of dark gaps with resonance radii derived from the Tremaine-Weinberg method applied to MaNGA data for the same galaxies. Our analysis shows that dark gaps do not preferentially form at specific resonances. Instead, their locations correlate with : slow bars tend to show shorter dark gap radii, while fast bars show longer ones. This trend reflects a tight relation between bar length and dark gap radius. However, when barred galaxies are classified by their ring morphology, certain types exhibit dark gaps that align with specific resonances. Notably, dark gaps located between the inner and outer rings are closely associated with the corotation radius. In galaxies with two dark gaps along the bar minor axis profile, the inner dark gap typically aligns with the ultraharmonic resonance, and the outer dark gap corresponds to the corotation radius. These findings suggest that some morphological types share similar values and exhibit dark gaps near specific resonances. Thus, dark gaps may serve as proxies for dynamical resonances only in certain systems. Our findings may help explain the discrepancies observed in earlier studies.",
+    "url": "http://arxiv.org/abs/2510.10427v1",
+    "authors": [
+      "Taehyun Kim",
+      "Dimitri A. Gadotti",
+      "Myeong-gu Park",
+      "Yun Hee Lee",
+      "Francesca Fragkoudi",
+      "Minjin Kim",
+      "Woong-Tae Kim"
+    ]
+  },
+  {
+    "title": "Spectrally controlled dissipation in a target subsystem",
+    "text": "We present a microscopic Hamiltonian time-evolution on an ancilla+target system that evolves the target to a steady state. Using this description, we demonstrate the potential of a spectrally controllable dissipator: Depending on the energy scale of the target, the subsystem reaches the intended steady state or remains partially trapped in the initial state. For a steady state which is pure, this protocol can function as an autonomous qubit reset. We can also choose a mixed steady state so that this functions as a tunable mixed-state preparation. With a particular dissipative condition, we guarantee the equilibration to the steady-state with spectral measure theory. This type of spectral control over dissipation is not present in the common Lindblad description of open systems. Our construction establishes a new design principle for engineered dissipation and opens a pathway toward tunable autonomous quantum control.",
+    "url": "http://arxiv.org/abs/2510.10394v1",
+    "authors": [
+      "Man Yin Cheung",
+      "Mona Berciu",
+      "Kyle Monkman"
+    ]
+  },
+  {
+    "title": "Environmental Regulation of Dust and Star Formation Unveiled by Subaru Dual Narrow-band Imaging: Degree-scale Balmer Decrement Mapping across a z = 0.9 Supercluster",
+    "text": "We present results from a dual narrow-band imaging survey targeting the CL1604 supercluster at z = 0.9 using the Subaru Telescope. By combining the NB921 filter on HSC and the NB1244 filter on SWIMS, we can detect redshifted H and H emission lines from the supercluster. This unique technique allows us to measure both star formation rates and dust extinction for a sample of 94 emission-line galaxies across the supercluster. We find that dust extinction, estimated from the Balmer decrement (H/H ratio), increases with stellar mass in star-forming galaxies, whereas relatively quiescent systems exhibit comparatively low extinction. Among galaxies with intermediate masses (), the dust-corrected H-based star formation rates align with the main sequence at this epoch. More massive galaxies, however, deviate from this relation, exhibit redder colors, and reside predominantly in higher-density environments. Although stellar mass, SFR, and galaxy color are clearly influenced by environment, we detect no strong, systematic environmental dependence of dust extinction for the whole sample.",
+    "url": "http://arxiv.org/abs/2510.10386v1",
+    "authors": [
+      "Zhaoran Liu",
+      "Tadayuki Kodama",
+      "Brian C. Lemaux",
+      "Mariko Kubo",
+      "Jose Manuel P\u00e9rez-Mart\u00ednez",
+      "Yusei Koyama",
+      "Ichi Tanaka",
+      "Kazuki Daikuhara",
+      "Roy R. Gal",
+      "Denise Hung",
+      "Masahiro Konishi",
+      "Kosuke Kushibiki",
+      "Ronaldo Laishram",
+      "Lori M. Lubin",
+      "Kentaro Motohara",
+      "Hidenori Takahashi"
+    ]
+  },
+  {
+    "title": "Refining open cluster parameters with Gaia XP metallicities",
+    "text": "The precision of cluster parameter determination has significantly improved with the availability of homogeneous photometric Gaia data, however, challenges such as age-metallicity degeneracy and lack of spectroscopic observations remain. In this paper we investigate whether metallicities derived from low-resolution Gaia XP spectra can be effectively used to break degeneracies and improve the accuracy of OC parameter determinations. We analysed 20 OCs using isochrone fitting methods on Gaia DR3 photometry and metallicity estimates from several Gaia XP-based catalogues. We derived age, distance modulus, and extinction using the Approximate Bayesian Computation (ABC). We compared the parameter estimates to the values obtained in other works through isochrone fitting with spectroscopically constrained metallicities or through neural network techniques applied only to the photometry. We found the systematic difference between Gaia XP derived metallicities and those obtained from high-resolution spectroscopy to be 0.1-0.15 dex. We found a systematic age difference of <0.03 +- 0.13 dex compared to isochrone fitting using high-resolution spectroscopy, and <0.08 +- 0.21 dex compared to neural network-based methods, and a median individual error of ~0.065 dex. Despite their low resolution, Gaia XP metallicities effectively constrain parameters of clusters lacking a well-populated RGB. When used with stringent quality cuts and incorporated as priors, they allow to determine ages comparable in precision to those based on high-resolution spectroscopy and more precise than photometry-only neural network methods. These results highlight the potential of Gaia data for accurate cluster parameter analysis and detailed Galactic studies without relying on traditional spectroscopy.",
+    "url": "http://arxiv.org/abs/2510.10385v1",
+    "authors": [
+      "M. Nizovkina",
+      "S. S. Larsen",
+      "A. G. A. Brown",
+      "A. Helmi"
+    ]
+  },
+  {
+    "title": "JWST Catches a Strongly Gravitationally Lensed AGN In Transition from Type II to Type I",
+    "text": "JWST has enabled the discovery of a statistical sample of obscured (type II) active galactic nuclei (AGN) at cosmic noon. Studies comparing those type II AGN with type I AGN at that epoch have reinforced the long-standing idea of an evolutionary link between those classes of objects. Mergers, the idea goes, disturb the morphologies and angular momentum of galaxies. The disruption of angular momentum allows material to be funneled toward galactic cores, sparking AGN activity and potentially also a burst of star-formation. That material enshrouds the galactic nucleus, leading to a type II AGN. Later, AGN feedback clears the circumnuclear dust, leading to a transition into a type I AGN, and also quenches star formation. If this is a common outcome, a class of intermediate objects should exist. Such objects would be somewhat disturbed and dusty and sit below the star-forming galaxy main sequence, and their star-formation histories would show an increase in star-formation at around the time of the suspected merger. We present new JWST observations of SDSSJ2222+2745, a strongly lensed AGN at z=2.801. The lensing magnification enables a detailed study of the host galaxy spanning the rest-ultraviolet through near infrared. JWST and HST photometry, morphological models, and models of the host's spectral energy distribution reveal that SDSSJ2222+2745 is actively transitioning from a type II to type I AGN. Catching a lensed AGN at this special evolutionary phase makes SDSSJ2222+2745 a unique laboratory to study the physical processes involved in the transition and their relationships to the AGN and the host galaxy at incredible spatial-resolution down to about 20pc at z=2.801.",
+    "url": "http://arxiv.org/abs/2510.10376v1",
+    "authors": [
+      "Michael K Florian",
+      "Michael D Gladders",
+      "Gourav Khullar",
+      "Keren Sharon",
+      "Aidan P Cloonan",
+      "Eirk Solhaug",
+      "Brian Welch",
+      "Matthew Bayliss",
+      "Hakon Dahle",
+      "Taylor A Hutchison",
+      "Jane R Rigby"
+    ]
+  },
+  {
+    "title": "Water Maser Disk and a Supermassive Black Hole at the Nucleus of the Active Galaxy NGC 7738",
+    "text": "We present the results of very long baseline interferometry (VLBI) observations of water vapor masers in the nucleus of the LINER galaxy NGC 7738. The red- and blue-shifted and newly detected systemic maser features show an almost edge-on disk located at a distance of pc from the galactic center and rotating with a velocity of km s . The velocity field of the disk indicates sub-Keplerian rotation, suggesting a non-negligible disk mass. The Mestel disk model reveals the central and disk masses to be and $(4.7 \\pm 1.5) \\times10^6M_{\\odot}$, respectively. The mean volume density within the inner radius of the disk [ ] strongly suggests the existence of a supermassive black hole at the center.",
+    "url": "http://arxiv.org/abs/2510.10354v1",
+    "authors": [
+      "Rinka Ito",
+      "Yusuke Miyamoto",
+      "Naomasa Nakai",
+      "Aya Yamauchi",
+      "Yuichi Terashima"
+    ]
+  },
+  {
+    "title": "Rise of the Robochemist",
+    "text": "Chemistry, a long-standing discipline, has historically relied on manual and often time-consuming processes. While some automation exists, the field is now on the cusp of a significant evolution driven by the integration of robotics and artificial intelligence (AI), giving rise to the concept of the robochemist: a new paradigm where autonomous systems assist in designing, executing, and analyzing experiments. Robochemists integrate mobile manipulators, advanced perception, teleoperation, and data-driven protocols to execute experiments with greater adaptability, reproducibility, and safety. Rather than a fully automated replacement for human chemists, we envisioned the robochemist as a complementary partner that works collaboratively to enhance discovery, enabling a more efficient exploration of chemical space and accelerating innovation in pharmaceuticals, materials science, and sustainable manufacturing. This article traces the technologies, applications, and challenges that define this transformation, highlighting both the opportunities and the responsibilities that accompany the emergence of the robochemist. Ultimately, the future of chemistry is argued to lie in a symbiotic partnership where human intuition and expertise is amplified by robotic precision and AI-driven insight.",
+    "url": "http://arxiv.org/abs/2510.10337v1",
+    "authors": [
+      "Jihong Zhu",
+      "Kefeng Huang",
+      "Jonathon Pipe",
+      "Chris Horbaczewsky",
+      "Andy Tyrrell",
+      "Ian J. S. Fairlamb"
+    ]
+  },
+  {
+    "title": "Mapping the Urban Mobility Intelligence Frontier: A Scientometric Analysis of Data-Driven Pedestrian Trajectory Prediction and Simulation",
+    "text": "Understanding and predicting pedestrian dynamics has become essential for shaping safer, more responsive, and human-centered urban environments. This study conducts a comprehensive scientometric analysis of research on data-driven pedestrian trajectory prediction and crowd simulation, mapping its intellectual evolution and interdisciplinary structure. Using bibliometric data from the Web of Science Core Collection, we employ SciExplorer and Bibliometrix to identify major trends, influential contributors, and emerging frontiers. Results reveal a strong convergence between artificial intelligence, urban informatics, and crowd behavior modeling--driven by graph neural networks, transformers, and generative models. Beyond technical advances, the field increasingly informs urban mobility design, public safety planning, and digital twin development for smart cities. However, challenges remain in ensuring interpretability, inclusivity, and cross-domain transferability. By connecting methodological trajectories with urban applications, this work highlights how data-driven approaches can enrich urban governance and pave the way for adaptive, socially responsible mobility intelligence in future cities.",
+    "url": "http://arxiv.org/abs/2510.10327v1",
+    "authors": [
+      "Junhao Xu",
+      "Hui Zeng"
+    ]
+  },
+  {
+    "title": "On the integrable six-wave interaction system and its space-time shifted reduction",
+    "text": "The multi-dimensional six-wave interaction system is derived in the context of nonlinear optics. Starting from Maxwell's equations, a reduced system of equations governing the dynamics of the electric and polarization fields are obtained. Using a space-time multi-scale asymptotic expansion, a hierarchy of coupled equations describing the spatio-temporal evolution of the perturbed electric and polarization fields are derived. The leading order equation admits a six-wave ansatz satisfying a triad resonance condition. By removing secular terms at next order, a first order in space and time quadratically nonlinear coupled six-wave interaction system is obtained. This resulting system is tied to its integrable counterpart which was postulated by Ablowitz and Haberman in the 1970s. A reduction to a space-time shifted nonlocal three-wave system is presented. The resulting system is solved using the inverse scattering transform, which employs nonlocal symmetries between the associated eigenfunctions and scattering data; soliton solutions are then obtained. Finally, an infinite set of conservation laws for the six-wave system is derived; one is shown to be connected to its Hamiltonian structure.",
+    "url": "http://arxiv.org/abs/2510.10312v1",
+    "authors": [
+      "Mark J. Ablowitz",
+      "Ramesh Gupta",
+      "Ziad H. Musslimani",
+      "Nicholas J. Ossi"
+    ]
+  },
+  {
+    "title": "Defect-driven incoherent skin localization",
+    "text": "The process of dephasing during wave evolution has traditionally been viewed as an obstacle to localization, leading to diffusion even in strongly disordered Hermitian lattices. In contrast, here we demonstrate how the interplay of dephasing with non-Hermitian defects can be harnessed to engineer wave localization. Specifically, we identify a novel dynamical localization phenomenon characterized by wavefunction accumulation at the lattice's boundary due solely to dephasing, despite globally reciprocal couplings. Furthermore, we study the incoherent skin effect arising from coupling asymmetry, and investigate the interplay between these antagonistic localization mechanisms. By reframing dephasing from a hindrance into a tool, this study overturns established paradigms of wave localization and paves the way for novel approaches to controlling localization phenomena in non-Hermitian physics.",
+    "url": "http://arxiv.org/abs/2510.10298v1",
+    "authors": [
+      "Emmanouil T. Kokkinakis",
+      "Konstantinos G. Makris",
+      "Eleftherios N. Economou"
+    ]
+  },
+  {
+    "title": "Detection of Quadruple Structure Near the ASCC 32 Region via Machine Learning Methods",
+    "text": "Multiple structures within stellar groups are an intriguing subject for theoretical and observational studies of stellar formation. With the accuracy and completeness of data from Gaia Data Release 3, we now have new opportunities to detect reliable members of stellar groups across a larger field of view than in previous studies. In this work, using machine learning methods and high-accuracy data, we investigate the possibility of detecting multiple structures within 500 arcmin of ASCC 32. We first applied DBSCAN to proper motion and parallax, as multiple structures tend to share similar values for these parameters. Next, we applied GMM to position, proper motion, and parallax for the members detected by DBSCAN. This approach allowed us to identify a filamentary structure among the DBSCAN-detected members. This structure contains all stellar groups previously identified in this region. Subsequently, based on the BIC score, we applied GMM to this filamentary structure. Since multiple structures exhibit distinct positional distributions, GMM was able to effectively separate all groups within the filament. Our methods successfully identified ASCC 32, OC 0395, and HSC 1865 within a 500 arcmin radius. Additionally, we found two distinct substructures within ASCC 32. These four groups exhibit a single main-sequence distribution in the CMD, with proper motion values within three times the standard deviation and slightly differing parallax values, despite having distinct spatial structures. Furthermore, these four groups share the same radial velocity distribution. We provide documentation demonstrating the formation of these stellar groups as a multiple structure, with improved membership identification compared to previous studies.",
+    "url": "http://arxiv.org/abs/2510.10296v1",
+    "authors": [
+      "Mohammad Noormohammadi",
+      "Atefeh Javadi",
+      "Mehdi Khakian Ghomi"
+    ]
+  },
+  {
+    "title": "AI-Assisted Geometric Analysis of Cultured Neuronal Networks: Parallels with the Cosmic Web",
+    "text": "Building on evidence of structural parallels between brain networks and the cosmic web [1], we apply AI-based geometric analysis to cultured neuronal networks. Isolated neurons self-organize into dendritic lattices shaped by reproducible wiring rules. These lattices show non-random features-frequent dendritic convergence, hub nodes, small-world connectivity, and large voids. Synaptic contacts cluster and strengthen at hubs. Strikingly, these properties mirror the cosmic web: dendritic branches resemble cosmic filaments and synapses map to galaxies. Quantitative metrics align across systems, suggesting shared underlying geometric principles. We invite cross-disciplinary collaboration to interrogate and extend these parallels.",
+    "url": "http://arxiv.org/abs/2510.10286v1",
+    "authors": [
+      "Wolfgang Kurz",
+      "Danny Baranes"
+    ]
+  },
+  {
+    "title": "Microlensing of non-singular black holes at finite size: a ray tracing approach",
+    "text": "We study the gravitational microlensing of various static and spherically symmetric non-singular black holes (and horizonless, non-singular compact objects of similar size). For pointlike sources we extend the parametrized post-Newtonian lensing framework to fourth order, whereas for extended sources we develop a ray tracing approach via a simple radiative transfer model. Modelling non-relativistic proper motion of the lens in front of a background star we record the apparent brightness as a function of time, resulting in a photometric lightcurve. Taking the star radius to smaller values, our numerical results approach the theoretical predictions for point-like sources. Compared to the Schwarzschild metric in an otherwise unmodified lensing geometry, we find that non-singular black hole models (and their horizonless, non-singular counterparts) at finite size tend to feature larger magnifications in microlensing lightcurves, contrary to the point-source prediction.",
+    "url": "http://arxiv.org/abs/2510.10282v1",
+    "authors": [
+      "Jens Boos",
+      "Hao Hu"
+    ]
+  },
+  {
+    "title": "Nonlinear Public Goods Game in Dynamical Environments",
+    "text": "The evolutionary mechanisms of cooperative behavior represent a fundamental topic in complex systems and evolutionary dynamics. Although recent advances have introduced real-world stochasticity in nonlinear public goods game (PGG), such stochasticity remains static, neglecting its origin in the external environment as well as the coevolution of system stochasticity and cooperative behavior driven by environmental dynamics. In this work, we introduce a dynamic environment feedback mechanism into the stochastic nonlinear PGG framework, establishing a coevolutionary model that couples environmental states and individual cooperative strategies. Our results demonstrate that the interplay among environment feedback, nonlinear effects, and stochasticity can drive the system toward a wide variety of steady-state structures, including full defection, full cooperation, stable coexistence, and periodic limit cycles. Further analysis reveals that asymmetric nonlinear parameters and environment feedback rates exert significant regulatory effects on cooperation levels and system dynamics. This study not only enriches the theoretical framework of evolutionary game theory, but also provides a foundation for the management of ecological systems and the design of cooperative mechanisms in society.",
+    "url": "http://arxiv.org/abs/2510.10259v1",
+    "authors": [
+      "Yishen Jiang",
+      "Xin Wang",
+      "Wenqiang Zhu",
+      "Ming Wei",
+      "Longzhao Liu",
+      "Shaoting Tang",
+      "Hongwei Zheng"
+    ]
+  },
+  {
+    "title": "Scaling of Magnetic Domain Walls in Perpendicular Magnetic Anisotropy Systems",
+    "text": "Magnetic domain walls play a critical role in the nanoscale evolution of magnetic devices. Despite the early efforts, a complete understanding of the micromagnetic evolution of the width and the type of magnetic domain walls has still remained missing. Here, we report a combined analytical and micromagnetic simulation study and establish the scaling of the magnetic domains as a function of the exchange stiffness (A), uniaxial perpendicular magnetic anisotropy (Ku), saturation magnetization (Ms), and Dzyaloshinskii-Moriya interaction (DMI), and shape anisotropy of the magnetic device. We find that the width of both Bloch and Neel walls scales excellently with the analytical prediction. The DMI is found to have little influence on the domain wall width but strongly affect the type of the domain wall. The domain wall has a Bloch configuration at zero DMI and gradually transitions to Neel configuration upon increase of the DMI. The shape anisotropy of the magnetic domain wall also affects the domain wall width. These results have established a comprehensive, conclusive understanding of the magnetic domain walls within spintronics devices.",
+    "url": "http://arxiv.org/abs/2510.10230v1",
+    "authors": [
+      "Guowen Gong",
+      "Changmin Xiong",
+      "Lijun Zhu"
+    ]
+  },
+  {
+    "title": "Starburst galaxies in the Hydra I cluster",
+    "text": "We present a new catalog of 196 galaxies of the nearby Hydra I cluster out to 1.75, consisting of broad u,g,r,i,z along with narrowband H measurements. These deep optical images were obtained with the DECam camera (CTIO) and reach down to a surface brightness limit of $\\mu( 3\\sigma;10''\\times10'')\\rm arcsec^2$ in the g band. We also report the HI properties for 89 cluster members detected with MeerKAT. A color magnitude diagram (CMD) shows a bimodal distribution typical of a cluster population, more evolved than those found in isolation. We combine optical H and WISE infrared data to compare the star formation history at two distinct timescales. Differences in the star forming activity depicted by both populations manifest as starburst in 24 found members. Of these, 18 starburst galaxies have neutral gas measurements, and show disturbed HI disks that suggest an environmentally-triggered boost in star formation within the last 10 yrs. Processes such as ram pressure stripping or tidal interactions may underlie their enhanced star-forming activity and asymmetric disks. Since Hydra's dynamical history is unclear, we examine the spatial and velocity distribution of the sample. We reveal a possible link between the large scale structure feeding the Hydra I cluster and the heightened star-forming activity of the starburst galaxies. This feeding pattern matches the few substructure that has been identified in Hydra in previous works, and may explain its origin. Our results portray a picture of a cluster with an evolved nature, plus a population of new infalling galaxies that manifest the impact of their first contact with the cluster environment through star formation, color, morphology and gas content transformations.",
+    "url": "http://arxiv.org/abs/2510.10222v1",
+    "authors": [
+      "Clara C. de la Casa",
+      "Kelley M. Hess",
+      "Lourdes Verdes-Montenegro",
+      "Ralf Kotulla",
+      "Hao Chen",
+      "Tom H. Jarrett",
+      "Michelle E. Cluver",
+      "Simon B. De Daniloff",
+      "Marie-Lou Gendron-Marsolais",
+      "Claude Carignan",
+      "John S. Gallagher III",
+      "Ren\u00e9e C. Kraan-Korteweg",
+      "Roger Ianjamasimanana"
+    ]
+  },
+  {
+    "title": "Distributionally Robust Control with End-to-End Statistically Guaranteed Metric Learning",
+    "text": "Wasserstein distributionally robust control (DRC) recently emerges as a principled paradigm for handling uncertainty in stochastic dynamical systems. However, it constructs data-driven ambiguity sets via uniform distribution shifts before sequentially incorporating them into downstream control synthesis. This segregation between ambiguity set construction and control objectives inherently introduces a structural misalignment, which undesirably leads to conservative control policies with sub-optimal performance. To address this limitation, we propose a novel end-to-end finite-horizon Wasserstein DRC framework that integrates the learning of anisotropic Wasserstein metrics with downstream control tasks in a closed-loop manner, thus enabling ambiguity sets to be systematically adjusted along performance-critical directions and yielding more effective control policies. This framework is formulated as a bilevel program: the inner level characterizes dynamical system evolution under DRC, while the outer level refines the anisotropic metric leveraging control-performance feedback across a range of initial conditions. To solve this program efficiently, we develop a stochastic augmented Lagrangian algorithm tailored to the bilevel structure. Theoretically, we prove that the learned ambiguity sets preserve statistical finite-sample guarantees under a novel radius adjustment mechanism, and we establish the well-posedness of the bilevel formulation by demonstrating its continuity with respect to the learnable metric. Furthermore, we show that the algorithm converges to stationary points of the outer level problem, which are statistically consistent with the optimal metric at a non-asymptotic convergence rate. Experiments on both numerical and inventory control tasks verify that the proposed framework achieves superior closed-loop performance and robustness compared against state-of-the-art methods.",
+    "url": "http://arxiv.org/abs/2510.10214v1",
+    "authors": [
+      "Jingyi Wu",
+      "Chao Ning",
+      "Yang Shi"
+    ]
+  },
+  {
+    "title": "Manipulating the metal-insulator transitions in correlated vanadium dioxide through bandwidth and band-filling control",
+    "text": "The metal-insulator transition (MIT) in correlated oxide systems opens up a new paradigm to trigger the abruption in multiple physical functionalities, enabling the possibility in unlocking exotic quantum states beyond conventional phase diagram. Nevertheless, the critical challenge for practical device implementation lies in achieving the precise control over the MIT behavior of correlated system across a broad temperature range, ensuring the operational adaptability in diverse environments. Herein, correlated vanadium dioxide (VO2) serves as a model system to demonstrate effective modulations on the MIT functionality through bandwidth and band-filling control. Leveraging the lattice mismatching between RuO2 buffer layer and TiO2 substrate, the in-plane tensile strain states in VO2 films can be continuously adjusted by simply altering the thickness of buffer layer, leading to a tunable MIT property over a wide range exceeding 20 K. Beyond that, proton evolution is unveiled to drive the structural transformation of VO2, with a pronounced strain dependence, which is accompanied by hydrogenation-triggered collective carrier delocalization through hydrogen-related band filling in t2g band. The present work establishes an enticing platform for tailoring the MIT properties in correlated electron systems, paving the way for the rational design in exotic electronic phases and physical phenomena.",
+    "url": "http://arxiv.org/abs/2510.10183v1",
+    "authors": [
+      "Xiaohui Yao",
+      "Jiahui Ji",
+      "Xuanchi Zhou"
+    ]
+  },
+  {
+    "title": "ReMix: Towards a Unified View of Consistent Character Generation and Editing",
+    "text": "Recent advances in large-scale text-to-image diffusion models (e.g., FLUX.1) have greatly improved visual fidelity in consistent character generation and editing. However, existing methods rarely unify these tasks within a single framework. Generation-based approaches struggle with fine-grained identity consistency across instances, while editing-based methods often lose spatial controllability and instruction alignment. To bridge this gap, we propose ReMix, a unified framework for character-consistent generation and editing. It constitutes two core components: the ReMix Module and IP-ControlNet. The ReMix Module leverages the multimodal reasoning ability of MLLMs to edit semantic features of input images and adapt instruction embeddings to the native DiT backbone without fine-tuning. While this ensures coherent semantic layouts, pixel-level consistency and pose controllability remain challenging. To address this, IP-ControlNet extends ControlNet to decouple semantic and layout cues from reference images and introduces an {\\epsilon}-equivariant latent space that jointly denoises the reference and target images within a shared noise space. Inspired by convergent evolution and quantum decoherence,i.e., where environmental noise drives state convergence, this design promotes feature alignment in the hidden space, enabling consistent object generation while preserving identity. ReMix supports a wide range of tasks, including personalized generation, image editing, style transfer, and multi-condition synthesis. Extensive experiments validate its effectiveness and efficiency as a unified framework for character-consistent image generation and editing.",
+    "url": "http://arxiv.org/abs/2510.10156v1",
+    "authors": [
+      "Benjia Zhou",
+      "Bin Fu",
+      "Pei Cheng",
+      "Yanru Wang",
+      "Jiayuan Fan",
+      "Tao Chen"
+    ]
+  },
+  {
+    "title": "Time-diffracting 2D wave vortices",
+    "text": "Wave vortices constitute a large family of wave entities, closely related to phase singularities and orbital angular momentum (OAM). So far, two main classes of localized wave vortices have been explored: (i) transversely-localized monochromatic vortex beams that carry well-defined longitudinal OAM and propagate/diffract in space, and (ii) 2D-localized spatiotemporal vortex pulses that carry the more elusive transverse (or tilted) OAM and propagate/diffract in both space and time. Here we introduce another class of wave vortices which are localized in a 2D plane, do not propagate in space (apart from uniform radial deformations), and instead propagate/diffract solely in time. These vortices possess well-defined transverse OAM and can naturally appear in 2D wave systems, such as surface polaritons or water waves. We provide a general integral expression for time-diffracting 2D wave vortices, their underlying ray model, as well as examples of approximate and exact wave solutions. We also analyze the temporal Gouy phase closely related to the rotational evolution in such vortices.",
+    "url": "http://arxiv.org/abs/2510.10147v1",
+    "authors": [
+      "Boris A. Khanikati",
+      "Konstantin Y. Bliokh"
+    ]
+  },
+  {
+    "title": "On the Noisy Road to Open Quantum Dynamics: The Place of Stochastic Hamiltonians",
+    "text": "Stochastic evolution underpins several approaches to the dynamics of open quantum systems, such as random modulation of Hamiltonian parameters, the stochastic Schr\\\"odinger equation (SSE), and the stochastic Liouville equation (SLE). In a stochastic formulation, the open-system problem is reduced from a coupled system-environment dynamics to an effective system-only description, with dissipative evolution recovered by ensemble averaging. In this work, we aim at a self-contained and accessible presentation of these approaches to further elaborate on their common roots in essential concepts of stochastic calculus and to delineate the conditions under which they are equivalent. We also discuss how different formulations naturally lead to different numerical time-integration schemes, better suited for either classical simulation platforms, based on finite-difference approximations, or quantum algorithms, that employ random unitary maps. Our analysis supplies a unified perspective and actionable recipes for classical and quantum implementations of stochastic evolution in the simulation of open quantum systems.",
+    "url": "http://arxiv.org/abs/2510.10137v1",
+    "authors": [
+      "Pietro De Checchi",
+      "Federico Gallina",
+      "Barbara Fresch",
+      "Giulio G. Giusteri"
+    ]
+  },
+  {
+    "title": "Quasiparticle pairing encoding of atomic nuclei for quantum annealing",
+    "text": "Quantum computing is emerging as a promising tool in nuclear physics. However, the cost of encoding fermionic operators hampers the application of algorithms in current noisy quantum devices. In this work, we analyze an encoding scheme based on pairing nucleon modes. This approach significantly reduces the complexity of the encoding, while maintaining a high accuracy for the ground states of semimagic nuclei across the and shells and for tin isotopes. In addition, we also explore the encoding ability to describe open-shell nuclei within the above configuration spaces. When this scheme is applied to a trotterized quantum adiabatic evolution, our results demonstrate a computational advantage of up to three orders of magnitude in CNOT gate count compared to the standard Jordan-Wigner encoding. Our approach paves the way for efficient quantum simulations of nuclear structure using quantum annealing, with applications to both digital and hybrid quantum computing platforms.",
+    "url": "http://arxiv.org/abs/2510.10118v1",
+    "authors": [
+      "Emanuele Costa",
+      "Axel P\u00e9rez-Obiol",
+      "Javier Men\u00e9ndez",
+      "Arnau Rios",
+      "Artur Garc\u00eda-S\u00e1ez",
+      "Bruno Juli\u00e1-D\u00edaz"
+    ]
+  },
+  {
+    "title": "Thermal and Electrical Conductivities of Aluminum Up to 1000 eV: A First-Principles Prediction",
+    "text": "Accurate prediction of the thermal and electrical conductivities of materials under extremely high temperatures is essential in high-energy-density physics. These properties govern processes such as stellar core dynamics, planetary magnetic field generation, and laser-driven plasma evolution. However, first-principles methods like Kohn-Sham (KS) density functional theory (DFT) face challenges in predicting these properties due to prohibitively high computational costs. We propose a scheme that integrates the Kubo formalism with a mixed stochastic-deterministic DFT (mDFT) method, which substantially enhances efficiency in computing thermal and electrical conductivities of dense plasmas under extremely high temperatures. As a showcase, this approach enables {\\it ab initio} calculations of the thermal and electrical conductivities of Aluminum (Al) up to 1000 eV. Compared to traditional transport models, our first-principles results reveal significant deviations in the thermal and electrical conductivities of Al within the warm dense matter regime, underscoring the importance of accounting for quantum effects when investigating these transport properties of warm dense matter.",
+    "url": "http://arxiv.org/abs/2510.10112v1",
+    "authors": [
+      "Qianrui Liu",
+      "Xiantu He",
+      "Mohan Chen"
+    ]
+  },
+  {
+    "title": "Insights into Planet Formation from the Ages, Masses, and Elemental Abundances of Host Stars",
+    "text": "How planetary systems form and evolve is a key question in astronomy. Revealing how host star properties, such as elemental abundances, age, and mass, differ from those of non-host stars, and how they correlate with planetary characteristics such as radius, provides new insights into the formation and evolutionary pathways of planetary systems. We determine precise ages for 18890 dwarfs and subgiants from the LAMOST-Kepler-Gaia sample with a mean age uncertainty of about 15 percent (median about 10 percent). Within the framework of Galactic chemical evolution, we find that about 86 percent of planet-hosting stars younger than 8 Gyr occupy the upper branch ([Fe/H] > -0.2) of the characteristic V-shaped age-metallicity relation of the Galactic disk. Based on guiding radii (Rg), we further infer that about 19 percent of these young hosts likely originated in the inner disk and subsequently migrated to the solar neighborhood. Among stars older than 10 Gyr, host stars tend to be more metal-rich, with nearly 59 percent having [Fe/H] > -0.2. This suggests that both young and old planet-hosting stars preferentially form in relatively metal-rich environments. However, for host stars with [Fe/H] < -0.2, we find that their metallicities are on average lower by about 0.16 dex compared to non-host stars of similar age and mass, indicating that [Fe/H] is unlikely to be the dominant factor governing planet formation in metal-poor environments. We also identify a systematic depletion of volatile elements, especially carbon, in planet hosts. Moreover, host star [Fe/H] exhibits a weak correlation with planet radius, while [alpha/Fe] primarily support the formation of small planets.",
+    "url": "http://arxiv.org/abs/2510.10092v1",
+    "authors": [
+      "Xunzhou Chen",
+      "Tiancheng Sun",
+      "Lifei Ye"
+    ]
+  }
+]
