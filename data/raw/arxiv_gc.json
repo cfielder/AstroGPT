@@ -1,0 +1,1458 @@
+[
+  {
+    "title": "StarStream: Automatic detection algorithm for stellar streams",
+    "authors": [
+      "Yingtian Chen",
+      "Oleg Y. Gnedin",
+      "Adrian M. Price-Whelan",
+      "Colin Holm-Hansen"
+    ],
+    "summary": "The Gaia mission has led to the discovery of over 100 stellar streams in the\nMilky Way, most of which likely originated from globular clusters (GCs). As the\nupcoming wide-field surveys can potentially continue to increase the number of\nknown streams, there is a growing need to shift focus from manual detection of\nindividual streams to automated detection methods that prioritize both quality\nand quantity. Traditional techniques rely heavily on the visual expectation\nthat GC streams are dynamically cold and thin. This assumption does not hold\nfor all streams, whose morphologies and kinematics can vary significantly with\nthe progenitor's mass and orbit. As a result, these methods are biased toward a\nsubset of the whole stream population, with often unquantified purity and\ncompleteness. In this work, we present StarStream, an automatic stream\ndetection algorithm based on a physics-inspired model rather than visual\nexpectation. Our method provides a more accurate prediction of stream stars in\nthe multi-dimensional space of observables, while using fewer free parameters\nto account for the diversity of streams. Applied to a mock GC stream catalog\ntailored for the Gaia DR3 dataset, our algorithm achieves both purity and\ncompleteness of at least 65% at Galactic latitudes |b| > 30 degree.",
+    "url": "http://arxiv.org/abs/2510.14929v1"
+  },
+  {
+    "title": "StarStream on Gaia: Stream discovery and mass loss rate of globular clusters",
+    "authors": [
+      "Yingtian Chen",
+      "Oleg Y. Gnedin",
+      "Adrian M. Price-Whelan"
+    ],
+    "summary": "We apply the automatic stellar stream detection algorithm StarStream to Gaia\nData Release 3 and identify 87 stellar streams associated with Galactic\nglobular clusters (GCs), including 34 high-quality cases with median\ncompleteness and purity both exceeding 50%, as estimated from modeling mock\nstreams. These detections double the number of known GC streams, and increase\nthe fraction of GCs with tidal streams at high Galactic latitudes (|b| > 30\ndegree) to 75%. In contrast to visual expectations, many new streams are wide\nor short, or misaligned with their progenitors' orbits. Taking advantage of the\nunbiased density measurements enabled by our method, we also estimate the mass\nloss rate for the progenitor GCs. We find that several low-mass, large-size\nclusters have enhanced mass loss rates, indicating that they are approaching\ncomplete tidal disruption.",
+    "url": "http://arxiv.org/abs/2510.14924v1"
+  },
+  {
+    "title": "EM Approaches to Nonparametric Estimation for Mixture of Linear Regressions",
+    "authors": [
+      "Andrew Welbaum",
+      "Wanli Qiao"
+    ],
+    "summary": "In a mixture of linear regression model, the regression coefficients are\ntreated as random vectors that may follow either a continuous or discrete\ndistribution. We propose two Expectation-Maximization (EM) algorithms to\nestimate this prior distribution. The first algorithm solves a kernelized\nversion of the nonparametric maximum likelihood estimation (NPMLE). This method\nnot only recovers continuous prior distributions but also accurately estimates\nthe number of clusters when the prior is discrete. The second algorithm,\ndesigned to approximate the NPMLE, targets prior distributions with a density.\nIt also performs well for discrete priors when combined with a post-processing\nstep. We study the convergence properties of both algorithms and demonstrate\ntheir effectiveness through simulations and applications to real datasets.",
+    "url": "http://arxiv.org/abs/2510.14890v1"
+  },
+  {
+    "title": "Modeling nonlinear scales for dynamical dark energy cosmologies with COLA",
+    "authors": [
+      "Jo\u00e3o Rebou\u00e7as",
+      "Victoria Lloyd",
+      "Jonathan Gordon",
+      "Guilherme Brando",
+      "Vivian Miranda"
+    ],
+    "summary": "Upcoming galaxy surveys will bring a wealth of information about the\nclustering of matter, but modeling small-scale structure beyond $\\Lambda$CDM\nremains computationally challenging. While accurate $N$-body emulators exist to\nmodel the matter power spectrum for $\\Lambda$CDM and some limited extensions,\nit's unfeasible to generate $N$-body simulation suites for all candidate\nmodels. Motivated by recent hints of an evolving dark energy equation of state,\nwe assess the viability of employing the COmoving Lagrangian Acceleration\n(COLA) method to generate simulation suites for the $w_0w_a$ dark energy model.\nWe combine COLA simulations with an existing high-precision $\\Lambda$CDM\nemulator to extend its predictions into new regions of parameter space. We\nassess the precision of our emulator at the level of the matter power spectrum,\nfinding that our emulator can reproduce the nonlinear boosts from\nEuclidEmulator2 at less than $2\\%$ error. Moreover, we perform an analysis of a\nsimulated cosmic shear survey akin to the Legacy Survey of Space and Time\n(LSST) first year of observations, assessing the differences in parameter\nconstraints between our COLA-based emulator and the benchmark emulator. We find\nour emulator to be in excellent agreement with the benchmark, achieving less\nthan $0.3\\sigma$ shifts in cosmological parameters. We compare our emulator's\nperformance to a commonly used approach: assuming the $\\Lambda$CDM boost can be\nemployed for extended parameter spaces without modification. We find that our\nemulator yields a significantly smaller $\\Delta\\chi^2$ distribution, parameter\nconstraint biases, and a more accurate figure of merit compared to this second\napproach. Our results demonstrate that COLA emulators provide a computationally\nefficient path forward for modeling nonlinear structure in extended\ncosmologies, offering a practical alternative to full $N$-body suites.",
+    "url": "http://arxiv.org/abs/2510.14888v1"
+  },
+  {
+    "title": "Multi-modal video data-pipelines for machine learning with minimal human supervision",
+    "authors": [
+      "Mihai-Cristian P\u00eervu",
+      "Marius Leordeanu"
+    ],
+    "summary": "The real-world is inherently multi-modal at its core. Our tools observe and\ntake snapshots of it, in digital form, such as videos or sounds, however much\nof it is lost. Similarly for actions and information passing between humans,\nlanguages are used as a written form of communication. Traditionally, Machine\nLearning models have been unimodal (i.e. rgb -> semantic or text ->\nsentiment_class). Recent trends go towards bi-modality, where images and text\nare learned together, however, in order to truly understand the world, we need\nto integrate all these independent modalities. In this work we try to combine\nas many visual modalities as we can using little to no human supervision. In\norder to do this, we use pre-trained experts and procedural combinations\nbetween them on top of raw videos using a fully autonomous data-pipeline, which\nwe also open-source. We then make use of PHG-MAE, a model specifically designed\nto leverage multi-modal data. We show that this model which was efficiently\ndistilled into a low-parameter (<1M) can have competitive results compared to\nmodels of ~300M parameters. We deploy this model and analyze the use-case of\nreal-time semantic segmentation from handheld devices or webcams on commodity\nhardware. Finally, we deploy other off-the-shelf models using the same\nframework, such as DPT for near real-time depth estimation.",
+    "url": "http://arxiv.org/abs/2510.14862v1"
+  },
+  {
+    "title": "Exploring a cosmic ray inverse-Compton origin to the SZ-to-X-ray pressure deficit in the cool core cluster ZwCl 3146",
+    "authors": [
+      "Emily M. Silich",
+      "Jack Sayers",
+      "Philip F. Hopkins",
+      "Charles Romero",
+      "Brian Mason",
+      "John Orlowski-Scherer",
+      "Craig L. Sarazin"
+    ],
+    "summary": "We explore the possibility that inverse-Compton (IC) scattering of cosmic\nmicrowave background photons by $\\sim$GeV cosmic rays (CRs) injected by the\ncentral active galactic nucleus (AGN) in cool core (CC) clusters produces a\nnon-negligible continuum-like X-ray signal that is easily misinterpreted as\nintracluster medium (ICM) thermal bremsstrahlung continuum. This is\nparticularly relevant to the cooling flow problem--the lack of star formation\nrelative to X-ray-inferred ICM cooling rates. Using ZwCl 3146, a relaxed CC\nsystem at $z = 0.291$, we compare pressure profiles derived via X-rays and the\nthermal Sunyaev-Zel'dovich (SZ) effect. While SZ measurements probe only\nthermal ICM electrons, additional CR-IC emission would appear to boost the\nX-ray-inferred pressure. Relative to unity, we measure a $\\simeq30\\%$ decrement\nin $P_{SZ}/P_X$ within 100 kpc of the ZwCl 3146 center at a statistical\nsignificance of $\\simeq 3.3\\sigma$, consistent with predicted deficits from\nCR-IC contamination in reasonable models of central AGN-driven CR injection.\nX-ray spectral fits of a two-component model with thermal ICM and CR-IC\nemission are consistent with CR-IC as the cause of this deficit. We test\nalternative explanations and systematics that could drive such a decrement,\nwith the leading order systematics associated with halo triaxiality.\nCollectively, these systematics are unlikely to produce a $P_{SZ}/P_X$\ndecrement $\\gtrsim10\\%$. While our results establish that non-negligible CR-IC\nemission is plausible in ZwCl 3146, we stress that more detailed studies of\nlarger cluster samples are required to robustly assess whether CR-IC is\nrelevant to the cooling flow problem.",
+    "url": "http://arxiv.org/abs/2510.14820v1"
+  },
+  {
+    "title": "Balls and Bins and the Infinite Process with Random Deletions",
+    "authors": [
+      "Petra Berenbrink",
+      "Tom Friedetzky",
+      "Peter Kling",
+      "Lars Nagel"
+    ],
+    "summary": "We consider an infinite balls-into-bins process with deletions where in each\ndiscrete step $t$ a coin is tossed as to whether, with probability $\\beta(t)\n\\in (0,1)$, a new ball is allocated using the Greedy[2] strategy (which places\nthe ball in the lower loaded of two bins sampled uniformly at random) or, with\nremaining probability $1-\\beta(t)$, a ball is deleted from a non-empty bin\nchosen uniformly at random. Let $n$ be the number of bins and $m(t)$ the total\nload at time $t$. We are interested in bounding the discrepancy $x_{\\max}(t) -\nm(t)/n$ (current maximum load relative to current average) and the overload\n$x_{\\max}(t) - m_{\\max}(t)/n$ (current maximum load relative to highest average\nobserved so far).\n  We prove that at an arbitrarily chosen time $t$ the total number of balls\nabove the average is $O(n)$ and that the discrepancy is $ O(\\log(n))$. For the\ndiscrepancy, we provide a matching lower bound. Furthermore we prove that at an\narbitrarily chosen time $t$ the overload is $\\log\\log(n)+O(1)$. For \"good\"\ninsertion probability sequences (in which the average load of time intervals\nwith polynomial length increases in expectation) we show that even the\ndiscrepancy is bounded by $\\log\\log(n)+O(1)$.\n  One of our main analytical tools is a layered induction, as per [ABKU99].\nSince our model allows for rather more general scenarios than what was\npreviously considered, the formal analysis requires some extra ingredients as\nwell, in particular a detailed potential analysis. Furthermore, we simplify the\nsetup by applying probabilistic couplings to obtain certain \"recovery\"\nproperties, which eliminate much of the need for intricate and careful\nconditioning elsewhere in the analysis.",
+    "url": "http://arxiv.org/abs/2510.14798v1"
+  },
+  {
+    "title": "Stellar population astrophysics (SPA) with the TNG. The Phosphorus abundance on the young side of MilkyWay",
+    "authors": [
+      "Mingjie Jian",
+      "Xiaoting Fu",
+      "Valentina D'Orazi",
+      "Angela Bragaglia",
+      "S. Bijavara Seshashayana",
+      "He Zhao",
+      "Ziyi Guo",
+      "Karin Lind",
+      "Noriyuki Matsunaga",
+      "Antonino Nunnari",
+      "Giuseppe Bono",
+      "Nicoletta Sanna",
+      "Donatella Romano",
+      "Marina Dal Ponte"
+    ],
+    "summary": "We present phosphorus abundance measurements for a total of 102 giant stars,\nincluding 82 stars in 24 open clusters and 20 Cepheids, based on\nhigh-resolution near-infrared spectra obtained with GIANO-B. Evolution of\nphosphorus abundance, despite its astrophysical and biological significance,\nremains poorly understood due to a scarcity of observational data. By combining\nprecise stellar parameters from the optical, a robust line selection and\nmeasurement method, we measure phosphorus abundances using available P I lines.\nOur analysis confirms a declining trend in [P/Fe] with increasing [Fe/H] around\nsolar metallicity for clusters and Cepheids, consistent with previous studies.\nWe also report a [P/Fe]-age relation among open clusters older than 1 Gyr,\nindicating a time-dependent enrichment pattern. Such pattern can be explained\nby the different stellar formation history of their parental gas, with more\nefficient stellar formation in the gas of older clusters (thus with higher\nphosphorus abundances). [P/Fe] shows a flat trend among cepheids and clusters\nyounger than 1 Gyr (along with three Cepheids inside open clusters), possibly\nhinting at the phosphorus contribution from the previous-generation low-mass\nstars. Such trend suggests that the young clusters share a nearly common\nchemical history, with a mild increase in phosphorus production by low-mass\nstars.",
+    "url": "http://arxiv.org/abs/2510.14791v1"
+  },
+  {
+    "title": "The Hidden Story of Chemical Evolution in Local Star-Forming Nuclear Rings",
+    "authors": [
+      "Eva Sextl",
+      "Rolf-Peter Kudritzki"
+    ],
+    "summary": "A VLT/MUSE population synthesis study of metallicities in the nuclear\nstar-forming rings of four disk galaxies (NGC 613, NGC 1097, NGC 3351, NGC\n7552) is presented. Disentangling the spectral contributions of young and old\nstellar populations, we find a large spread of ages and metallicities of the\nold stars in the nuclear rings. This indicates a persistent infall of\nmetal-poor gas and ongoing episodic star formation over many gigayears. The\nyoung stars have metallicities a factor two to three higher than solar in all\ngalaxies except NGC 3351, where the range is from half to twice solar.\nPreviously reported detections of extremely metal poor regions at young stellar\nage on the rings of these four galaxies are a methodological artifact of the\naverage over all stars, young and old. In addition, it is important to include\ncontributions of very young stars ($<6$ Myr) in this environment. For each of\nthe four galaxies, the extinction maps generated through our population\nsynthesis analysis provide support for the infall scenario. They reveal dust\nlanes along the leading edges of the stellar bars, indicating the flow of\ninterstellar material towards the circumnuclear zone. Prominent stellar\nclusters show little extinction, most likely because of the onset of stellar\nwinds. Inside and on the nuclear rings, regions that are largely free of\nextinction are detected.",
+    "url": "http://arxiv.org/abs/2510.14757v1"
+  },
+  {
+    "title": "Unsupervised Learning to Recognize Quantum Phases of Matter",
+    "authors": [
+      "Mehran Khosrojerdi",
+      "Alessandro Cuccoli",
+      "Paola Verrucchi",
+      "Leonardo Banchi"
+    ],
+    "summary": "Drawing the quantum phase diagram of a many-body system in the parameter\nspace of its Hamiltonian can be seen as a learning problem, which implies\nlabelling the corresponding ground states according to some classification\ncriterium that defines the phases. In this work we adopt unsupervised learning,\nwhere the algorithm has no access to any priorly labeled states, as a tool for\ndetermining quantum phase diagrams of many-body systems. The algorithm directly\nworks with quantum states: given the ground-state configurations for different\nvalues of the Hamiltonian parameters, the process uncovers the most significant\nway of grouping them based on a similarity criterion that refers to the\nfidelity between quantum states, that can be easily estimated, even\nexperimentally. We benchmark our method with two specific spin-$\\frac{1}{2}$\nchains, with states determined via tensor network techniques. We find that\nunsupervised learning algorithms based on spectral clustering, combined with\n``silhouette'' and ``elbow'' methods for determining the optimal number of\nphases, can accurately reproduce the phase diagrams. Our results show how\nunsupervised learning can autonomously recognize and possibly unveil novel\nphases of quantum matter.",
+    "url": "http://arxiv.org/abs/2510.14742v1"
+  },
+  {
+    "title": "Asymptotics for the percolation threshold of finitary random interlacements in four and higher dimensions",
+    "authors": [
+      "Yijie Bi",
+      "Zhenhao Cai",
+      "Xinyi Li",
+      "Bal\u00e1zs R\u00e1th",
+      "Yuan Zhang"
+    ],
+    "summary": "We establish sharp asymptotic bounds for the critical intensity of the\nFinitary Random Interlacements (FRI) model in four and higher dimensions with\ngeneral trajectory length distributions. Our proof reveals that the\nconstruction of near-critical FRI clusters in four and higher dimensions is\nessentially analogous to a Galton-Watson process, whose expected number of\noffspring corresponds to the capacity of a random walk killed at the given\nlength.",
+    "url": "http://arxiv.org/abs/2510.14734v1"
+  },
+  {
+    "title": "Expansion kinematics of young clusters. II. NGC 2264 N & S and Collinder 95 with HectoSpec",
+    "authors": [
+      "Ishani Cheshire",
+      "Joseph J. Armstrong",
+      "Jonathan C. Tan"
+    ],
+    "summary": "Aims: Studying the dynamical evolution of young clusters is crucial for a\nmore general understanding of the star formation process. Methods: We took\nspectra of >600 candidate pre-main sequence (PMS) stars in several nearby young\nclusters (NGC 2264 N & S, Collinder 95, and Collinder 359) using MMT/Hectospec.\nThese spectra were analyzed for H{\\alpha} emission and lithium absorption,\nfeatures indicative of low-mass young stellar objects (YSOs) still in their PMS\nevolution. We complemented these samples with YSOs identified via Gaia DR3\nvariability. In conjunction with Gaia astrometry, these data enable an analysis\nof cluster structure, kinematics and ages. In particular, we searched for halos\nof YSOs around our targets to test models of young cluster dynamical evolution.\nResults: For the NGC 2264 N & S cluster pair we identified 354 YSOs, while for\nCollinder 95 and 359 we identified 130 and 7 YSOs, respectively. We calculate\nkinematic \"traceback ages\" for YSOs in these clusters, which we compare to\nisochronal ages estimated using several sets of stellar evolution models. We\nfind for NGC 2264 N & S that kinematic ages are generally smaller than their\nisochronal ages, which may indicate these systems remained bound for a few Myr\nbefore their current state of expansion. On the other hand, kinematic ages for\nCollinder 95 are often significantly larger than isochronal ages, which implies\nmany of these YSOs did not originate from a central, dense region, leading to\noverestimated kinematic ages. Conclusions: We conclude that NGC 2264 N & S\nclusters likely formed as initially bound and compact systems, but have been\ngradually evaporating as cluster members become unbound, forming halos of\nunbound YSOs surrounding the cluster cores. We conclude that Collinder 95\nlikely formed initially sparse and substructured and has been dispersing since\ngas expulsion.",
+    "url": "http://arxiv.org/abs/2510.14733v1"
+  },
+  {
+    "title": "Deadlock-free routing for Full-mesh networks without using Virtual Channels",
+    "authors": [
+      "Alejandro Cano",
+      "Crist\u00f3bal Camarero",
+      "Carmen Mart\u00ednez",
+      "Ram\u00f3n Beivide"
+    ],
+    "summary": "High-radix, low-diameter networks like HyperX and Dragonfly use a Full-mesh\ncore, and rely on multiple virtual channels (VCs) to avoid packet deadlocks in\nadaptive routing. However, VCs introduce significant overhead in the switch in\nterms of area, power, and design complexity, limiting the switch scalability.\nThis paper starts by revisiting VC-less routing through link ordering schemes\nin Full-mesh networks, which offer implementation simplicity but suffer from\nperformance degradation under adversarial traffic. Thus, to overcome these\nchallenges, we propose TERA (Topology-Embedded Routing Algorithm), a novel\nrouting algorithm which employs an embedded physical subnetwork to provide\ndeadlock-free non-minimal paths without using VCs.\n  In a Full-mesh network, TERA outperforms link ordering routing algorithms by\n80% when dealing with adversarial traffic, and up to 100% in application\nkernels. Furthermore, compared to other VC-based approaches, it reduces buffer\nrequirements by 50%, while maintaining comparable latency and throughput.\nLastly, early results from a 2D-HyperX evaluation show that TERA outperforms\nstate-of-the-art algorithms that use the same number of VCs, achieving\nperformance improvements of up to 32%.",
+    "url": "http://arxiv.org/abs/2510.14730v1"
+  },
+  {
+    "title": "MCbiF: Measuring Topological Autocorrelation in Multiscale Clusterings via 2-Parameter Persistent Homology",
+    "authors": [
+      "Juni Schindler",
+      "Mauricio Barahona"
+    ],
+    "summary": "Datasets often possess an intrinsic multiscale structure with meaningful\ndescriptions at different levels of coarseness. Such datasets are naturally\ndescribed as multi-resolution clusterings, i.e., not necessarily hierarchical\nsequences of partitions across scales. To analyse and compare such sequences,\nwe use tools from topological data analysis and define the Multiscale\nClustering Bifiltration (MCbiF), a 2-parameter filtration of abstract\nsimplicial complexes that encodes cluster intersection patterns across scales.\nThe MCbiF can be interpreted as a higher-order extension of Sankey diagrams and\nreduces to a dendrogram for hierarchical sequences. We show that the\nmultiparameter persistent homology (MPH) of the MCbiF yields a finitely\npresented and block decomposable module, and its stable Hilbert functions\ncharacterise the topological autocorrelation of the sequence of partitions. In\nparticular, at dimension zero, the MPH captures violations of the refinement\norder of partitions, whereas at dimension one, the MPH captures higher-order\ninconsistencies between clusters across scales. We demonstrate through\nexperiments the use of MCbiF Hilbert functions as topological feature maps for\ndownstream machine learning tasks. MCbiF feature maps outperform\ninformation-based baseline features on both regression and classification tasks\non synthetic sets of non-hierarchical sequences of partitions. We also show an\napplication of MCbiF to real-world data to measure non-hierarchies in wild mice\nsocial grouping patterns across time.",
+    "url": "http://arxiv.org/abs/2510.14710v1"
+  },
+  {
+    "title": "xLLM Technical Report",
+    "authors": [
+      "Tongxuan Liu",
+      "Tao Peng",
+      "Peijun Yang",
+      "Xiaoyang Zhao",
+      "Xiusheng Lu",
+      "Weizhe Huang",
+      "Zirui Liu",
+      "Xiaoyu Chen",
+      "Zhiwei Liang",
+      "Jun Xiong",
+      "Donghe Jin",
+      "Minchao Zhang",
+      "Jinrong Guo",
+      "Yingxu Deng",
+      "Xu Zhang",
+      "Xianzhe Dong",
+      "Siqi Wang",
+      "Siyu Wu",
+      "Yu Wu",
+      "Zihan Tang",
+      "Yuting Zeng",
+      "Yanshu Wang",
+      "Jinguang Liu",
+      "Meng Kang",
+      "Menxin Li",
+      "Yunlong Wang",
+      "Yiming Liu",
+      "Xiaolong Ma",
+      "Yifan Wang",
+      "Yichen Zhang",
+      "Jinrun Yin",
+      "Keyang Zheng",
+      "Jiawei Yin",
+      "Jun Zhang",
+      "Ziyue Wang",
+      "Xiaobo Lin",
+      "Liangyu Liu",
+      "Liwei Lan",
+      "Yang Liu",
+      "Chunhua Peng",
+      "Han Liu",
+      "Songcheng Ren",
+      "Xuezhu Wang",
+      "Yunheng Shen",
+      "Yi Wang",
+      "Guyue Liu",
+      "Hui Chen",
+      "Tong Yang",
+      "Hailong Yang",
+      "Jing Li",
+      "Guiguang Ding",
+      "Ke Zhang"
+    ],
+    "summary": "We introduce xLLM, an intelligent and efficient Large Language Model (LLM)\ninference framework designed for high-performance, large-scale enterprise-grade\nserving, with deep optimizations for diverse AI accelerators. To address these\nchallenges, xLLM builds a novel decoupled service-engine architecture. At the\nservice layer, xLLM-Service features an intelligent scheduling module that\nefficiently processes multimodal requests and co-locates online and offline\ntasks through unified elastic scheduling to maximize cluster utilization. This\nmodule also relies on a workload-adaptive dynamic Prefill-Decode (PD)\ndisaggregation policy and a novel Encode-Prefill-Decode (EPD) disaggregation\npolicy designed for multimodal inputs. Furthermore, it incorporates a\ndistributed architecture to provide global KV Cache management and robust\nfault-tolerant capabilities for high availability. At the engine layer,\nxLLM-Engine co-optimizes system and algorithm designs to fully saturate\ncomputing resources. This is achieved through comprehensive multi-layer\nexecution pipeline optimizations, an adaptive graph mode and an xTensor memory\nmanagement. xLLM-Engine also further integrates algorithmic enhancements such\nas optimized speculative decoding and dynamic EPLB, collectively serving to\nsubstantially boost throughput and inference efficiency. Extensive evaluations\ndemonstrate that xLLM delivers significantly superior performance and resource\nefficiency. Under identical TPOT constraints, xLLM achieves throughput up to\n1.7x that of MindIE and 2.2x that of vLLM-Ascend with Qwen-series models, while\nmaintaining an average throughput of 1.7x that of MindIE with Deepseek-series\nmodels. xLLM framework is publicly available at\nhttps://github.com/jd-opensource/xllm and\nhttps://github.com/jd-opensource/xllm-service.",
+    "url": "http://arxiv.org/abs/2510.14686v1"
+  },
+  {
+    "title": "Hierarchical shot-noise Cox process mixtures for clustering across groups",
+    "authors": [
+      "Alessandro Carminati",
+      "Mario Beraha",
+      "Federico Camerlenghi",
+      "Alessandra Guglielmi"
+    ],
+    "summary": "Clustering observations across partially exchangeable groups of data is a\nroutine task in Bayesian nonparametrics. Previously proposed models allow for\nclustering across groups by sharing atoms in the group-specific mixing\nmeasures. However, exact atom sharing can be overly rigid when groups differ\nsubtly, introducing a trade-off between clustering and density estimates and\nfragmenting across-group clusters, particularly at larger sample sizes. We\nintroduce the hierarchical shot-noise Cox process (HSNCP) mixture model, where\ngroup-specific atoms concentrate around shared centers through a kernel. This\nenables accurate density estimation within groups and flexible borrowing across\ngroups, overcoming the density-clustering trade-off of previous approaches. Our\nconstruction, built on the shot-noise Cox process, remains analytically\ntractable: we derive closed-form prior moments and an inter-group correlation,\nobtain the marginal law and predictive distribution for latent parameters, as\nwell as the posterior of the mixing measures given the latent parameters. We\ndevelop an efficient conditional MCMC algorithm for posterior inference. We\nassess the performance of the HSNCP model through simulations and an\napplication to a large galaxy dataset, demonstrating balanced across-group\nclusters and improved density estimates compared with the hierarchical\nDirichlet process, including under model misspecification.",
+    "url": "http://arxiv.org/abs/2510.14681v1"
+  },
+  {
+    "title": "Stability of trapped fluid clusters in two-phase porous media flow",
+    "authors": [
+      "Mathias Klahn",
+      "Guate Linga",
+      "Tanguy Le Borgne",
+      "Joachim Mathiesen"
+    ],
+    "summary": "A key challenge in multiphase flow through porous media is to understand and\npredict the conditions under which trapped fluid clusters become mobilized.\nHere, we investigate the stability of such clusters in two-phase flow and\npresent a simple, quasistatic model that accurately determines the critical\nBond number (that is, the critical ratio between the average pressure gradient\nof the flow and the surface tension) for the onset of cluster mobilization. The\nmodel is derived by combining elementary geometrical considerations with mass\nconservation and a mechanical equilibrium condition, resulting in a system of\ncoupled differential equations. Our derivation sheds new light on the\nmechanisms that govern cluster stability. In addition, since the number of\nequations equals the number of cluster openings, our model is significantly\nfaster than direct numerical simulations of the same problem and enables\nefficient exploration of the system's parameter space. Using this approach, we\nhighlight a discrepancy with the prediction of current mean-field theories,\nwhich predict that the largest stable cluster size scales in proportion to\n$r/\\text{Bo}^\\alpha$, where $r$ is a typical pore size, $\\text{Bo}$ is the Bond\nnumber and $\\alpha$ is a fixed exponent. We discuss the mechanisms that explain\nthe breakdown of the mean field theories, and we show that a scaling law of\nthis form can only exist if $\\alpha$ is allowed to depend on a broad set of\nflow and geometric parameters.",
+    "url": "http://arxiv.org/abs/2510.14654v1"
+  },
+  {
+    "title": "A three-step framework for noisy image segmentation in brain MRI",
+    "authors": [
+      "Laura Antonelli",
+      "Valentina De Simone",
+      "Marco Viola"
+    ],
+    "summary": "Magnetic Resonance Imaging (MRI) is essential for noninvasive generation of\nhigh-quality images of human tissues. Accurate segmentation of MRI data is\ncritical for medical applications like brain anatomy analysis and disease\ndetection. However, challenges such as intensity inhomogeneity, noise, and\nartifacts complicate this process. To address these issues, we propose a\nthree-step framework exploiting the idea of Cartoon-Texture evolution to\nproduce a denoised and debiased MR image. The first step involves identifying\nstatistical information about the nature of the noise using a suitable image\ndecomposition. In the second step, a multiplicative intrinsic component model\nis applied to a smother version of the image, simultaneously reconstructing the\nbias and removing noise using noise information from the previous step. At the\nfinal step, standard clustering techniques are used to create an accurate\nsegmentation. Additionally, we present a convergence analysis of the ADMM\nscheme for solving the nonlinear optimization problem with multiaffine\nconstraints resulting from the second step. Numerical tests demonstrate the\neffectiveness of our framework, especially in noisy brain segmentation, both\nfrom a qualitative and a quantitative viewpoint, compared to similar methods.",
+    "url": "http://arxiv.org/abs/2510.14646v1"
+  },
+  {
+    "title": "The Bidding Games: Reinforcement Learning for MEV Extraction on Polygon Blockchain",
+    "authors": [
+      "Andrei Seoev",
+      "Leonid Gremyachikh",
+      "Anastasiia Smirnova",
+      "Yash Madhwal",
+      "Alisa Kalacheva",
+      "Dmitry Belousov",
+      "Ilia Zubov",
+      "Aleksei Smirnov",
+      "Denis Fedyanin",
+      "Vladimir Gorgadze",
+      "Yury Yanovich"
+    ],
+    "summary": "In blockchain networks, the strategic ordering of transactions within blocks\nhas emerged as a significant source of profit extraction, known as Maximal\nExtractable Value (MEV). The transition from spam-based Priority Gas Auctions\nto structured auction mechanisms like Polygon Atlas has transformed MEV\nextraction from public bidding wars into sealed-bid competitions under extreme\ntime constraints. While this shift reduces network congestion, it introduces\ncomplex strategic challenges where searchers must make optimal bidding\ndecisions within a sub-second window without knowledge of competitor behavior\nor presence. Traditional game-theoretic approaches struggle in this\nhigh-frequency, partially observable environment due to their reliance on\ncomplete information and static equilibrium assumptions. We present a\nreinforcement learning framework for MEV extraction on Polygon Atlas and make\nthree contributions: (1) A novel simulation environment that accurately models\nthe stochastic arrival of arbitrage opportunities and probabilistic competition\nin Atlas auctions; (2) A PPO-based bidding agent optimized for real-time\nconstraints, capable of adaptive strategy formulation in continuous action\nspaces while maintaining production-ready inference speeds; (3) Empirical\nvalidation demonstrating our history-conditioned agent captures 49\\% of\navailable profits when deployed alongside existing searchers and 81\\% when\nreplacing the market leader, significantly outperforming static bidding\nstrategies. Our work establishes that reinforcement learning provides a\ncritical advantage in high-frequency MEV environments where traditional\noptimization methods fail, offering immediate value for industrial participants\nand protocol designers alike.",
+    "url": "http://arxiv.org/abs/2510.14642v1"
+  },
+  {
+    "title": "Intent Clustering with Shared Pseudo-Labels",
+    "authors": [
+      "I-Fan Lin",
+      "Faegheh Hasibi",
+      "Suzan Verberne"
+    ],
+    "summary": "In this paper, we propose an intuitive, training-free and label-free method\nfor intent clustering that makes minimal assumptions using lightweight and\nopen-source LLMs. Many current approaches rely on commercial LLMs, which are\ncostly, and offer limited transparency. Additionally, their methods often\nexplicitly depend on knowing the number of clusters in advance, which is often\nnot the case in realistic settings. To address these challenges, instead of\nasking the LLM to match similar text directly, we first ask it to generate\npseudo-labels for each text, and then perform multi-label classification in\nthis pseudo-label set for each text. This approach is based on the hypothesis\nthat texts belonging to the same cluster will share more labels, and will\ntherefore be closer when encoded into embeddings. These pseudo-labels are more\nhuman-readable than direct similarity matches. Our evaluation on four benchmark\nsets shows that our approach achieves results comparable to and better than\nrecent baselines, while remaining simple and computationally efficient. Our\nfindings indicate that our method can be applied in low-resource scenarios and\nis stable across multiple models and datasets.",
+    "url": "http://arxiv.org/abs/2510.14640v1"
+  },
+  {
+    "title": "MPI-over-CXL: Enhancing Communication Efficiency in Distributed HPC Systems",
+    "authors": [
+      "Miryeong Kwon",
+      "Donghyun Gouk",
+      "Hyein Woo",
+      "Junhee Kim",
+      "Jinwoo Baek",
+      "Kyungkuk Nam",
+      "Sangyoon Ji",
+      "Jiseon Kim",
+      "Hanyeoreum Bae",
+      "Junhyeok Jang",
+      "Hyunwoo You",
+      "Junseok Moon",
+      "Myoungsoo Jung"
+    ],
+    "summary": "MPI implementations commonly rely on explicit memory-copy operations,\nincurring overhead from redundant data movement and buffer management. This\noverhead notably impacts HPC workloads involving intensive inter-processor\ncommunication. In response, we introduce MPI-over-CXL, a novel MPI\ncommunication paradigm leveraging CXL, which provides cache-coherent shared\nmemory across multiple hosts. MPI-over-CXL replaces traditional data-copy\nmethods with direct shared memory access, significantly reducing communication\nlatency and memory bandwidth usage. By mapping shared memory regions directly\ninto the virtual address spaces of MPI processes, our design enables efficient\npointer-based communication, eliminating redundant copying operations. To\nvalidate this approach, we implement a comprehensive hardware and software\nenvironment, including a custom CXL 3.2 controller, FPGA-based multi-host\nemulation, and dedicated software stack. Our evaluations using representative\nbenchmarks demonstrate substantial performance improvements over conventional\nMPI systems, underscoring MPI-over-CXL's potential to enhance efficiency and\nscalability in large-scale HPC environments.",
+    "url": "http://arxiv.org/abs/2510.14622v1"
+  },
+  {
+    "title": "The multimessenger view of Pulsar Timing Array black holes with the Horizon-AGN simulation",
+    "authors": [
+      "Hippolyte Quelquejay Leclere",
+      "Kunyang Li",
+      "Marta Volonteri",
+      "Stanislav Babak",
+      "Ricarda S. Beckmann",
+      "Yohan Dubois",
+      "Clotilde Laigle",
+      "Natalie A. Webb"
+    ],
+    "summary": "We use the Horizon-AGN cosmological simulation to study the properties of\nsupermassive black hole binaries (MBHBs) contributing most to the gravitational\nwave background (GWB) signal expected in the pulsar timing array (PTA) band. We\ndevelop a pipeline to generate realistic populations of MBHBs, allowing us to\nestimate both the characteristic strain and GWB time series observable by PTA\nexperiments. We identify potential continuous wave (CW) candidates standing\nabove the background noise, using toy PTA sensitivities representing the\ncurrent EPTA and future SKA. We estimate the probability of detecting at least\none CW with signal-to-noise ratio $>3$ to be $4\\%$ ($20\\%$) for EPTA (SKA)-like\nsensitivities, assuming a 10-year baseline. We find the GWB to be dominated by\nhundreds to thousands of binaries at redshifts in the range $0.05-1$, with\nchirp masses of $10^{8.5}-10^{9.5}\\, M_\\odot$, hosted mainly in quiescent\nmassive galaxies residing in halos of mass $\\sim 10^{13}\\, M_\\odot$. CW\ncandidates have larger masses, lower redshifts and are found in even more\nmassive halos, typical of galaxy groups and clusters. The majority of these\nsystems would appear as AGN rather than quasars, because of their low Eddington\nratios. Nevertheless, CW candidates with $f_{\\rm Edd}>10^{-3}$ can still\noutshine their hosts, particularly in radio and X-ray bands, suggesting them as\nthe most promising route for identification. Our findings imply that optical\nand near-infrared searches based on light curve variability are challenging and\nbiased toward more luminous systems. Finally, we highlight important caveats in\nthe common method used to compare PTA observations with theoretical models. We\nfind that GWB spectral inferences used by PTAs could be biased toward shallower\nslopes and higher amplitudes at $f=1/\\rm yr$, thereby reducing the apparent\ntension between astrophysical expectations and PTA observations.",
+    "url": "http://arxiv.org/abs/2510.14613v1"
+  },
+  {
+    "title": "JASDA: Introducing Job-Aware Scheduling in Scheduler-Driven Job Atomization",
+    "authors": [
+      "Michal Konopa",
+      "Jan Fesl",
+      "Ladislav Ber \u00e1nek"
+    ],
+    "summary": "The increasing complexity and temporal variability of workloads on\nMIG-enabled GPUs challenge the scalability of traditional centralized\nscheduling. Building upon the SJA concept, this paper introduces JASDA-a novel\nparadigm that extends SJA from a largely centralized scheduling model toward a\nfully decentralized negotiation process. In JASDA, jobs actively generate and\nscore feasible subjobs in response to scheduler-announced execution windows,\nwhile the scheduler performs policy-driven clearing that balances utilization,\nfairness, and temporal responsiveness. This bidirectional, iterative\ninteraction embeds feedback, calibration, and probabilistic safety directly\ninto the scheduling loop, enabling adaptive and transparent decision-making. By\ncoupling principles from auction theory and online optimization with the\ntemporal granularity of GPU workloads, JASDA provides a scalable foundation for\nmarket-aware and fairness-driven resource management-bridging theoretical\nscheduling models with practical deployment in modern MIG-enabled environments\nrelevant to Artificial Intelligence and Agriculture 4.0.",
+    "url": "http://arxiv.org/abs/2510.14599v1"
+  },
+  {
+    "title": "Zero-Shot Wildlife Sorting Using Vision Transformers: Evaluating Clustering and Continuous Similarity Ordering",
+    "authors": [
+      "Hugo Markoff",
+      "Jevgenijs Galaktionovs"
+    ],
+    "summary": "Camera traps generate millions of wildlife images, yet many datasets contain\nspecies that are absent from existing classifiers. This work evaluates\nzero-shot approaches for organizing unlabeled wildlife imagery using\nself-supervised vision transformers, developed and tested within the Animal\nDetect platform for camera trap analysis. We compare unsupervised clustering\nmethods (DBSCAN, GMM) across three architectures (CLIP, DINOv2, MegaDescriptor)\ncombined with dimensionality reduction techniques (PCA, UMAP), and we\ndemonstrate continuous 1D similarity ordering via t-SNE projection. On a\n5-species test set with ground truth labels used only for evaluation, DINOv2\nwith UMAP and GMM achieves 88.6 percent accuracy (macro-F1 = 0.874), while 1D\nsorting reaches 88.2 percent coherence for mammals and birds and 95.2 percent\nfor fish across 1,500 images. Based on these findings, we deployed continuous\nsimilarity ordering in production, enabling rapid exploratory analysis and\naccelerating manual annotation workflows for biodiversity monitoring.",
+    "url": "http://arxiv.org/abs/2510.14596v1"
+  },
+  {
+    "title": "ScalePool: Hybrid XLink-CXL Fabric for Composable Resource Disaggregation in Unified Scale-up Domains",
+    "authors": [
+      "Hyein Woo",
+      "Miryeong Kwon",
+      "Jiseon Kim",
+      "Eunjee Na",
+      "Hanjin Choi",
+      "Seonghyeon Jang",
+      "Myoungsoo Jung"
+    ],
+    "summary": "This paper proposes ScalePool, a novel cluster architecture designed to\ninterconnect numerous accelerators using unified hardware interconnects rather\nthan traditional long-distance networking. ScalePool integrates\nAccelerator-Centric Links (XLink) and Compute Express Link (CXL) into a unified\nXLink-CXL hybrid fabric. Specifically, ScalePool employs XLink for\nintra-cluster, low-latency accelerator communication, while using hierarchical\nCXL-based switching fabrics for scalable and coherent inter-cluster memory\nsharing. By abstracting interfaces through CXL, ScalePool structurally resolves\ninteroperability constraints, enabling heterogeneous cluster operation and\ncomposable resource disaggregation. In addition, ScalePool introduces explicit\nmemory tiering: the latency-critical tier-1 combines accelerator-local memory\nwith coherence-centric CXL and XLink, whereas the highcapacity tier-2 employs\ndedicated memory nodes interconnected by a CXL-based fabric, achieving scalable\nand efficient memory pooling. Evaluation results show that ScalePool\naccelerates LLM training by 1.22x on average and up to 1.84x compared to\nconventional RDMA-based environments. Furthermore, the proposed tier-2 memory\ndisaggregation strategy reduces latency by up to 4.5x for memory-intensive\nworkloads.",
+    "url": "http://arxiv.org/abs/2510.14580v1"
+  },
+  {
+    "title": "BalanceGS: Algorithm-System Co-design for Efficient 3D Gaussian Splatting Training on GPU",
+    "authors": [
+      "Junyi Wu",
+      "Jiaming Xu",
+      "Jinhao Li",
+      "Yongkang Zhou",
+      "Jiayi Pan",
+      "Xingyang Li",
+      "Guohao Dai"
+    ],
+    "summary": "3D Gaussian Splatting (3DGS) has emerged as a promising 3D reconstruction\ntechnique. The traditional 3DGS training pipeline follows three sequential\nsteps: Gaussian densification, Gaussian projection, and color splatting.\nDespite its promising reconstruction quality, this conventional approach\nsuffers from three critical inefficiencies: (1) Skewed density allocation\nduring Gaussian densification, (2) Imbalanced computation workload during\nGaussian projection and (3) Fragmented memory access during color splatting.\n  To tackle the above challenges, we introduce BalanceGS, the algorithm-system\nco-design for efficient training in 3DGS. (1) At the algorithm level, we\npropose heuristic workload-sensitive Gaussian density control to automatically\nbalance point distributions - removing 80% redundant Gaussians in dense regions\nwhile filling gaps in sparse areas. (2) At the system level, we propose\nSimilarity-based Gaussian sampling and merging, which replaces the static\none-to-one thread-pixel mapping with adaptive workload distribution - threads\nnow dynamically process variable numbers of Gaussians based on local cluster\ndensity. (3) At the mapping level, we propose reordering-based memory access\nmapping strategy that restructures RGB storage and enables batch loading in\nshared memory.\n  Extensive experiments demonstrate that compared with 3DGS, our approach\nachieves a 1.44$\\times$ training speedup on a NVIDIA A100 GPU with negligible\nquality degradation.",
+    "url": "http://arxiv.org/abs/2510.14564v1"
+  },
+  {
+    "title": "Spatially Aware Self-Supervised Models for Multi-Channel Neural Speaker Diarization",
+    "authors": [
+      "Jiangyu Han",
+      "Ruoyu Wang",
+      "Yoshiki Masuyama",
+      "Marc Delcroix",
+      "Johan Rohdin",
+      "Jun Du",
+      "Lukas Burget"
+    ],
+    "summary": "Self-supervised models such as WavLM have demonstrated strong performance for\nneural speaker diarization. However, these models are typically pre-trained on\nsingle-channel recordings, limiting their effectiveness in multi-channel\nscenarios. Existing diarization systems built on these models often rely on\nDOVER-Lap to combine outputs from individual channels. Although effective, this\napproach incurs substantial computational overhead and fails to fully exploit\nspatial information. In this work, building on DiariZen, a pipeline that\ncombines WavLM-based local endto-end neural diarization with speaker embedding\nclustering, we introduce a lightweight approach to make pre-trained WavLM\nspatially aware by inserting channel communication modules into the early\nlayers. Our method is agnostic to both the number of microphone channels and\narray topologies, ensuring broad applicability. We further propose to fuse\nmulti-channel speaker embeddings by leveraging spatial attention weights.\nEvaluations on five public datasets show consistent improvements over\nsingle-channel baselines and demonstrate superior performance and efficiency\ncompared with DOVER-Lap. Our source code is publicly available at\nhttps://github.com/BUTSpeechFIT/DiariZen.",
+    "url": "http://arxiv.org/abs/2510.14551v1"
+  },
+  {
+    "title": "Built-in precision: Improving cluster cosmology through the self-calibration of a galaxy cluster sample",
+    "authors": [
+      "Junhao Zhan",
+      "Christian L. Reichardt"
+    ],
+    "summary": "We examine the potential improvements in constraints on the dark energy\nequation of state parameter $w$ and matter density $\\Omega_M$ from using\nclustering information along with number counts for future samples of thermal\nSunyaev-Zel'dovich selected galaxy clusters. We quantify the relative\nimprovement from including the clustering power spectrum information for three\ncluster sample sizes from 33,000 to 140,000 clusters and for three assumed\npriors on the mass slope and redshift evolution of the mass-observable\nrelation. As expected, clustering information has the largest impact when (i)\nthere are more clusters and (ii) the mass-observable priors are weaker. For\ncurrent knowledge of the cluster mass-observable relationship, we find the\naddition of clustering information reduces the uncertainty on the dark energy\nequation of state, $\\sigma(w)$, by factors of $1.023\\pm 0.007$ to $1.0790\\pm\n0.011$, with larger improvements observed with more clusters. Clustering\ninformation is more important for the matter density, with $\\sigma(\\Omega_M)$\nreduced by factors of $1.068 \\pm 007$ to $1.145 \\pm 0.012$. The improvement in\n$w$ constraints from adding clustering information largely vanishes after\ntightening priors on the mass-observable relationship by a factor of two. For\nweaker priors, we find clustering information improves the determination of the\ncluster mass slope and redshift evolution by factors of $1.389 \\pm 0.041$ and\n$1.340 \\pm 0.039$ respectively. These findings highlight that, with the\nanticipated surge in cluster detections from next generation surveys,\nself-calibration through clustering information will provide an independent\ncross-check on the mass slope and redshift evolution of the mass-observable\nrelationship as well as enhancing the precision achievable from cluster\ncosmology.",
+    "url": "http://arxiv.org/abs/2510.14464v1"
+  },
+  {
+    "title": "Towards Exact Temporal Aggregation of Time-Coupled Energy Storage Models via Active Constraint Set Identification and Machine Learning",
+    "authors": [
+      "Thomas Klatzer",
+      "David Cardona-Vasquez",
+      "Luca Santosuosso",
+      "Sonja Wogrin"
+    ],
+    "summary": "Time series aggregation (TSA) methods aim to construct temporally aggregated\noptimization models that accurately represent the output space of their\nfull-scale counterparts while using a significantly reduced dimensionality in\nthe input space. This paper presents the first approach that achieves an exact\nTSA of a full-scale power system model -- even in the presence of energy\nstorage time-coupling constraints -- by leveraging active constraint sets and\ndual information. This advances the state of the art beyond existing TSA\napproaches, which typically cannot guarantee solution accuracy or rely on\niterative procedures to determine the required number of representative\nperiods. To bridge the gap between our theoretical analysis and their practical\napplication, we employ machine learning approaches, i.e., classification and\nclustering, to inform TSA in models that co-schedule variable renewable energy\nsources and energy storage. Numerical results demonstrate substantially\nimproved computational performance relative to the full-scale model, while\nmaintaining high solution accuracy.",
+    "url": "http://arxiv.org/abs/2510.14451v1"
+  },
+  {
+    "title": "Personalized federated learning, Row-wise fusion regularization, Multivariate modeling, Sparse estimation",
+    "authors": [
+      "Runlin Zhou",
+      "Letian Li",
+      "Zemin Zheng"
+    ],
+    "summary": "We study personalized federated learning for multivariate responses where\nclient models are heterogeneous yet share variable-level structure. Existing\nentry-wise penalties ignore cross-response dependence, while matrix-wise fusion\nover-couples clients. We propose a Sparse Row-wise Fusion (SROF) regularizer\nthat clusters row vectors across clients and induces within-row sparsity, and\nwe develop RowFed, a communication-efficient federated algorithm that embeds\nSROF into a linearized ADMM framework with privacy-preserving partial\nparticipation. Theoretically, we establish an oracle property for\nSROF-achieving correct variable-level group recovery with asymptotic\nnormality-and prove convergence of RowFed to a stationary solution. Under\nrandom client participation, the iterate gap contracts at a rate that improves\nwith participation probability. Empirically, simulations in heterogeneous\nregimes show that RowFed consistently lowers estimation and prediction error\nand strengthens variable-level cluster recovery over NonFed, FedAvg, and a\npersonalized matrix-fusion baseline. A real-data study further corroborates\nthese gains while preserving interpretability. Together, our results position\nrow-wise fusion as an effective and transparent paradigm for large-scale\npersonalized federated multivariate learning, bridging the gap between\nentry-wise and matrix-wise formulations.",
+    "url": "http://arxiv.org/abs/2510.14413v1"
+  },
+  {
+    "title": "FairBatching: Fairness-Aware Batch Formation for LLM Inference",
+    "authors": [
+      "Hongtao Lyu",
+      "Boyue Liu",
+      "Mingyu Wu",
+      "Haibo Chen"
+    ],
+    "summary": "Large language model (LLM) inference systems face a fundamental tension\nbetween minimizing Time-to-First-Token (TTFT) latency for new requests and\nmaintaining a high, steady token generation rate (low Time-Per-Output-Token, or\nTPOT) for ongoing requests. Existing stall-free batching schedulers proposed by\nSarathi, while effective at preventing decode stalls, introduce significant\ncomputational unfairness. They prioritize decode tasks excessively,\nsimultaneously leading to underutilized decode slack and unnecessary prefill\nqueuing delays, which collectively degrade the system's overall quality of\nservice (QoS).\n  This work identifies the root cause of this unfairness: the non-monotonic\nnature of Time-Between-Tokens (TBT) as a scheduling metric and the rigid\ndecode-prioritizing policy that fails to adapt to dynamic workload bursts. We\ntherefore propose FairBatching, a novel LLM inference scheduler that enforces\nfair resource allocation between prefill and decode tasks. It features an\nadaptive batch capacity determination mechanism, which dynamically adjusts the\ncomputational budget to improve the GPU utilization without triggering SLO\nviolations. Its fair and dynamic batch formation algorithm breaks away from the\ndecode-prioritizing paradigm, allowing computation resources to be reclaimed\nfrom bursting decode tasks to serve prefill surges, achieving global fairness.\nFurthermore, FairBatching provides a novel load estimation method, enabling\nmore effective coordination with upper-level schedulers. Implemented and\nevaluated on realistic traces, FairBatching significantly reduces TTFT tail\nlatency by up to 2.29x while robustly maintaining TPOT SLOs, achieving overall\n20.0% improvement in single-node capacity and 54.3% improvement in\ncluster-level capacity.",
+    "url": "http://arxiv.org/abs/2510.14392v1"
+  },
+  {
+    "title": "Is GW231123 a hierarchical merger?",
+    "authors": [
+      "Lachlan Passenger",
+      "Sharan Banagiri",
+      "Eric Thrane",
+      "Paul D. Lasky",
+      "Angela Borchers",
+      "Maya Fishbach",
+      "Claire S. Ye"
+    ],
+    "summary": "The binary black hole merger GW231123 is both the most massive\ngravitational-wave event observed and has the highest component spins measured\nto date. The dimensionless spins of the more massive (primary) and less massive\n(secondary) black holes are measured to be $\\chi_1 = 0.90^{+0.10}_{-0.19}$ and\n$\\chi_2 = 0.80^{+0.20}_{-0.51}$ ($90\\%$ credible intervals), respectively. Its\nlarge mass and extremal spins are challenging to explain through standard\nbinary stellar physics, though a flurry of hypothetical scenarios have been\nproposed. Hierarchical assembly -- i.e., mergers of black holes that are\nthemselves formed from previous generations of mergers -- is generally a\npromising way to explain massive and rapidly spinning black holes. Here, we\ninvestigate the possibility that both GW231123 was assembled hierarchically in\na dense star cluster as the merger of two second-generation black holes. Taking\nthe inferred spin values at face value, we find that it is possible, though\nunlikely ($p\\lesssim 1\\%$), that a compact binary with both component spins\nlike GW231123 could form in a cluster from hierarchical assembly.",
+    "url": "http://arxiv.org/abs/2510.14363v1"
+  },
+  {
+    "title": "Return Times Distribution of Expanding Maps",
+    "authors": [
+      "Nicolai T A Haydn"
+    ],
+    "summary": "We consider expanding systems with invariant measures that are uniformly\nexpanding everywhere except on a small measure set and show that the limiting\nstatistics of hitting times for zero measure sets are compound Poisson provided\nthe limits for the cluster size distributions exist. This extends previous\nresults from neighbourhoods around single points to neighbourhoods around zero\nmeasure sets. The assumptions require the correlations to decay at least\npolynomially and the non-uniformly expanding part of the iterates of the map\nalso has to satisfy some decay condition. We also require some regularity\nconditions around the limiting zero measure target set.",
+    "url": "http://arxiv.org/abs/2510.14298v1"
+  },
+  {
+    "title": "A Hybrid, Knowledge-Guided Evolutionary Framework for Personalized Compiler Auto-Tuning",
+    "authors": [
+      "Haolin Pan",
+      "Hongbin Zhang",
+      "Mingjie Xing",
+      "Yanjun Wu"
+    ],
+    "summary": "Compiler pass auto-tuning is critical for enhancing software performance, yet\nfinding the optimal pass sequence for a specific program is an NP-hard problem.\nTraditional, general-purpose optimization flags like -O3 and -Oz adopt a\none-size-fits-all approach, often failing to unlock a program's full\nperformance potential. To address this challenge, we propose a novel Hybrid,\nKnowledge-Guided Evolutionary Framework. This framework intelligently guides\nonline, personalized optimization using knowledge extracted from a large-scale\noffline analysis phase. During the offline stage, we construct a comprehensive\ncompilation knowledge base composed of four key components: (1) Pass Behavioral\nVectors to quantitatively capture the effectiveness of each optimization; (2)\nPass Groups derived from clustering these vectors based on behavior similarity;\n(3) a Synergy Pass Graph to model beneficial sequential interactions; and (4) a\nlibrary of Prototype Pass Sequences evolved for distinct program types. In the\nonline stage, a bespoke genetic algorithm leverages this rich knowledge base\nthrough specially designed, knowledge-infused genetic operators. These\noperators transform the search by performing semantically-aware recombination\nand targeted, restorative mutations. On a suite of seven public datasets, our\nframework achieves an average of 11.0% additional LLVM IR instruction reduction\nover the highly-optimized opt -Oz baseline, demonstrating its state-of-the-art\ncapability in discovering personalized, high-performance optimization\nsequences.",
+    "url": "http://arxiv.org/abs/2510.14292v1"
+  },
+  {
+    "title": "Glitch noise classification in KAGRA O3GK observing data using unsupervised machine learning",
+    "authors": [
+      "Shoichi Oshino",
+      "Yusuke Sakai",
+      "Marco Meyer-Conde",
+      "Takashi Uchiyama",
+      "Yousuke Itoh",
+      "Yutaka Shikano",
+      "Yoshikazu Terada",
+      "Hirotaka Takahashi"
+    ],
+    "summary": "Gravitational wave interferometers are disrupted by various types of\nnonstationary noise, referred to as glitch noise, that affect data analysis and\ninterferometer sensitivity. The accurate identification and classification of\nglitch noise are essential for improving the reliability of gravitational wave\nobservations. In this study, we demonstrated the effectiveness of unsupervised\nmachine learning for classifying images with nonstationary noise in the KAGRA\nO3GK data. Using a variational autoencoder (VAE) combined with spectral\nclustering, we identified eight distinct glitch noise categories. The latent\nvariables obtained from VAE were dimensionally compressed, visualized in\nthree-dimensional space, and classified using spectral clustering to better\nunderstand the glitch noise characteristics of KAGRA during the O3GK period.\nOur results highlight the potential of unsupervised learning for efficient\nglitch noise classification, which may in turn potentially facilitate\ninterferometer upgrades and the development of future third-generation\ngravitational wave observatories.",
+    "url": "http://arxiv.org/abs/2510.14291v1"
+  },
+  {
+    "title": "Scaling Test-Time Compute to Achieve IOI Gold Medal with Open-Weight Models",
+    "authors": [
+      "Mehrzad Samadi",
+      "Aleksander Ficek",
+      "Sean Narenthiran",
+      "Siddhartha Jain",
+      "Wasi Uddin Ahmad",
+      "Somshubra Majumdar",
+      "Vahid Noroozi",
+      "Boris Ginsburg"
+    ],
+    "summary": "Competitive programming has become a rigorous benchmark for evaluating the\nreasoning and problem-solving capabilities of large language models (LLMs). The\nInternational Olympiad in Informatics (IOI) stands out as one of the most\nprestigious annual competitions in competitive programming and has become a key\nbenchmark for comparing human and AI-level programming ability. While several\nproprietary models have been claimed to achieve gold medal-level performance at\nthe IOI, often with undisclosed methods, achieving comparable results with\nopen-weight models remains a significant challenge. In this paper, we present\n\\gencluster, a scalable and reproducible test-time compute framework that\nattains IOI gold-level performance using open-weight models. It combines\nlarge-scale generation, behavioral clustering, ranking, and a round-robin\nsubmission strategy to efficiently explore diverse solution spaces under\nlimited validation budgets. Our experiments show that the performance of our\nproposed approach scales consistently with available compute, narrowing the gap\nbetween open and closed systems. Notably, we will show that GenCluster can\nachieve a gold medal at IOI 2025 for the first time with an open-weight model\ngpt-oss-120b, setting a new benchmark for transparent and reproducible\nevaluation of reasoning in LLMs.",
+    "url": "http://arxiv.org/abs/2510.14232v1"
+  },
+  {
+    "title": "Incentive-Based Federated Learning",
+    "authors": [
+      "Chanuka A. S. Hewa Kaluannakkage",
+      "Rajkumar Buyya"
+    ],
+    "summary": "Federated learning promises to revolutionize machine learning by enabling\ncollaborative model training without compromising data privacy. However,\npractical adaptability can be limited by critical factors, such as the\nparticipation dilemma. Participating entities are often unwilling to contribute\nto a learning system unless they receive some benefits, or they may pretend to\nparticipate and free-ride on others. This chapter identifies the fundamental\nchallenges in designing incentive mechanisms for federated learning systems. It\nexamines how foundational concepts from economics and game theory can be\napplied to federated learning, alongside technology-driven solutions such as\nblockchain and deep reinforcement learning. This work presents a comprehensive\ntaxonomy that thoroughly covers both centralized and decentralized\narchitectures based on the aforementioned theoretical concepts. Furthermore,\nthe concepts described are presented from an application perspective, covering\nemerging industrial applications, including healthcare, smart infrastructure,\nvehicular networks, and blockchain-based decentralized systems. Through this\nexploration, this chapter demonstrates that well-designed incentive mechanisms\nare not merely optional features but essential components for the practical\nsuccess of federated learning. This analysis reveals both the promising\nsolutions that have emerged and the significant challenges that remain in\nbuilding truly sustainable, fair, and robust federated learning ecosystems.",
+    "url": "http://arxiv.org/abs/2510.14208v1"
+  },
+  {
+    "title": "Infrastructure Patterns in Toll Scam Domains: A Comprehensive Analysis of Cybercriminal Registration and Hosting Strategies",
+    "authors": [
+      "Morium Akter Munny",
+      "Mahbub Alam",
+      "Sonjoy Kumar Paul",
+      "Daniel Timko",
+      "Muhammad Lutfor Rahman",
+      "Nitesh Saxena"
+    ],
+    "summary": "Toll scams involve criminals registering fake domains that pretend to be\nlegitimate transportation agencies to trick users into making fraudulent\npayments. Although these scams are rapidly increasing and causing significant\nharm, they have not been extensively studied. We present the first large-scale\nanalysis of toll scam domains, using a newly created dataset of 67,907\nconfirmed scam domains mostly registered in 2025. Our study reveals that\nattackers exploit permissive registrars and less common top-level domains, with\n86.9% of domains concentrated in just five non-mainstream TLDs and 72.9%\nregistered via a single provider. We also discover specific registration\npatterns, including short bursts of activity that suggest automated,\ncoordinated attacks, with over half of domains registered in the first quarter\nof 2025. This extreme temporal clustering reflects highly synchronized campaign\nlaunches. Additionally, we build a simple predictive model using only domain\nregistration data to predict which scam domains are likely to be suspended -- a\nproxy for confirmed abuse -- achieving 80.4% accuracy, and 92.3% sensitivity.\nOur analysis reveals attacker strategies for evading detection -- such as\nexploiting obscure TLDs, permissive registrars, and coordinated registration\nbursts -- which can inform more targeted interventions by registrars, hosting\nproviders, and security platforms. However, our results suggest that\nregistration metadata alone may be insufficient, and incorporating features\nfrom domain URLs and webpage content could further improve detection.",
+    "url": "http://arxiv.org/abs/2510.14198v1"
+  },
+  {
+    "title": "Proof-Carrying Fair Ordering: Asymmetric Verification for BFT via Incremental Graphs",
+    "authors": [
+      "Pengkun Ren",
+      "Hai Dong",
+      "Nasrin Sohrabi",
+      "Zahir Tari",
+      "Pengcheng Zhang"
+    ],
+    "summary": "Byzantine Fault-Tolerant (BFT) consensus protocols ensure agreement on\ntransaction ordering despite malicious actors, but unconstrained ordering power\nenables sophisticated value extraction attacks like front running and sandwich\nattacks - a critical threat to blockchain systems. Order-fair consensus curbs\nadversarial value extraction by constraining how leaders may order\ntransactions. While state-of-the-art protocols such as Themis attain strong\nguarantees through graph-based ordering, they ask every replica to re-run the\nleader's expensive ordering computation for validation - an inherently\nsymmetric and redundant paradigm. We present AUTIG, a high-performance,\npluggable order-fairness service that breaks this symmetry. Our key insight is\nthat verifying a fair order does not require re-computing it. Instead,\nverification can be reduced to a stateless audit of succinct, verifiable\nassertions about the ordering graph's properties. AUTIG realizes this via an\nasymmetric architecture: the leader maintains a persistent\nUnconfirmed-Transaction Incremental Graph (UTIG) to amortize graph construction\nacross rounds and emits a structured proof of fairness with each proposal;\nfollowers validate the proof without maintaining historical state. AUTIG\nintroduces three critical innovations: (i) incremental graph maintenance driven\nby threshold-crossing events and state changes; (ii) a decoupled pipeline that\noverlaps leader-side collection/update/extraction with follower-side stateless\nverification; and (iii) a proof design covering all internal pairs in the\nfinalized prefix plus a frontier completeness check to rule out hidden external\ndependencies. We implement AUTIG and evaluate it against symmetric graph-based\nbaselines under partial synchrony. Experiments show higher throughput and lower\nend-to-end latency while preserving gamma-batch-order-fairness.",
+    "url": "http://arxiv.org/abs/2510.14186v1"
+  },
+  {
+    "title": "Universal energy-space localization and stable quantum phases against time-dependent perturbations",
+    "authors": [
+      "Hongye Yu",
+      "Tzu-Chieh Wei"
+    ],
+    "summary": "Stability against perturbation is a highly nontrivial property of quantum\nsystems and is often a requirement to define new phases. In most systems where\nstability can be rigorously established, only static perturbations are\nconsidered; whether a system is stable against generic time-dependent\nperturbations remains largely elusive. In this work, we identify a universal\nphenomenon in $q$-local Hamiltonians called energy-space localization and prove\nthat it can survive under generic time-dependent perturbations, where the\nevolving state is exponentially localized in an energy window of the\ninstantaneous spectrum. The property holds ubiquitously, and the leakage bounds\nremain invariant under arbitrarily monotonic rescaling of evolution time. This\nflexibility enables the energy-space localization to be a powerful tool in\nproving the stability of systems. For spin glass models where the configuration\nspaces are separated by large energy barriers, the localization in energy space\ncan induce a true localization in the configuration space and robustly break\nergodicity. We then demonstrate the applications of our results in several\nsystems with such barriers. For certain LDPC codes, we show that the evolving\nstate is localized near the original codeword for an exponentially long time\neven under generic time-dependent perturbations. We also extend the stability\nof LDPC codes against static $q$-local perturbations to quasi-$q$-local. In\naddition, we show that for some classical hard optimization problems with\nclustered solution space, the stability becomes an obstacle for quantum\nHamiltonian-based algorithms to drive the system out of local minima. Our work\nprovides a new lens for analyzing the non-equilibrium dynamics of generic\nquantum systems, and versatile mathematical tools for stability proving and\nquantum algorithm design.",
+    "url": "http://arxiv.org/abs/2510.14160v1"
+  },
+  {
+    "title": "Privacy-Preserving and Incentive-Driven Relay-Based Framework for Cross-Domain Blockchain Interoperability",
+    "authors": [
+      "Saeed Moradi",
+      "Koosha Esmaeilzadeh Khorasani",
+      "Sara Rouhani"
+    ],
+    "summary": "Interoperability is essential for transforming blockchains from isolated\nnetworks into collaborative ecosystems, unlocking their full potential. While\nsignificant progress has been made in public blockchain interoperability,\nbridging permissioned and permissionless blockchains poses unique challenges\ndue to differences in access control, architectures, and security requirements.\nThis paper introduces a blockchain-agnostic framework to enable\ninteroperability between permissioned and permissionless networks. Leveraging\ncryptographic techniques, the framework ensures secure data exchanges. Its\nlightweight architectural design simplifies implementation and maintenance,\nwhile the integration of Clover and Dandelion++ protocols enhances transaction\nanonymity. Performance evaluations demonstrate the framework's effectiveness in\nachieving secure and efficient interoperability by measuring the forwarding\ntime, the throughput, the availability, and their collusion impact of the\nsystem across heterogeneous blockchain ecosystems.",
+    "url": "http://arxiv.org/abs/2510.14151v1"
+  },
+  {
+    "title": "Distributed-Memory Parallel Algorithms for Fixed-Radius Near Neighbor Graph Construction",
+    "authors": [
+      "Gabriel Raulet",
+      "Dmitriy Morozov",
+      "Aydin Buluc",
+      "Katherine Yelick"
+    ],
+    "summary": "Computing fixed-radius near-neighbor graphs is an important first step for\nmany data analysis algorithms. Near-neighbor graphs connect points that are\nclose under some metric, endowing point clouds with a combinatorial structure.\nAs computing power and data acquisition methods advance, diverse sources of\nlarge scientific datasets would greatly benefit from scalable solutions to this\ncommon subroutine for downstream analysis. Prior work on parallel nearest\nneighbors has made great progress in problems like k-nearest and approximate\nnearest neighbor search problems, with particular attention on Euclidean\nspaces. Yet many applications need exact solutions and non-Euclidean metrics.\nThis paper presents a scalable sparsity-aware distributed memory algorithm\nusing cover trees to compute near-neighbor graphs in general metric spaces. We\nprovide a shared-memory algorithm for cover tree construction and demonstrate\nits competitiveness with state-of-the-art fixed-radius search data structures.\nWe then introduce two distributed-memory algorithms for the near-neighbor graph\nproblem, a simple point-partitioning strategy and a spatial-partitioning\nstrategy, which leverage the cover tree algorithm on each node. Our algorithms\nexhibit parallel scaling across a variety of real and synthetic datasets for\nboth traditional and non-traditional metrics. On real world high dimensional\ndatasets with one million points, we achieve speedups up to 678.34x over the\nstate-of-the-art using 1024 cores for graphs with 70 neighbors per vertex (on\naverage), and up to 1590.99x using 4096 cores for graphs with 500 neighbors per\nvertex (on average).",
+    "url": "http://arxiv.org/abs/2510.14147v1"
+  },
+  {
+    "title": "High-Dimensional BWDM: A Robust Nonparametric Clustering Validation Index for Large-Scale Data",
+    "authors": [
+      "Mohammed Baragilly",
+      "Hend Gabr"
+    ],
+    "summary": "Determining the appropriate number of clusters in unsupervised learning is a\ncentral problem in statistics and data science. Traditional validity indices\nsuch as Calinski-Harabasz, Silhouette, and Davies-Bouldin-depend on\ncentroid-based distances and therefore degrade in high-dimensional or\ncontaminated data. This paper proposes a new robust, nonparametric clustering\nvalidation framework, the High-Dimensional Between-Within Distance Median\n(HD-BWDM), which extends the recently introduced BWDM criterion to\nhigh-dimensional spaces. HD-BWDM integrates random projection and principal\ncomponent analysis to mitigate the curse of dimensionality and applies trimmed\nclustering and medoid-based distances to ensure robustness against outliers. We\nderive theoretical results showing consistency and convergence under\nJohnson-Lindenstrauss embeddings. Extensive simulations demonstrate that\nHD-BWDM remains stable and interpretable under high-dimensional projections and\ncontamination, providing a robust alternative to traditional centroid-based\nvalidation criteria. The proposed method provides a theoretically grounded,\ncomputationally efficient stopping rule for nonparametric clustering in modern\nhigh-dimensional applications.",
+    "url": "http://arxiv.org/abs/2510.14145v1"
+  },
+  {
+    "title": "Cortex: Workflow-Aware Resource Pooling and Scheduling for Agentic Serving",
+    "authors": [
+      "Nikos Pagonas",
+      "Yeounoh Chung",
+      "Kostis Kaffes",
+      "Arvind Krishnamurthy"
+    ],
+    "summary": "We introduce Cortex, a prototype workflow-aware serving platform designed for\nagentic workloads. The core principle of Cortex is stage isolation: it\nprovisions dedicated resource pools for each distinct stage of an agentic\nworkflow. This simple yet powerful strategy mitigates inter-stage interference\nin compute and memory, leading to better KV cache utilization, higher\nthroughput, and more predictable performance. By customizing resource\nallocation and scheduling within each distinct stage of agentic workflows,\nCortex lays the groundwork for more advanced, agent-native serving paradigms,\nincluding malleable resource management, speculative execution of workflow\nbranches, and a shared, multi-tiered cache for \"agentic state.\"",
+    "url": "http://arxiv.org/abs/2510.14126v1"
+  },
+  {
+    "title": "Extracting latent representations from X-ray spectra. Classification, regression, and accretion signatures of Chandra sources",
+    "authors": [
+      "Nicol\u00f2 Oreste Pinciroli Vago",
+      "Juan Rafael Mart\u00ednez-Galarza",
+      "Roberta Amato"
+    ],
+    "summary": "The study of X-ray spectra is crucial to understanding the physical nature of\nastrophysical sources. Machine learning methods can extract compact and\ninformative representations of data from large datasets. The Chandra Source\nCatalog (CSC) provides a rich archive of X-ray spectral data, which remains\nlargely underexplored in this context. This work aims to develop a compact and\nphysically meaningful representation of Chandra X-ray spectra using deep\nlearning. To verify that the learned representation captures relevant\ninformation, we evaluate it through classification, regression, and\ninterpretability analyses. We use a transformer-based autoencoder to compress\nX-ray spectra. The input spectra, drawn from the CSC, include only\nhigh-significance detections. Astrophysical source types and physical summary\nstatistics are compiled from external catalogs. We evaluate the learned\nrepresentation in terms of spectral reconstruction accuracy, clustering\nperformance on 8 known astrophysical source classes, and correlation with\nphysical quantities such as hardness ratios and hydrogen column density\n($N_H$). The autoencoder accurately reconstructs spectra with 8 latent\nvariables. Clustering in the latent space yields a balanced classification\naccuracy of $\\sim$40% across the 8 source classes, increasing to $\\sim$69% when\nrestricted to AGNs and stellar-mass compact objects exclusively. Moreover,\nlatent features correlate with non-linear combinations of spectral fluxes,\nsuggesting that the compressed representation encodes physically relevant\ninformation. The proposed autoencoder-based pipeline is a powerful tool for the\nrepresentation and interpretation of X-ray spectra, providing a compact latent\nspace that supports both classification and the estimation of physical\nproperties. This work demonstrates the potential of deep learning for spectral\nstudies and uncovering new patterns in X-ray data.",
+    "url": "http://arxiv.org/abs/2510.14102v1"
+  },
+  {
+    "title": "Modeling Public Opinion Dynamics: The Spiral of silence in clustered homophilic networks",
+    "authors": [
+      "Juan Castillo",
+      "Emanuele Cozzo"
+    ],
+    "summary": "Public discourse emerges from the interplay between individuals' willingness\nto voice their opinions and the structural features of the social networks in\nwhich they are embedded. In this work we investigate how choice homophily and\ntriadic closure shape the emergence of the spiral of silence, the phenomenon\nwhereby minority views are progressively silenced due to fear of isolation. We\nadvance the state of the art in three ways. First, we integrate a realistic\nnetwork formation model, where homophily and triadic closure co-evolve, with a\nmean-field model of opinion expression. Second, we perform a bifurcation\nanalysis of the associated Q-learning dynamics, revealing conditions for\nhysteresis and path dependence in collective expression. Third, we validate our\ntheoretical predictions through Monte Carlo simulations, which highlight the\nrole of finite-size effects and structural noise. Our results show that\nmoderate triadic closure can foster minority expression by reinforcing local\ncohesion, whereas excessive closure amplifies asymmetries and entrenches\nmajority dominance. These findings provide new insights into how algorithmic\nreinforcement of clustering in online platforms can either sustain diversity of\nopinion or accelerate its suppression.",
+    "url": "http://arxiv.org/abs/2510.14098v1"
+  },
+  {
+    "title": "Adaptive Obstacle-Aware Task Assignment and Planning for Heterogeneous Robot Teaming",
+    "authors": [
+      "Nan Li",
+      "Jiming Ren",
+      "Haris Miller",
+      "Samuel Coogan",
+      "Karen M. Feigh",
+      "Ye Zhao"
+    ],
+    "summary": "Multi-Agent Task Assignment and Planning (MATP) has attracted growing\nattention but remains challenging in terms of scalability, spatial reasoning,\nand adaptability in obstacle-rich environments. To address these challenges, we\npropose OATH: Adaptive Obstacle-Aware Task Assignment and Planning for\nHeterogeneous Robot Teaming, which advances MATP by introducing a novel\nobstacle-aware strategy for task assignment. First, we develop an adaptive\nHalton sequence map, the first known application of Halton sampling with\nobstacle-aware adaptation in MATP, which adjusts sampling density based on\nobstacle distribution. Second, we propose a cluster-auction-selection framework\nthat integrates obstacle-aware clustering with weighted auctions and\nintra-cluster task selection. These mechanisms jointly enable effective\ncoordination among heterogeneous robots while maintaining scalability and\nnear-optimal allocation performance. In addition, our framework leverages an\nLLM to interpret human instructions and directly guide the planner in real\ntime. We validate OATH in NVIDIA Isaac Sim, showing substantial improvements in\ntask assignment quality, scalability, adaptability to dynamic changes, and\noverall execution performance compared to state-of-the-art MATP baselines. A\nproject website is available at https://llm-oath.github.io/.",
+    "url": "http://arxiv.org/abs/2510.14063v1"
+  },
+  {
+    "title": "FedHFT: Efficient Federated Finetuning with Heterogeneous Edge Clients",
+    "authors": [
+      "Fatih Ilhan",
+      "Selim Furkan Tekin",
+      "Tiansheng Huang",
+      "Gaowen Liu",
+      "Ramana Kompella",
+      "Greg Eisenhauer",
+      "Yingyan Celine Lin",
+      "Calton Pu",
+      "Ling Liu"
+    ],
+    "summary": "Fine-tuning pre-trained large language models (LLMs) has become a common\npractice for personalized natural language understanding (NLU) applications on\ndownstream tasks and domain-specific datasets. However, there are two main\nchallenges: (i) limited and/or heterogeneous data for fine-tuning due to\nproprietary data confidentiality or privacy requirements, and (ii) varying\ncomputation resources available across participating clients such as edge\ndevices. This paper presents FedHFT - an efficient and personalized federated\nfine-tuning framework to address both challenges. First, we introduce a mixture\nof masked adapters to handle resource heterogeneity across participating\nclients, enabling high-performance collaborative fine-tuning of pre-trained\nlanguage model(s) across multiple clients in a distributed setting, while\nkeeping proprietary data local. Second, we introduce a bi-level optimization\napproach to handle non-iid data distribution based on masked personalization\nand client clustering. Extensive experiments demonstrate significant\nperformance and efficiency improvements over various natural language\nunderstanding tasks under data and resource heterogeneity compared to\nrepresentative heterogeneous federated learning methods.",
+    "url": "http://arxiv.org/abs/2510.14054v1"
+  },
+  {
+    "title": "Anonymized Network Sensing using C++26 std::execution on GPUs",
+    "authors": [
+      "Michael Mandulak",
+      "Sayan Ghosh",
+      "S M Ferdous",
+      "Mahantesh Halappanavar",
+      "George Slota"
+    ],
+    "summary": "Large-scale network sensing plays a vital role in network traffic analysis\nand characterization. As network packet data grows increasingly large, parallel\nmethods have become mainstream for network analytics. While effective,\nGPU-based implementations still face start-up challenges in host-device memory\nmanagement and porting complex workloads on devices, among others. To mitigate\nthese challenges, composable frameworks have emerged using modern C++\nprogramming language, for efficiently deploying analytics tasks on GPUs.\nSpecifically, the recent C++26 Senders model of asynchronous data operation\nchaining provides a simple interface for bulk pushing tasks to varied device\nexecution contexts.\n  Considering the prominence of contemporary dense-GPU platforms and\nvendor-leveraged software libraries, such a programming model consider GPUs as\nfirst-class execution resources (compared to traditional host-centric\nprogramming models), allowing convenient development of multi-GPU application\nworkloads via expressive and standardized asynchronous semantics. In this\npaper, we discuss practical aspects of developing the Anonymized Network\nSensing Graph Challenge on dense-GPU systems using the recently proposed C++26\nSenders model. Adopting a generic and productive programming model does not\nnecessarily impact the critical-path performance (as compared to low-level\nproprietary vendor-based programming models): our commodity library-based\nimplementation achieves up to 55x performance improvements on 8x NVIDIA A100\nGPUs as compared to the reference serial GraphBLAS baseline.",
+    "url": "http://arxiv.org/abs/2510.14050v1"
+  },
+  {
+    "title": "Efficiently Executing High-throughput Lightweight LLM Inference Applications on Heterogeneous Opportunistic GPU Clusters with Pervasive Context Management",
+    "authors": [
+      "Thanh Son Phung",
+      "Douglas Thain"
+    ],
+    "summary": "The rise of Generative AI introduces a new class of HPC workloads that\nintegrates lightweight LLMs with traditional high-throughput applications to\naccelerate scientific discovery. The current design of HPC clusters is\ninadequate to support this new class however, either incurring long wait times\non static batch queues or repeatedly paying expensive LLM startup costs upon\nresource preemption. To circumvent both the long queues and high startup costs,\nwe propose to \"decouple\" the LLM initialization context from the actual LLM\ninferences, and retain the context in GPUs until it is no longer needed, a\ntechnique we term \"Pervasive Context Management\". We transform a fact\nverification application to enable this technique, allowing it to reduce its\nexecution time by 72.1% (from 3 hours to 48 minutes) using the same amount of\nGPUs, and scale opportunistically on 32.8% of all GPUs in the cluster and\nfurther reduce the execution time to 13 minutes.",
+    "url": "http://arxiv.org/abs/2510.14024v1"
+  },
+  {
+    "title": "The Nephele ecosystem: stars, globular clusters, and stellar streams associated with the progenitor galaxy of $\u03c9$ Centauri",
+    "authors": [
+      "G. Pagnini",
+      "P. Di Matteo",
+      "M. Haywood",
+      "P. Bianchini",
+      "S. Ferrone",
+      "A. Mastrobuono-Battisti",
+      "O. Agertz",
+      "S. Khoperskov",
+      "F. Renaud",
+      "N. Ryde"
+    ],
+    "summary": "Globular clusters (GCs) and their associated stellar streams are key tracers\nof the hierarchical assembly history of the Milky Way. $\\omega$ Centauri, the\nmost massive and chemically complex GC in the Galaxy, is widely believed to be\nthe remnant nucleus of an accreted dwarf galaxy. Identifying its associated\ndebris and that of chemically similar clusters can provide important\nconstraints on the nature of this progenitor system. We aim to identify field\nstars that are chemically and kinematically linked to $\\omega$ Cen and to a\ngroup of globular clusters associated with the Nephele accretion event. We\nanalyse APOGEE DR17 data using a Gaussian Mixture Model (GMM) in a\n8-dimensional chemical space to identify field stars whose abundances match\nthose of $\\omega$ Cen. We then compute the orbital energy and angular momentum\nof these stars and apply a second GMM, calibrated on simulations from the\ne-TidalGCs project, to determine kinematic compatibility with the predicted\nstreams of $\\omega$ Cen and the associated Nephele GCs. We identify 470 stars\nchemically compatible with $\\omega$ Cen, of which 58 are also Al-rich,\nconsistent with second-generation stars found in GCs. Of these, 6 stars show\nkinematics consistent with the predicted $\\omega$ Cen stream, and additional\nstars are linked to the tidal streams of NGC 6205, NGC 6254, NGC 6273, NGC\n6656, and NGC 6809. We also find overlap in chemical and kinematic properties\nbetween Nephele stars and the Gaia Sausage-Enceladus population. Our findings\nindicate stellar debris linked to $\\omega$ Cen and its candidate globular\ncluster family, consistent with a shared, now-disrupted galactic progenitor.\nDespite residual uncertainties from disc contamination and limited sky\ncoverage, the results demonstrate the effectiveness of combined chemical and\ndynamical analyses in uncovering relics of past accretion events in the inner\nGalaxy.",
+    "url": "http://arxiv.org/abs/2510.13990v1"
+  },
+  {
+    "title": "The ASTRID Simulation at z=0: from Massive Black Holes to Large-scale Structure",
+    "authors": [
+      "Yihao Zhou",
+      "Tiziana Di Matteo",
+      "Simeon Bird",
+      "Rupert Croft",
+      "Yueying Ni",
+      "Yanhui Yang",
+      "Nianyi Chen",
+      "Patrick Lachance",
+      "Xiaowen Zhang",
+      "Fatemeh Hafezianzadeh"
+    ],
+    "summary": "We present the $z=0$ results for the cosmological simulation ASTRID. Hosting\n$2\\times 5500^3\\approx$ 0.33 trillion particles in a box of $370\\, {\\rm Mpc}$\nper side, ASTRID is one of the largest cosmological hydrodynamic simulations\nevolved to $z=0$. ASTRID features a large population of massive black holes\n(MBHs), covering a wide mass range $4\\times10^{4}\\sim 2\\times 10^{11}\\\nM_{\\odot}$. The adopted dynamical friction model provides a relatively accurate\ndescription of MBH dynamics, making ASTRID a powerful tool to study MBH growth\nand mergers in a cosmological context. ASTRID successfully captures the\nco-evolution of MBHs and their host galaxies, producing $M_{\\rm BH}-M_{\\star}$\nand $M_{\\rm BH}-\\sigma$ relations in good agreement with observations. Notably,\nASTRID generates scatter in these relations that is more consistent with\nobservations than previous simulations, indicating a more realistic MBH\ndiversity. The galaxy stellar mass function at $z=0$ is generally consistent\nwith observational constraints. When dust attenuation is applied, the galaxy\nluminosity function also agrees well with observations, and the bimodality in\ngalaxy colors is reproduced as well. ASTRID hosts a large population of massive\ngalaxy groups and clusters: 7 halos have $M_{\\rm 200c}>10^{15}\\ M_{\\odot}$, and\n9709 halos have $M_{\\rm 200c}>10^{13}\\ M_{\\odot}$. We quantify the stellar mass\ncontent in these halos, and find that the correlations between the stellar and\nhalo mass match well with observational constraints. Finally, we present the\n$z=0$ power spectra of MBH and galaxies, as well as their bias with respect to\nthe matter power spectrum. We find that MBHs with $M_{\\rm BH}\\geq 10^{8}\\\nM_{\\odot}$ and galaxies with $M_{\\star}\\geq 10^{10.5}\\ M_{\\odot}$ serve as good\ntracers of large-scale structure.",
+    "url": "http://arxiv.org/abs/2510.13976v1"
+  },
+  {
+    "title": "$\\texttt{SBi3PCF:}$ Simulation-based inference with the integrated 3PCF",
+    "authors": [
+      "David Gebauer",
+      "Anik Halder",
+      "Stella Seitz",
+      "Dhayaa Anbajagane"
+    ],
+    "summary": "We present $\\texttt{SBi3PCF}$, a simulation-based inference (SBI) framework\nfor analysing a higher-order weak lensing statistic, the integrated 3-point\ncorrelation function (i3PCF). Our approach forward-models the cosmic shear\nfield using the $\\texttt{CosmoGridV1}$ suite of N-body simulations, including a\ncomprehensive set of systematic effects such as intrinsic alignment, baryonic\nfeedback, photometric redshift uncertainty, shear calibration bias, and shape\nnoise. Using this, we have produced a set of DES Y3-like synthetic measurements\nfor 2-point shear correlation functions $\\xi_{\\pm}$ (2PCFs) and i3PCFs\n$\\zeta_{\\pm}$ across 6 cosmological and 11 systematic parameters. Having\nvalidated these measurements against theoretical predictions and thoroughly\nexamined for potential systematic biases, we have found that the impact of\nsource galaxy clustering and reduced shear on the i3PCF is negligible for\nStage-III surveys. Furthermore, we have tested the Gaussianity assumption for\nthe likelihood of our data vector and found that while the sampling\ndistribution of the 2PCF can be well approximated by a Gaussian function, the\nlikelihood of the combined 2PCF + i3PCF data vector including filter sizes of\n$90'$ and larger can deviate from this assumption. Our SBI pipeline employs\nmasked autoregressive flows to perform neural likelihood estimation and is\nvalidated to give statistically accurate posterior estimates. On mock data, we\nfind that including the i3PCF yields a substantial $63.8\\%$ median improvement\nin the figure of merit for $\\Omega_m - \\sigma_8 - w_0$. These findings are\nconsistent with previous works on the i3PCF and demonstrate that our SBI\nframework can achieve the accuracy and realism needed to analyse the i3PCF in\nwide-area weak lensing surveys.",
+    "url": "http://arxiv.org/abs/2510.13805v1"
+  },
+  {
+    "title": "InternVLA-M1: A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy",
+    "authors": [
+      "Xinyi Chen",
+      "Yilun Chen",
+      "Yanwei Fu",
+      "Ning Gao",
+      "Jiaya Jia",
+      "Weiyang Jin",
+      "Hao Li",
+      "Yao Mu",
+      "Jiangmiao Pang",
+      "Yu Qiao",
+      "Yang Tian",
+      "Bin Wang",
+      "Bolun Wang",
+      "Fangjing Wang",
+      "Hanqing Wang",
+      "Tai Wang",
+      "Ziqin Wang",
+      "Xueyuan Wei",
+      "Chao Wu",
+      "Shuai Yang",
+      "Jinhui Ye",
+      "Junqiu Yu",
+      "Jia Zeng",
+      "Jingjing Zhang",
+      "Jinyu Zhang",
+      "Shi Zhang",
+      "Feng Zheng",
+      "Bowen Zhou",
+      "Yangkun Zhu"
+    ],
+    "summary": "We introduce InternVLA-M1, a unified framework for spatial grounding and\nrobot control that advances instruction-following robots toward scalable,\ngeneral-purpose intelligence. Its core idea is spatially guided\nvision-language-action training, where spatial grounding serves as the critical\nlink between instructions and robot actions. InternVLA-M1 employs a two-stage\npipeline: (i) spatial grounding pre-training on over 2.3M spatial reasoning\ndata to determine ``where to act'' by aligning instructions with visual,\nembodiment-agnostic positions, and (ii) spatially guided action post-training\nto decide ``how to act'' by generating embodiment-aware actions through\nplug-and-play spatial prompting. This spatially guided training recipe yields\nconsistent gains: InternVLA-M1 outperforms its variant without spatial guidance\nby +14.6% on SimplerEnv Google Robot, +17% on WidowX, and +4.3% on LIBERO\nFranka, while demonstrating stronger spatial reasoning capability in box,\npoint, and trace prediction. To further scale instruction following, we built a\nsimulation engine to collect 244K generalizable pick-and-place episodes,\nenabling a 6.2% average improvement across 200 tasks and 3K+ objects. In\nreal-world clustered pick-and-place, InternVLA-M1 improved by 7.3%, and with\nsynthetic co-training, achieved +20.6% on unseen objects and novel\nconfigurations. Moreover, in long-horizon reasoning-intensive scenarios, it\nsurpassed existing works by over 10%. These results highlight spatially guided\ntraining as a unifying principle for scalable and resilient generalist robots.\nCode and models are available at\nhttps://github.com/InternRobotics/InternVLA-M1.",
+    "url": "http://arxiv.org/abs/2510.13778v1"
+  },
+  {
+    "title": "Tight Conditions for Binary-Output Tasks under Crashes",
+    "authors": [
+      "Timoth\u00e9 Albouy",
+      "Antonio Fern\u00e1ndez Anta",
+      "Chryssis Georgiou",
+      "Nicolas Nicolaou",
+      "Junlang Wang"
+    ],
+    "summary": "This paper explores necessary and sufficient system conditions to solve\ndistributed tasks with binary outputs (\\textit{i.e.}, tasks with output values\nin $\\{0,1\\}$). We focus on the distinct output sets of values a task can\nproduce (intentionally disregarding validity and value multiplicity),\nconsidering that some processes may output no value. In a distributed system\nwith $n$ processes, of which up to $t \\leq n$ can crash, we provide a complete\ncharacterization of the tight conditions on $n$ and $t$ under which every class\nof tasks with binary outputs is solvable, for both synchronous and asynchronous\nsystems. This output-set approach yields highly general results: it unifies\nmultiple distributed computing problems, such as binary consensus and symmetry\nbreaking, and it produces impossibility proofs that hold for stronger task\nformulations, including those that consider validity, account for value\nmultiplicity, or move beyond binary outputs.",
+    "url": "http://arxiv.org/abs/2510.13755v1"
+  },
+  {
+    "title": "Asymptotically optimal reinforcement learning in Block Markov Decision Processes",
+    "authors": [
+      "Thomas van Vuren",
+      "Fiona Sloothaak",
+      "Maarten G. Wolf",
+      "Jaron Sanders"
+    ],
+    "summary": "The curse of dimensionality renders Reinforcement Learning (RL) impractical\nin many real-world settings with exponentially large state and action spaces.\nYet, many environments exhibit exploitable structure that can accelerate\nlearning. To formalize this idea, we study RL in Block Markov Decision\nProcesses (BMDPs). BMDPs model problems with large observation spaces, but\nwhere transition dynamics are fully determined by latent states. Recent\nadvances in clustering methods have enabled the efficient recovery of this\nlatent structure. However, a regret analysis that exploits these techniques to\ndetermine their impact on learning performance remained open. We are now\naddressing this gap by providing a regret analysis that explicitly leverages\nclustering, demonstrating that accurate latent state estimation can indeed\neffectively speed up learning.\n  Concretely, this paper analyzes a two-phase RL algorithm for BMDPs that first\nlearns the latent structure through random exploration and then switches to an\noptimism-guided strategy adapted to the uncovered structure. This algorithm\nachieves a regret that is $O(\\sqrt{T}+n)$ on a large class of BMDPs susceptible\nto clustering. Here, $T$ denotes the number of time steps, $n$ is the\ncardinality of the observation space, and the Landau notation $O(\\cdot)$ holds\nup to constants and polylogarithmic factors. This improves the best prior\nbound, $O(\\sqrt{T}+n^2)$, especially when $n$ is large. Moreover, we prove that\nno algorithm can achieve lower regret uniformly on this same class of BMDPs.\nThis establishes that, on this class, the algorithm achieves asymptotic\noptimality.",
+    "url": "http://arxiv.org/abs/2510.13748v1"
+  },
+  {
+    "title": "Internal Diffusion Limited Aggregation with Critical Branching Random Walks",
+    "authors": [
+      "Amine Asselah",
+      "Vittoria Silvestri",
+      "Lorenzo Taggi"
+    ],
+    "summary": "Internal Diffusion Limited Aggregation is an interacting particle system that\ndescribes the growth of a random cluster governed by the boundary harmonic\nmeasure seen from an internal point. Our paper studies IDLA in $\\mathbb{Z}^d$\ndriven by critical branching random walks. We prove that, unlike classical\nIDLA, this process exhibits a phase transition in the dimension. More\nprecisely, we establish the existence of a spherical shape theorem in dimension\n$d\\geq 3$ and the absence of a spherical shape theorem for $d \\leq 2$. Our\nbounds on the inner and outer worst deviations are of polynomial nature, which\nwe expect to be a feature of this model.",
+    "url": "http://arxiv.org/abs/2510.13733v1"
+  },
+  {
+    "title": "FIRST: Federated Inference Resource Scheduling Toolkit for Scientific AI Model Access",
+    "authors": [
+      "Aditya Tanikanti",
+      "Benoit C\u00f4t\u00e9",
+      "Yanfei Guo",
+      "Le Chen",
+      "Nickolaus Saint",
+      "Ryan Chard",
+      "Ken Raffenetti",
+      "Rajeev Thakur",
+      "Thomas Uram",
+      "Ian Foster",
+      "Michael E. Papka",
+      "Venkatram Vishwanath"
+    ],
+    "summary": "We present the Federated Inference Resource Scheduling Toolkit (FIRST), a\nframework enabling Inference-as-a-Service across distributed High-Performance\nComputing (HPC) clusters. FIRST provides cloud-like access to diverse AI\nmodels, like Large Language Models (LLMs), on existing HPC infrastructure.\nLeveraging Globus Auth and Globus Compute, the system allows researchers to run\nparallel inference workloads via an OpenAI-compliant API on private, secure\nenvironments. This cluster-agnostic API allows requests to be distributed\nacross federated clusters, targeting numerous hosted models. FIRST supports\nmultiple inference backends (e.g., vLLM), auto-scales resources, maintains\n\"hot\" nodes for low-latency execution, and offers both high-throughput batch\nand interactive modes. The framework addresses the growing demand for private,\nsecure, and scalable AI inference in scientific workflows, allowing researchers\nto generate billions of tokens daily on-premises without relying on commercial\ncloud infrastructure.",
+    "url": "http://arxiv.org/abs/2510.13724v1"
+  },
+  {
+    "title": "Hierarchical Bayesian Modeling of Dengue in Recife, Brazil (2015-2024): The Role of Spatial Granularity and Data Quality for Epidemiological Risk Mapping",
+    "authors": [
+      "Marc\u00edlio Ferreira dos Santos",
+      "Andreza dos Santos Rodrigues de Melo"
+    ],
+    "summary": "Dengue remains one of Brazil's major epidemiological challenges, marked by\nstrong intra-urban inequalities and the influence of climatic and\nsocio-environmental factors. This study analyzed confirmed dengue cases in\nRecife from 2015 to 2024 using a Bayesian hierarchical spatio-temporal model\nimplemented in R-INLA, combining a BYM2 spatial structure with an RW1 temporal\ncomponent. Covariates included population density, household size, income,\ndrainage channels, lagged precipitation, and mean temperature. Population\ndensity and household size had positive effects on dengue risk, while income\nand channel presence were protective. Lagged precipitation increased risk, and\nhigher temperatures showed an inverse association, suggesting thermal\nthresholds for vector activity. The model achieved good fit (DIC=65817;\nWAIC=64506) and stable convergence, with moderate residual spatial\nautocorrelation (phi=0.06) and a smooth temporal trend between 2016 and 2019.\nSpatio-temporal estimates revealed persistent high-risk clusters in northern\nand western Recife, overlapping with areas of higher density and social\nvulnerability. Beyond reproducing historical patterns, the Bayesian model\nsupports probabilistic forecasting and early warning systems. Compared with\nclassical models (GLM, SAR, GWR, GTWR), INLA explicitly integrates uncertainty\nand spatial-temporal dependence, offering credible interval inference for\ndecision-making in urban health management.",
+    "url": "http://arxiv.org/abs/2510.13672v1"
+  },
+  {
+    "title": "Adaptive Rescheduling in Prefill-Decode Disaggregated LLM Inference",
+    "authors": [
+      "Zhibin Wang",
+      "Zetao Hong",
+      "Xue Li",
+      "Zibo Wang",
+      "Shipeng Li",
+      "Qingkai Meng",
+      "Qing Wang",
+      "Chengying Huan",
+      "Rong Gu",
+      "Sheng Zhong",
+      "Chen Tian"
+    ],
+    "summary": "Large Language Model (LLM) inference has emerged as a fundamental paradigm.\nIn real-world scenarios, variations in output length cause severe workload\nimbalance in the decode phase, particularly for long-output reasoning tasks.\nExisting systems, such as PD disaggregation architectures, rely on static\nprefill-to-decode scheduling, which often results in SLO violations and OOM\nfailures under evolving decode workloads.\n  In this paper, we propose ARES, an adaptive decoding rescheduling system\npowered by length prediction to anticipate future workloads. Our core\ncontributions include: (1) A lightweight and continuous LLM-native prediction\nmethod that leverages LLM hidden state to model remaining generation length\nwith high precision (reducing MAE by 49.42%) and low overhead (cutting\npredictor parameters by 93.28%); (2) A rescheduling solution in decode phase\nwith : A dynamic balancing mechanism that integrates current and predicted\nworkloads, reducing P99 TPOT by 74.77% and achieving up to 2.24 times higher\ngoodput.",
+    "url": "http://arxiv.org/abs/2510.13668v1"
+  },
+  {
+    "title": "Spherical Radiomics - A Novel Approach to Glioblastoma Radiogenomic Analysis of Heterogeneity",
+    "authors": [
+      "Haotian Feng",
+      "Ke Sheng"
+    ],
+    "summary": "We develop and validate a novel spherical radiomics framework for predicting\nkey molecular biomarkers using multiparametric MRI. Conventional Cartesian\nradiomics extract tumor features on orthogonal grids, which do not fully\ncapture the tumor's radial growth patterns and can be insensitive to evolving\nmolecular signatures. In this study, we analyzed GBM radiomic features on\nconcentric 2D shells, which were then mapped onto 2D planes for radiomics\nanalysis. Radiomic features were extracted using PyRadiomics from four\ndifferent regions in GBM. Feature selection was performed using ANOVA\nF-statistics. Classification was conducted with multiple machine-learning\nmodels. Model interpretability was evaluated through SHAP analysis, clustering\nanalysis, feature significance profiling, and comparison between radiomic\npatterns and underlying biological processes. Spherical radiomics consistently\noutperformed conventional 2D and 3D Cartesian radiomics across all prediction\ntasks. The best framework reached an AUC of 0.85 for MGMT, 0.80 for EGFR, 0.80\nfor PTEN, and 0.83 for survival prediction. GLCM-derived features were\nidentified as the most informative predictors. Radial transition analysis using\nthe Mann-Whitney U-test demonstrates that transition slopes between T1-weighted\ncontrast-enhancing and T2/FLAIR hyperintense lesion regions, as well as between\nT2 intense lesion and a 2 cm peritumoral expansion region, are significantly\nassociated with biomarker status. Furthermore, the observed radiomic changes\nalong the radial direction closely reflected known biological characteristics.\nRadiomic features extracted on the spherical surfaces at varying radial\ndistances to the GBM tumor centroid are better correlated with important tumor\nmolecular markers and patient survival than the conventional Cartesian\nanalysis.",
+    "url": "http://arxiv.org/abs/2510.13658v1"
+  },
+  {
+    "title": "Near-critical Ornstein--Zernike theory for the planar random-cluster model",
+    "authors": [
+      "Lucas D'Alimonte",
+      "Ioan Manolescu"
+    ],
+    "summary": "We develop an Ornstein--Zernike theory for the two-dimensional random-cluster\nmodel with $1 \\leq q <4$ that also applies in its near-critical regime. In\nparticular, we prove an asymptotic formula for the two-point function which\nholds uniformly for~$p < p_c$ and blends the subcritical and near-critical\nbehaviours of the model.\n  The analysis is carried out by studying the renewal properties of a\nsubcritical percolation cluster, \\emph{at the scale of the correlation length}.\nMore precisely, we explore sequentially the cluster in a given direction, by\nslices of thickness comparable to the correlation length. We show that this\nexploration satisfies the properties of a {\\em killed Markov renewal process}\n-- a class of processes that may be analysed independently and have Brownian\nbehaviour. In addition to the two-point function estimate, we derive other\nconsequences of the Ornstein--Zernike theory such as an invariance principle\nfor the rescaled cluster and the strict convexity of the inverse correlation\nlength -- all at the scale of the correlation length, uniformly in~$p<p_c$.\n  Finally, our approach differs from that of earlier papers of Campanino,\nIoffe, Velenik and others, with the cluster being dynamically explored rather\nthan constructed from its diamond decomposition.",
+    "url": "http://arxiv.org/abs/2510.13648v1"
+  },
+  {
+    "title": "Analysis and Prediction of Dark Current Mechanisms in Si:P Blocked Impurity Band (BIB) Infrared Detectors",
+    "authors": [
+      "Mengyang Cui",
+      "Hongxing Qi",
+      "Chengduo Hu",
+      "Qing Li"
+    ],
+    "summary": "We investigated the nonlinear phenomena observed in the dark current of BIB\n(blocked-impurity-band) infrared detectors, including negative differential\nresistance (NDR) and current oscillations. Our analysis systematically\nelucidated the intrinsic transport mechanisms in optimized devices, revealing\nthat these anomalies arise from current path clustering induced by structural\ndisorder and impurity band conduction dynamics. Notably, the simulated\ncurrent-voltage (I-V) characteristics demonstrated strong agreement with\nexperimental measurements across a wide bias range, confirming the validity of\nour proposed physical model.Furthermore, we developed a transformer-based\npredictive model using experimental dark current datasets. The model achieved\nrobust performance metrics and this framework enables rapid prediction of dark\ncurrent trends under varying operational conditions, providing actionable\ninsights for detector optimization.",
+    "url": "http://arxiv.org/abs/2510.13645v1"
+  },
+  {
+    "title": "Multivariate Time Series Forecasting with Gate-Based Quantum Reservoir Computing on NISQ Hardware",
+    "authors": [
+      "Wissal Hamhoum",
+      "Soumaya Cherkaoui",
+      "Jean-Frederic Laprade",
+      "Ola Ahmed",
+      "Shengrui Wang"
+    ],
+    "summary": "Quantum reservoir computing (QRC) offers a hardware-friendly approach to\ntemporal learning, yet most studies target univariate signals and overlook\nnear-term hardware constraints. This work introduces a gate-based QRC for\nmultivariate time series (MTS-QRC) that pairs injection and memory qubits and\nuses a Trotterized nearest-neighbor transverse-field Ising evolution optimized\nfor current device connectivity and depth. On Lorenz-63 and ENSO, the method\nachieves a mean square error (MSE) of 0.0087 and 0.0036, respectively,\nperforming on par with classical reservoir computing on Lorenz and above\nlearned RNNs on both, while NVAR and clustered ESN remain stronger on some\nsettings. On IBM Heron R2, MTS-QRC sustains accuracy with realistic depths and,\ninterestingly, outperforms a noiseless simulator on ENSO; singular value\nanalysis indicates that device noise can concentrate variance in feature\ndirections, acting as an implicit regularizer for linear readout in this\nregime. These findings support the practicality of gate-based QRC for MTS\nforecasting on NISQ hardware and motivate systematic studies on when and how\nhardware noise benefits QRC readouts.",
+    "url": "http://arxiv.org/abs/2510.13634v1"
+  },
+  {
+    "title": "ArtNet: Hierarchical Clustering-Based Artificial Netlist Generator for ML and DTCO Application",
+    "authors": [
+      "Andrew B. Kahng. Seokhyeong Kang",
+      "Seonghyeon Park",
+      "Dooseok Yoon"
+    ],
+    "summary": "In advanced nodes, optimization of power, performance and area (PPA) has\nbecome highly complex and challenging. Machine learning (ML) and\ndesign-technology co-optimization (DTCO) provide promising mitigations, but\nface limitations due to a lack of diverse training data as well as long design\nflow turnaround times (TAT). We propose ArtNet, a novel artificial netlist\ngenerator designed to tackle these issues. Unlike previous methods, ArtNet\nreplicates key topological characteristics, enhancing ML model generalization\nand supporting broader design space exploration for DTCO. By producing\nrealistic artificial datasets that moreclosely match given target parameters,\nArtNet enables more efficient PPAoptimization and exploration of flows and\ndesign enablements. In the context of CNN-based DRV prediction, ArtNet's data\naugmentationimproves F1 score by 0.16 compared to using only the original\n(real) dataset. In the DTCO context, ArtNet-generated mini-brains achieve a PPA\nmatch up to 97.94%, demonstrating close alignment with design metrics of\ntargeted full-scale block designs.",
+    "url": "http://arxiv.org/abs/2510.13582v1"
+  },
+  {
+    "title": "Earthquake Forecasting with ETAS.inlabru",
+    "authors": [
+      "Ziwen Zhong"
+    ],
+    "summary": "The ETAS models are currently the most popular in the field of earthquake\nforecasting. The MCMC method is time-consuming and limited by parameter\ncorrelation while bringing parameter uncertainty. The INLA-based method\n\"inlabru\" solves these problems and performs better at Bayesian inference.\n  The report introduces the composition of the ETAS model, then provides the\nmodel's log-likelihood and approximates it using Taylor expansion and binning\nstrategies. We also present the general procedure of Bayesian inference in\ninlabru.\n  The report follows three experiments. The first one explores the effect of\nfixing one parameter at its actual or wrong values on the posterior\ndistribution of other parameters. We found that $\\alpha$ and $K$ have an\napparent mutual influence relationship. At the same time, fixing $\\alpha$ or\n$K$ to its actual value can reduce the model fitting time by more than half.\n  The second experiment compares normalised inter-event-time distribution on\nreal data and synthetic catalogues. The distributions of normalised\ninter-event-time of real data and synthetic catalogues are consistent. Compared\nwith Exp(1), they have more short and long inter-event-time, indicating the\nexistence of clustering. Change on $\\mu$ and $p$ will influence the\ninter-event-time distribution.\n  In the last one, we use events before the mainshock to predict events ten\nweeks after the mainshock. We use the number test and Continuous Ranked\nProbability Score (CRPS) to measure the accuracy and precision of the\npredictions. We found that we need at least one mainshock and corresponding\noffspring to make reliable forecasting. And when we have more mainshocks in our\ndata, our forecasting will be better. Besides, we also figure out what is\nneeded to obtain a good posterior distribution for each parameter.",
+    "url": "http://arxiv.org/abs/2510.13930v1"
+  },
+  {
+    "title": "Rippled Moire Superlattices for Decoupled Ferroelectric Bits",
+    "authors": [
+      "Di Fan",
+      "Changming Ke",
+      "Shi Liu"
+    ],
+    "summary": "Symmetry considerations suggest that moire superlattices formed by twisted\ntwo-dimensional materials should preserve overall inversion symmetry. However,\nexperiments consistently report robust ferroelectricity in systems such as\ntwisted bilayer h-BN, posing a fundamental discrepancy between theory and\nexperiment regarding its microscopic origin. Here, using large-scale\nfinite-field molecular dynamics simulations, we challenge the prevailing\ndefect-pinning hypothesis and instead identify an out-of-plane bending field,\ninduced by in-plane compressive strain, as the key symmetry-breaking mechanism.\nThis strain-induced rippling drives spatially heterogeneous interlayer sliding\nand distorts the moire domain wall network, resulting in a four-state\nferroelectric system. Remarkably, we show this mechanism can be harnessed at\nthe nanoscale, where localized nanobubbles designate the moire lattice's\nfundamental hexagonal domain clusters as the smallest individually addressable\nferroelectric bits, thereby imposing local control on an otherwise globally\ndefined structure. Our findings establish a geometry-driven framework for\nunderstanding and engineering moire ferroelectrics, offering not only a route\ntoward ultra-high-density, rewritable memory, but also a strategy for locally\ntuning the moire potential itself, a critical step for manipulating emergent\ncorrelated and topological quantum phases.",
+    "url": "http://arxiv.org/abs/2510.13568v2"
+  },
+  {
+    "title": "Euclid: Exploring observational systematics in cluster cosmology -- a comprehensive analysis of cluster counts and clustering",
+    "authors": [
+      "A. Fumagalli",
+      "M. Costanzi",
+      "T. Castro",
+      "A. Saro",
+      "S. Borgani",
+      "M. Romanello",
+      "F. Marulli",
+      "E. Tsaprazi",
+      "P. Monaco",
+      "B. Altieri",
+      "A. Amara",
+      "L. Amendola",
+      "S. Andreon",
+      "N. Auricchio",
+      "C. Baccigalupi",
+      "M. Baldi",
+      "A. Balestra",
+      "S. Bardelli",
+      "A. Biviano",
+      "E. Branchini",
+      "M. Brescia",
+      "S. Camera",
+      "G. Ca\u00f1as-Herrera",
+      "V. Capobianco",
+      "C. Carbone",
+      "J. Carretero",
+      "S. Casas",
+      "M. Castellano",
+      "G. Castignani",
+      "S. Cavuoti",
+      "K. C. Chambers",
+      "A. Cimatti",
+      "C. Colodro-Conde",
+      "G. Congedo",
+      "L. Conversi",
+      "Y. Copin",
+      "F. Courbin",
+      "H. M. Courtois",
+      "A. Da Silva",
+      "H. Degaudenzi",
+      "S. de la Torre",
+      "G. De Lucia",
+      "A. M. Di Giorgio",
+      "H. Dole",
+      "M. Douspis",
+      "F. Dubath",
+      "C. A. J. Duncan",
+      "X. Dupac",
+      "S. Dusini",
+      "S. Escoffier",
+      "M. Farina",
+      "R. Farinelli",
+      "F. Faustini",
+      "S. Ferriol",
+      "F. Finelli",
+      "P. Fosalba",
+      "N. Fourmanoit",
+      "M. Frailis",
+      "E. Franceschi",
+      "M. Fumana",
+      "S. Galeotta",
+      "K. George",
+      "B. Gillis",
+      "C. Giocoli",
+      "J. Gracia-Carpio",
+      "A. Grazian",
+      "F. Grupp",
+      "L. Guzzo",
+      "S. V. H. Haugan",
+      "W. Holmes",
+      "F. Hormuth",
+      "A. Hornstrup",
+      "K. Jahnke",
+      "M. Jhabvala",
+      "B. Joachimi",
+      "E. Keih\u00e4nen",
+      "S. Kermiche",
+      "A. Kiessling",
+      "B. Kubik",
+      "M. K\u00fcmmel",
+      "M. Kunz",
+      "H. Kurki-Suonio",
+      "A. M. C. Le Brun",
+      "S. Ligori",
+      "P. B. Lilje",
+      "V. Lindholm",
+      "I. Lloro",
+      "G. Mainetti",
+      "D. Maino",
+      "E. Maiorano",
+      "O. Mansutti",
+      "O. Marggraf",
+      "M. Martinelli",
+      "N. Martinet",
+      "R. J. Massey",
+      "E. Medinaceli",
+      "S. Mei",
+      "Y. Mellier",
+      "M. Meneghetti",
+      "E. Merlin",
+      "G. Meylan",
+      "J. J. Mohr",
+      "A. Mora",
+      "M. Moresco",
+      "L. Moscardini",
+      "E. Munari",
+      "R. Nakajima",
+      "C. Neissner",
+      "S. -M. Niemi",
+      "C. Padilla",
+      "S. Paltani",
+      "F. Pasian",
+      "K. Pedersen",
+      "V. Pettorino",
+      "S. Pires",
+      "G. Polenta",
+      "M. Poncet",
+      "L. A. Popa",
+      "L. Pozzetti",
+      "F. Raison",
+      "R. Rebolo",
+      "A. Renzi",
+      "J. Rhodes",
+      "G. Riccio",
+      "E. Romelli",
+      "M. Roncarelli",
+      "C. Rosset",
+      "R. Saglia",
+      "Z. Sakr",
+      "A. G. S\u00e1nchez",
+      "D. Sapone",
+      "B. Sartoris",
+      "P. Schneider",
+      "T. Schrabback",
+      "A. Secroun",
+      "E. Sefusatti",
+      "G. Seidel",
+      "M. Seiffert",
+      "S. Serrano",
+      "P. Simon",
+      "C. Sirignano",
+      "G. Sirri",
+      "A. Spurio Mancini",
+      "L. Stanco",
+      "J. Steinwagner",
+      "P. Tallada-Cresp\u00ed",
+      "D. Tavagnacco",
+      "A. N. Taylor",
+      "I. Tereno",
+      "N. Tessore",
+      "S. Toft",
+      "R. Toledo-Moreo",
+      "F. Torradeflot",
+      "I. Tutusaus",
+      "L. Valenziano",
+      "J. Valiviita",
+      "T. Vassallo",
+      "G. Verdoes Kleijn",
+      "A. Veropalumbo",
+      "Y. Wang",
+      "J. Weller",
+      "G. Zamorani",
+      "F. M. Zerbi",
+      "E. Zucca",
+      "C. Burigana",
+      "L. Gabarra",
+      "M. Maturi",
+      "C. Porciani",
+      "V. Scottez",
+      "M. Sereno",
+      "M. Viel"
+    ],
+    "summary": "This study explores the impact of observational and modelling systematic\neffects on cluster number counts and cluster clustering and provides model\nprescriptions for their joint analysis, in the context of the \\Euclid survey.\nUsing 1000 \\Euclid-like cluster catalogues, we investigate the effect of\nsystematic uncertainties on cluster summary statistics and their auto- and\ncross-covariance, and perform a likelihood analysis to evaluate their impact on\ncosmological constraints, with a focus on the matter density parameter\n$\\Omega_{\\rm m}$ and on the power spectrum amplitude $\\sigma_8$. Combining\ncluster clustering with number counts significantly improves cosmological\nconstraints, with the figure of merit increasing by over 300\\% compared to\nnumber counts alone. We confirm that the two probes are uncorrelated, and the\ncosmological constraints derived from their combination are almost insensitive\nto the cosmology dependence of the covariance. We find that photometric\nredshift uncertainties broaden cosmological posteriors by 20--30\\%, while\nsecondary effects like redshift-space distortions (RSDs) have a smaller impact\non the posteriors -- 5\\% for clustering alone, 10\\% when combining probes --\nbut can significantly bias the constraints if neglected. We show that\nclustering data below $60\\,h^{-1}\\,$Mpc provides additional constraining power,\nwhile scales larger than acoustic oscillation scale add almost no information\non $\\Omega_{\\rm m}$ and $\\sigma_8$ parameters. RSDs and photo-$z$ uncertainties\nalso influence the number count covariance, with a significant impact, of about\n15--20\\%, on the parameter constraints.",
+    "url": "http://arxiv.org/abs/2510.13509v1"
+  },
+  {
+    "title": "Service-Level Energy Modeling and Experimentation for Cloud-Native Microservices",
+    "authors": [
+      "Julian Legler",
+      "Sebastian Werner",
+      "Maria C. Borges",
+      "Stefan Tai"
+    ],
+    "summary": "Microservice architectures have become the dominant paradigm for cloud-native\nsystems, offering flexibility and scalability. However, this shift has also led\nto increased demand for cloud resources, contributing to higher energy\nconsumption and carbon emissions. While existing research has focused on\nmeasuring fine-grained energy usage of CPU and memory at the container level,\nor on system-wide assessments, these approaches often overlook the energy\nimpact of cross-container service interactions, especially those involving\nnetwork and storage for auxiliary services such as observability and system\nmonitoring. To address this gap, we introduce a service-level energy model that\ncaptures the distributed nature of microservice execution across containers.\nOur model is supported by an experimentation tool that accounts for energy\nconsumption not just in CPU and memory, but also in network and storage\ncomponents. We validate our approach through extensive experimentation with\ndiverse experiment configurations of auxiliary services for a popular\nopen-source cloud-native microservice application. Results show that omitting\nnetwork and storage can lead to an underestimation of auxiliary service energy\nuse by up to 63%, highlighting the need for more comprehensive energy\nassessments in the design of energy-efficient microservice architectures.",
+    "url": "http://arxiv.org/abs/2510.13447v1"
+  },
+  {
+    "title": "Chromatic correlation clustering via cluster LP",
+    "authors": [
+      "Fateme Abbasi",
+      "Hyung-Chan An",
+      "Jaros\u0142aw Byrka",
+      "Changyeol Lee",
+      "Yongho Shin"
+    ],
+    "summary": "Correlation Clustering is a fundamental clustering problem, and there has\nbeen a line of work on improving the approximation ratio for this problem in\nrecent years. A key algorithmic component in these works is the cluster LP.\nChromatic Correlation Clustering is an interesting generalization that has also\nbeen intensively studied. In light of success of the cluster LP in Correlation\nClustering, it would be an interesting question whether the cluster LP can be\nused in Chromatic Correlation Clustering. We answer this question with\naffirmatives by presenting a $(2+\\varepsilon)$-approximation algorithm for\nChromatic Correlation Clustering using a chromatic cluster LP.",
+    "url": "http://arxiv.org/abs/2510.13446v1"
+  },
+  {
+    "title": "Verification Challenges in Sparse Matrix Vector Multiplication in High Performance Computing: Part I",
+    "authors": [
+      "Junchao Zhang"
+    ],
+    "summary": "Sparse matrix vector multiplication (SpMV) is a fundamental kernel in\nscientific codes that rely on iterative solvers. In this first part of our\nwork, we present both a sequential and a basic MPI parallel implementations of\nSpMV, aiming to provide a challenge problem for the scientific software\nverification community. The implementations are described in the context of the\nPETSc library.",
+    "url": "http://arxiv.org/abs/2510.13427v1"
+  },
+  {
+    "title": "Development of fault identification pipeline for SPIRAL2 LLRF data",
+    "authors": [
+      "Charly Lassalle",
+      "Patrick Bonnay",
+      "Fr\u00e9d\u00e9ric Bouly",
+      "Marco Di Giacomo",
+      "Adnan Ghribi"
+    ],
+    "summary": "SPIRAL2 is a state-of-the-art superconducting linear accelerator for heavy\nions. The radiofrequency operation of the linac can be disrupted by anomalies\nthat affect its reliability. This work leverages fast, multivariate time series\npost-mortem data from the Low-Level Radio Frequency (LLRF) systems to\ndifferentiate anomaly groups. However, interpreting these anomalies\ntraditionally relies on expert analysis, with certain behaviours remaining\nobscure even to experienced observers. By adopting the Time2Feat pipeline, this\nstudy explores the interpretability of anomalies through feature selection,\npaving the way for real-time state observers. Clustering dashboards are\npresented, allowing the use of multiple clustering algorithms easily\nconfigurable and tools to help for visualizing results. A case study on\ndistinguishing electronic quenches and false quench alarms in postmortem data\nis highlighted. Thereby, a fast and reliable K-Nearest Neighbours (KNN)\nclassifier is proposed.",
+    "url": "http://arxiv.org/abs/2510.13421v1"
+  },
+  {
+    "title": "VSS Challenge Problem: Verifying the Correctness of AllReduce Algorithms in the MPICH Implementation of MPI",
+    "authors": [
+      "Paul D. Hovland"
+    ],
+    "summary": "We describe a challenge problem for verification based on the MPICH\nimplementation of MPI. The MPICH implementation includes several algorithms for\nallreduce, all of which should be functionally equivalent to reduce followed by\nbroadcast. We created standalone versions of three algorithms and verified two\nof them using CIVL.",
+    "url": "http://arxiv.org/abs/2510.13413v1"
+  },
+  {
+    "title": "F-BFQ: Flexible Block Floating-Point Quantization Accelerator for LLMs",
+    "authors": [
+      "Jude Haris",
+      "Jos\u00e9 Cano"
+    ],
+    "summary": "Large Language Models (LLMs) have become increasingly prominent for daily\ntasks, from improving sound-totext translation to generating additional frames\nfor the latest video games. With the help of LLM inference frameworks, such as\nllama.cpp, which support optimizations such as KV-caching and quantization, it\nis now easier than ever to deploy LLMs on edge devices. Quantization is\nfundamental to enable LLMs on resource-constrained edge devices, and llama.cpp\nutilizes block floating point (BFP) quantization to drastically reduce the bit\nwidth of weights and input tensors, the memory footprint, and the computational\npower required to run LLMs. LLMs are typically quantized with mixed BFP\nquantization across the model layers to reduce the loss of model accuracy due\nto quantization. Therefore, to efficiently accelerate across the layers of\nBFP-quantized LLMs, specialized accelerators need to support different BFP\nvariants without reconfiguration. To address this issue, we propose a Flexible\nBlock FloatingPoint Quantization (F-BFQ) accelerator, which can dynamically\nswitch between two BFP quantization variants and perform matrix multiplication\n(MatMul) operations. Our initial F-BFQ accelerator design, deployed on the AMD\nKria board, reduces inference time by 1.4x on average over the Arm NEON-based\nCPU execution across three BFP quantized LLMs while achieving 5.2 tokens per\nsecond (~3.9 words per second).",
+    "url": "http://arxiv.org/abs/2510.13401v1"
+  },
+  {
+    "title": "Kernel Representation and Similarity Measure for Incomplete Data",
+    "authors": [
+      "Yang Cao",
+      "Sikun Yang",
+      "Kai He",
+      "Wenjun Ma",
+      "Ming Liu",
+      "Yujiu Yang",
+      "Jian Weng"
+    ],
+    "summary": "Measuring similarity between incomplete data is a fundamental challenge in\nweb mining, recommendation systems, and user behavior analysis. Traditional\napproaches either discard incomplete data or perform imputation as a\npreprocessing step, leading to information loss and biased similarity\nestimates. This paper presents the proximity kernel, a new similarity measure\nthat directly computes similarity between incomplete data in kernel feature\nspace without explicit imputation in the original space. The proposed method\nintroduces data-dependent binning combined with proximity assignment to project\ndata into a high-dimensional sparse representation that adapts to local density\nvariations. For missing value handling, we propose a cascading fallback\nstrategy to estimate missing feature distributions. We conduct clustering tasks\non the proposed kernel representation across 12 real world incomplete datasets,\ndemonstrating superior performance compared to existing methods while\nmaintaining linear time complexity. All the code are available at\nhttps://anonymous.4open.science/r/proximity-kernel-2289.",
+    "url": "http://arxiv.org/abs/2510.13352v1"
+  },
+  {
+    "title": "Distributed Reductions for the Maximum Weight Independent Set Problem",
+    "authors": [
+      "Jannick Borowitz",
+      "Ernestine Gro\u00dfmann",
+      "Mattthias Schimek"
+    ],
+    "summary": "Finding maximum-weight independent sets in graphs is an important NP-hard\noptimization problem. Given a vertex-weighted graph $G$, the task is to find a\nsubset of pairwise non-adjacent vertices of $G$ with maximum weight. Most\nrecently published practical exact algorithms and heuristics for this problem\nuse a variety of data-reduction rules to compute (near-)optimal solutions.\nApplying these rules results in an equivalent instance of reduced size. An\noptimal solution to the reduced instance can be easily used to construct an\noptimal solution for the original input.\n  In this work, we present the first distributed-memory parallel reduction\nalgorithms for this problem, targeting graphs beyond the scale of previous\nsequential approaches. Furthermore, we propose the first distributed\nreduce-and-greedy and reduce-and-peel algorithms for finding a maximum weight\nindependent set heuristically.\n  In our practical evaluation, our experiments on up to $1024$ processors\ndemonstrate good scalability of our distributed reduce algorithms while\nmaintaining good reduction impact. Our asynchronous reduce-and-peel approach\nachieves an average speedup of $33\\times$ over a sequential state-of-the-art\nreduce-and-peel approach on 36 real-world graphs with a solution quality close\nto the sequential algorithm. Our reduce-and-greedy algorithms even achieve\naverage speedups of up to $50\\times$ at the cost of a lower solution quality.\nMoreover, our distributed approach allows us to consider graphs with more than\none billion vertices and 17 billion edges.",
+    "url": "http://arxiv.org/abs/2510.13306v1"
+  },
+  {
+    "title": "Global linear analysis of the magneto-thermal instability in a stratified spherical model of the intracluster medium",
+    "authors": [
+      "J. M. Kempf",
+      "H. Latter"
+    ],
+    "summary": "The buoyancy stability properties of the ICM are modified because of the\nanisotropic transport of heat along the magnetic field lines. This feature\ngives rise to the MTI when the temperature gradient is aligned with the\ngravity, which occurs in the outskirts of galaxy clusters. Most previous linear\nanalyses of the MTI adopted a local, Boussinesq approach. However, the\nconduction length, which sets the characteristic length scale of the MTI, might\nbe a non-negligible fraction of the scale height in the ICM. We want to assess\nthe impact of locality assumptions on the linear physics of the MTI. Another\ngoal is to unveil the deeper connections between these global MTI modes and\ntheir MRI counterparts in accretion discs. Our third objective is to provide a\nnew benchmark against which any numerical code implementing the Braginskii heat\nflux in spherical geometry can be tested. We perform a global linear analysis\nof the MTI in a spherical stratified model of the ICM. We use a combination of\nanalytical results, corroborated by numerical results obtained with both a\npseudo-spectral solver and IDEFIX, to better explain the physics of the global\nMTI modes. We obtain scaling laws and approximate expressions for the growth\nrates of the global modes. We show that the associated functions are confined\nwithin an inner region, limited by a turning point, where the mode is allowed\nto grow. The most unstable local MTI modes correspond to the portion of the\nglobal mode localised near the turning point. This phenomenology is similar to\nthat of the global MRI modes. Finally, direct simulations successfully\nreproduce the global MTI modes and their growth rates, with errors smaller than\n1%. Overall, this study provides us with new insights on the linear theory of\nthe global MTI in the ICM, and a useful numerical test bench for any\nastrophysical fluid dynamics code embedding anisotropic heat flux.",
+    "url": "http://arxiv.org/abs/2510.13294v1"
+  },
+  {
+    "title": "Old open clusters NGC 188 and M 67 in Gaia DR3",
+    "authors": [
+      "Anton F. Seleznev",
+      "Maxim V. Kulesh"
+    ],
+    "summary": "We performed a statistical study of two old open clusters NGC 188 and M 67\nusing Gaia DR3 data. No tidal tails of the clusters were detected, which most\nlikely had been destroyed when the cluster passed through the Galactic plane.\nThe size estimates of the clusters depend on the range of astrometric\nparameters and stellar magnitudes of the stars used for star counts. The mass\nspectra of two clusters differ significantly. NGC 188 shows a deficit of\nlow-mass stars compared to M 67. In the halo region of NGC 188 (compared to the\ncore region of the cluster), there is a relative excess of the low-mass stars\n(just as in the case of M 67) and a deficit of stars in the mass range from\n0.66 to 0.9 solar masses. Comparison with the Hunt & Reffert samples showed\nthat almost all the stars from these samples are contained among the stars we\nselected for counting. Moreover, the group probability of these stars belonging\nto clusters, estimated by the uniform background method, is higher than 60%. It\nis shown that the velocity dispersion of single stars (selected according to\nthe `stellar magnitude -- color index' diagrams) is significantly smaller than\nthe velocity dispersion of unresolved binary stars.",
+    "url": "http://arxiv.org/abs/2510.13288v1"
+  },
+  {
+    "title": "The dependence of black hole formation in open clusters on the cluster formation process",
+    "authors": [
+      "Jian-Wen Zhou"
+    ],
+    "summary": "We performed N-body simulations of both individual cluster evolution and\nsubcluster coalescence, demonstrating that cluster evolution and its outcomes\nstrongly depend on the cluster formation process through comparisons of\ndifferent gas expulsion modes and formation channels. The evolution of star\nclusters is significantly shaped by the gas expulsion mode, with faster\nexpulsion producing greater mass loss. A broader degeneracy exists among\ninitial cluster mass, gas expulsion timescale, and formation channel\n(monolithic vs. coalescence), which manifests in both evolutionary pathways and\nblack hole production. In individual cluster simulations, slower gas expulsion\nenables progressively lower-mass clusters to retain central black holes within\nthe tidal radius. As the gas expulsion mode transitions from fast to moderate\nto slow, the fraction of high-velocity stars decreases. Variations in gas\nexpulsion mode and formation channel ultimately influence the stellar velocity\ndistribution (within the tidal radius), and thus the expansion speed, which\ngoverns both cluster mass loss and black hole retention. Slowly expanding\nclusters are more likely to retain black holes and multiple systems, making\nthem prime candidates for black hole searches with {\\it Gaia}. Our results\nhighlight the crucial influence of early gas expulsion and cluster formation\nmechanisms on the dynamical evolution of star clusters and black hole\nproduction. These factors should be carefully incorporated into the initial\nconditions of N-body simulations, which necessarily rely on input from the star\nformation community.",
+    "url": "http://arxiv.org/abs/2510.13241v1"
+  },
+  {
+    "title": "BanaServe: Unified KV Cache and Dynamic Module Migration for Balancing Disaggregated LLM Serving in AI Infrastructure",
+    "authors": [
+      "Yiyuan He",
+      "Minxian Xu",
+      "Jingfeng Wu",
+      "Jianmin Hu",
+      "Chong Ma",
+      "Min Shen",
+      "Le Chen",
+      "Chengzhong Xu",
+      "Lin Qu",
+      "Kejiang Ye"
+    ],
+    "summary": "Large language models (LLMs) are increasingly deployed in AI infrastructure,\ndriving the need for high throughput, resource efficient serving systems.\nDisaggregated LLM serving, which separates prompt prefill from auto-regressive\ndecode, has emerged as a promising architecture by isolating their\nheterogeneous compute and memory demands. However, current disaggregated\nsystems face three key limitations: (i) static resource allocation cannot adapt\nto highly dynamic workloads, causing over-provisioning that wastes resources or\nunder-provisioning that violates service level objectives (SLOs); (ii) inherent\nload imbalance between prefill and decode stages, where prefill is\ncompute-bound and decode is memory-bound, causes under-utilization in one tier\nwhile the other becomes a bottleneck; and (iii) prefix cache aware routing\nskews load distribution, as high cache hit rate prefill nodes attract\ndisproportionately more requests, further degrading balance and efficiency. To\naddress these issues, we present BanaServe, a dynamic orchestration framework\nthat continuously rebalances computational and memory resources across prefill\nand decode instances while eliminating hotspots induced by cache. BanaServe\nintroduces layer level weight migration, attention level Key Value Cache (KV\nCache) migration, and Global KV Cache Store sharing with layer wise overlapped\ntransmission, enabling both coarse grained (layer level) and fine grained\n(attention level) load redistribution with minimal latency overhead. These\nmechanisms allow routers to perform purely load aware scheduling, unconstrained\nby cache placement. Compared to vLLM, BanaServe achieves 1.2x-3.9x higher\nthroughput with 3.9%-78.4% lower total processing time, and outperforms\nDistServe by 1.1x-2.8x in throughput with 1.4%-70.1% latency reduction.",
+    "url": "http://arxiv.org/abs/2510.13223v1"
+  },
+  {
+    "title": "Acoustic Teleportation via Disentangled Neural Audio Codec Representations",
+    "authors": [
+      "Philipp Grundhuber",
+      "Mhd Modar Halimeh",
+      "Emanu\u00ebl A. P. Habets"
+    ],
+    "summary": "This paper presents an approach for acoustic teleportation by disentangling\nspeech content from acoustic environment characteristics in neural audio codec\nrepresentations. Acoustic teleportation transfers room characteristics between\nspeech recordings while preserving content and speaker identity. We build upon\nprevious work using the EnCodec architecture, achieving substantial objective\nquality improvements with non-intrusive ScoreQ scores of 3.03, compared to 2.44\nfor prior methods. Our training strategy incorporates five tasks: clean\nreconstruction, reverberated reconstruction, dereverberation, and two variants\nof acoustic teleportation. We demonstrate that temporal downsampling of the\nacoustic embedding significantly degrades performance, with even 2x\ndownsampling resulting in a statistically significant reduction in quality. The\nlearned acoustic embeddings exhibit strong correlations with RT60. Effective\ndisentanglement is demonstrated using t-SNE clustering analysis, where acoustic\nembeddings cluster by room while speech embeddings cluster by speaker.",
+    "url": "http://arxiv.org/abs/2510.13221v1"
+  },
+  {
+    "title": "Scrutiny new framework in integrated distributed reliable systems",
+    "authors": [
+      "Mehdi Zekriyapanah Gashti"
+    ],
+    "summary": "In this paper we represent a new framework for integrated distributed\nsystems. In the proposed framework we have used three parts to increase\nSatisfaction and Performance of this framework. At first we analyse integrated\nsystems and their evolution process and also ERPSD and ERPDRT framework briefly\nthen we explain the new FDIRS framework. Finally we compare the results of\nsimulation of the new framework with presented frameworks. Result showed In\nFIDRS framework, the technique of heterogeneous distributed data base is used\nto improve Performance and speed in responding to users. Finally by using FDIRS\nframework we succeeded to increase Efficiency, Performance and reliability of\nintegrated systems and remove some of previous frameworks problems.",
+    "url": "http://arxiv.org/abs/2510.13203v1"
+  },
+  {
+    "title": "STT-GS: Sample-Then-Transmit Edge Gaussian Splatting with Joint Client Selection and Power Control",
+    "authors": [
+      "Zhen Li",
+      "Xibin Jin",
+      "Guoliang Li",
+      "Shuai Wang",
+      "Miaowen Wen",
+      "Huseyin Arslan",
+      "Derrick Wing Kwan Ng",
+      "Chengzhong Xu"
+    ],
+    "summary": "Edge Gaussian splatting (EGS), which aggregates data from distributed clients\nand trains a global GS model at the edge server, is an emerging paradigm for\nscene reconstruction. Unlike traditional edge resource management methods that\nemphasize communication throughput or general-purpose learning performance, EGS\nexplicitly aims to maximize the GS qualities, rendering existing approaches\ninapplicable. To address this problem, this paper formulates a novel\nGS-oriented objective function that distinguishes the heterogeneous view\ncontributions of different clients. However, evaluating this function in turn\nrequires clients' images, leading to a causality dilemma. To this end, this\npaper further proposes a sample-then-transmit EGS (or STT-GS for short)\nstrategy, which first samples a subset of images as pilot data from each client\nfor loss prediction. Based on the first-stage evaluation, communication\nresources are then prioritized towards more valuable clients. To achieve\nefficient sampling, a feature-domain clustering (FDC) scheme is proposed to\nselect the most representative data and pilot transmission time minimization\n(PTTM) is adopted to reduce the pilot overhead.Subsequently, we develop a joint\nclient selection and power control (JCSPC) framework to maximize the\nGS-oriented function under communication resource constraints. Despite the\nnonconvexity of the problem, we propose a low-complexity efficient solution\nbased on the penalty alternating majorization minimization (PAMM) algorithm.\nExperiments unveil that the proposed scheme significantly outperforms existing\nbenchmarks on real-world datasets. It is found that the GS-oriented objective\ncan be accurately predicted with low sampling ratios (e.g.,10%), and our method\nachieves an excellent tradeoff between view contributions and communication\ncosts.",
+    "url": "http://arxiv.org/abs/2510.13186v1"
+  },
+  {
+    "title": "GRACE: Globally-Seeded Representation-Aware Cluster-Specific Evolution for Compiler Auto-Tuning",
+    "authors": [
+      "Haolin Pan",
+      "Chao Zha",
+      "Jinyuan Dong",
+      "Mingjie Xing",
+      "Yanjun Wu"
+    ],
+    "summary": "Compiler pass selection and phase ordering present a significant challenge in\nachieving optimal program performance, particularly for objectives like code\nsize reduction. Standard compiler heuristics offer general applicability but\noften yield suboptimal, program-specific results due to their one-size-fits-all\nnature. While iterative compilation can find tailored solutions, its\nprohibitive search cost limits practical use. Machine learning approaches\npromise faster inference but frequently struggle with generalization to unseen\nprograms. This paper introduces GRACE, a novel framework for compiler\nauto-tuning, demonstrated for LLVM IR instruction count optimization. GRACE\neffectively curtails the search space by leveraging pass synergies and a\nweighted scoring method to generate initial high-quality candidate sequences\nand a pass pool. It then employs contrastive learning, using pass\nsequence-based data augmentation, to create program embeddings that facilitate\nsimilarity-aware clustering. Evolutionary search within these clusters yields a\ncoreset of $k$ specialized pass sequences designed for robust generalization to\nunseen programs. At test time, GRACE efficiently selects the best coreset\nsequence and refines it using lightweight techniques. Experimental results on\nseven diverse datasets show that GRACE reduces LLVM IR instruction count by an\naverage of 10.09% on LLVM 10.0.0 and 10.19% on LLVM 18.1.6 compared to opt -Oz,\nwhile incurring an average tuning time of less than 1s per program,\ndemonstrating its state-of-the-art performance and practical effectiveness.",
+    "url": "http://arxiv.org/abs/2510.13176v1"
+  },
+  {
+    "title": "Galaxy Protoclusters as Drivers of Cosmic Reionization: I. Bubble Overlap at Redshift z ~ 7 in LAGER-z7OD1",
+    "authors": [
+      "Crystal L. Martin",
+      "Weida Hu",
+      "Isak G. B. Wold",
+      "Andreas Faisst",
+      "Cristobal Moya-Sierralta",
+      "Sangeeta Malhotra",
+      "James E. Rhoads",
+      "Luis Felipe Barrientos",
+      "Yuichi Harikane",
+      "Leopoldo Infante",
+      "Anton Koekemoer",
+      "Jorge Gonzalez Lopez",
+      "Masami Ouchi",
+      "Junyan Xu",
+      "Jiayang Yang",
+      "L. Y. Aaron Yung",
+      "John R. Weaver",
+      "Henry McCrackenm",
+      "Zhenya Zheng"
+    ],
+    "summary": "Since the launch of JWST, the sample size of reionization-era\nLyman-alpha-emitters (LAEs) has been steadily growing; yet inferences about the\nneutral hydrogen fraction in the intergalactic medium exhibit increasing\nvariance at redshift z ~ 7, possibly indicating significant field-to-field\nfluctuations in the progression of cosmic reionization. In this paper, we\npresent new JWST/NIRSpec and Keck/LRIS spectra of nine LAEs in the redshift z ~\n7 protocluster, LAGER-z7OD1. Measurements of Lyman-alpha-transmission and\nLyman-alpha velocity offset along multiple sightlines map the Lyman-alpha\ndamping wing optical depth across the galaxy overdensity. In the standard\ncontext of inside-out ionization, we estimate radii of ionized bubbles (R(min)\n= 0.07 - 0.69 Mpc) based on the distance from each LAE to the first neutral\npatch along the sightline. The resulting 3D topology reveals three distinct\nsub-clusters where the ionized bubbles are approaching overlap. Five of the\nnine LAEs plausibly ionized their bubbles, a few bursts of star formation and a\nmodest escape fraction are sufficient. We demonstrate, however, that the actual\nionized volumes are likely larger, at least R(ism) = 0.42 - 1.29 Mpc, based on\nan empirical model for interstellar attenuation of Lyman-alpha. Modeling\ngalactic attenuation of Lyman-alpha significantly increases the inferred\nintergalactic transmission (thus enlarging the ionized pathlength). The\nerrorbars on the reddening correction allow fully overlapping bubbles, and our\nresults are consistent with accelerated reionization in the protocluster.",
+    "url": "http://arxiv.org/abs/2510.13140v1"
+  },
+  {
+    "title": "Cluster-Based Client Selection for Dependent Multi-Task Federated Learning in Edge Computing",
+    "authors": [
+      "Jieping Luo",
+      "Qiyue Li",
+      "Zhizhang Liu",
+      "Hang Qi",
+      "Jiaying Yin",
+      "Jingjin Wu"
+    ],
+    "summary": "We study the client selection problem in Federated Learning (FL) within\nmobile edge computing (MEC) environments, particularly under the dependent\nmulti-task settings, to reduce the total time required to complete various\nlearning tasks. We propose CoDa-FL, a Cluster-oriented and Dependency-aware\nframework designed to reduce the total required time via cluster-based client\nselection and dependent task assignment. Our approach considers Earth Mover's\nDistance (EMD) for client clustering based on their local data distributions to\nlower computational cost and improve communication efficiency. We derive a\ndirect and explicit relationship between intra-cluster EMD and the number of\ntraining rounds required for convergence, thereby simplifying the otherwise\ncomplex process of obtaining the optimal solution. Additionally, we incorporate\na directed acyclic graph-based task scheduling mechanism to effectively manage\ntask dependencies. Through numerical experiments, we validate that our proposed\nCoDa-FL outperforms existing benchmarks by achieving faster convergence, lower\ncommunication and computational costs, and higher learning accuracy under\nheterogeneous MEC settings.",
+    "url": "http://arxiv.org/abs/2510.13132v1"
+  },
+  {
+    "title": "Absolute indices for determining compactness, separability and number of clusters",
+    "authors": [
+      "Adil M. Bagirov",
+      "Ramiz M. Aliguliyev",
+      "Nargiz Sultanova",
+      "Sona Taheri"
+    ],
+    "summary": "Finding \"true\" clusters in a data set is a challenging problem. Clustering\nsolutions obtained using different models and algorithms do not necessarily\nprovide compact and well-separated clusters or the optimal number of clusters.\nCluster validity indices are commonly applied to identify such clusters.\nNevertheless, these indices are typically relative, and they are used to\ncompare clustering algorithms or choose the parameters of a clustering\nalgorithm. Moreover, the success of these indices depends on the underlying\ndata structure. This paper introduces novel absolute cluster indices to\ndetermine both the compactness and separability of clusters. We define a\ncompactness function for each cluster and a set of neighboring points for\ncluster pairs. This function is utilized to determine the compactness of each\ncluster and the whole cluster distribution. The set of neighboring points is\nused to define the margin between clusters and the overall distribution margin.\nThe proposed compactness and separability indices are applied to identify the\ntrue number of clusters. Using a number of synthetic and real-world data sets,\nwe demonstrate the performance of these new indices and compare them with other\nwidely-used cluster validity indices.",
+    "url": "http://arxiv.org/abs/2510.13065v1"
+  },
+  {
+    "title": "A Liquid-Fueled Reactor Network Model for Enhanced NOx Prediction in Gas Turbine Combustors",
+    "authors": [
+      "Philip John",
+      "Sourav Saha",
+      "Opeoluwa Owoyele"
+    ],
+    "summary": "This study introduces a liquid-fueled reactor network (LFRN) framework for\nreduced-order modeling of gas turbine combustors. The proposed LFRN extends\nconventional gaseous-fueled reactor network methods by incorporating\nspecialized reactors that account for spray breakup, droplet heating, and\nevaporation, thereby enabling the treatment of multiphase effects essential to\nliquid-fueled systems. Validation is performed against detailed computational\nfluid dynamics (CFD) simulations of a liquid-fueled can combustor, with\nparametric studies conducted across variations in inlet air temperature and\nfuel flow rate. Results show that the LFRN substantially reduces NOx prediction\nerrors relative to gaseous reactor networks while maintaining accurate outlet\ntemperature predictions. A sensitivity analysis on the number of clusters\ndemonstrates progressive convergence toward the CFD predictions with increasing\nnetwork complexity. In terms of computational efficiency, the LFRN achieves\nruntimes on the order of 1-10 seconds on a single CPU core, representing\nspeed-ups generally exceeding 2000\\texttimes compared to CFD. Overall, the\nfindings demonstrate the potential of the LFRN as a computationally efficient\nreduced-order modeling tool that complements CFD to enable rapid emissions\nassessment and design-space exploration for liquid-fueled gas turbine\ncombustors.",
+    "url": "http://arxiv.org/abs/2510.13033v1"
+  },
+  {
+    "title": "Beyond OCCAM: Measuring Optical Neutron Capture Abundances of Open Cluster Stars",
+    "authors": [
+      "Natalie Myers",
+      "Sarah Loebman",
+      "Henrique Reggiani",
+      "Peter Frinchaboy"
+    ],
+    "summary": "Open clusters have long been used to determine ages of stars, as well as\ncalibrate stellar evolution models and other methods of age-dating stellar\ngroups, e.g., gyrochronology, asteroseismology, and chemical clocks. In this\nwork, we have obtained new high-resolution (R $\\ge$ 50,000), high-S/N, optical\ndata for 3+ stellar members in open clusters, using Keck/HIRES, with membership\nderived from the Open Cluster Chemical Abundances and Mapping (OCCAM) survey.\nFrom these new Keck/HIRES data, we have derived neutron capture abundances for\nstars in seven distant outer Galaxy open cluster",
+    "url": "http://arxiv.org/abs/2510.13014v1"
+  },
+  {
+    "title": "Cosmic Ray Transport and Gamma-Ray Signatures in the Interstellar Medium",
+    "authors": [
+      "Lucas Barreto-Mota",
+      "Elisabete M. de Gouveia Dal Pino",
+      "Siyao Xu",
+      "Alexandre Lazarian",
+      "Rafael Alves-Batista",
+      "Gaetano Di Marco",
+      "Stela Adduci Faria"
+    ],
+    "summary": "The interaction of cosmic rays (CRs) with magnetic fields and the interstelar\nmedium (ISM) leads to the production of nonthermal radiation. Although this has\nbeen a topic of study for many years, it still poses many challenges to the\nunderstanding of these processes. In this work we present a short review of\nrecent advances in the understanding of CR propagation in magnetohydrodynamical\n(MHD) turbulence, in particular the process of mirror diffusion, and how it can\nhelp explain recent observational constraints for CR diffusion away from\nsources. We also present preliminary results from Monte Carlo simulations of CR\ncascading and propagation within a young massive stellar cluster (YMSC), aimed\nat probing the origin of very-high-energy (VHE) emission from these sources.",
+    "url": "http://arxiv.org/abs/2510.12965v1"
+  },
+  {
+    "title": "Only the Special Survive: Evolution of Long-Lived Star Clusters in Galaxy Simulations",
+    "authors": [
+      "Alessa I. Wiggins",
+      "Sarah Loebman",
+      "Peter Frinchaboy"
+    ],
+    "summary": "In this work, we aim to answer one crucial question behind the discrepancy\nbetween chemical trends of field stars and clusters in the Galactic disk: is\nthe chemical gradient mismatch driven by cluster migration and differential\nsurvivability as a function of galactic location? To answer this question, we\nexplored the evolution of long-lived (> 1 Gyr) star clusters in Milky\nWay-galaxy simulations. In particular, we investigated why some star clusters\nremain bound over billions of years. We have traced the unique trajectories for\na sample of open clusters around two FIRE galaxies throughout cosmic time.\nAdditionally, we characterized the small-scale environment surrounding these\nclusters over their orbital history. We see that clusters across both FIRE\ngalaxies spend the majority of their lives in under-dense regions of gas,\nexcept for brief passages where they interact with gas clouds, causing their\norbits to be altered.",
+    "url": "http://arxiv.org/abs/2510.12942v1"
+  },
+  {
+    "title": "Computationally Efficient Neural Receivers via Axial Self-Attention",
+    "authors": [
+      "SaiKrishna Saketh Yellapragada",
+      "Atchutaram K. Kocharlakota",
+      "M\u00e1rio Costa",
+      "Esa Ollila",
+      "Sergiy A. Vorobyov"
+    ],
+    "summary": "Deep learning-based neural receivers are redefining physical-layer signal\nprocessing for next-generation wireless systems. We propose an axial\nself-attention transformer neural receiver designed for applicability to 6G and\nbeyond wireless systems, validated through 5G-compliant experimental\nconfigurations, that achieves state-of-the-art block error rate (BLER)\nperformance with significantly improved computational efficiency. By\nfactorizing attention operations along temporal and spectral axes, the proposed\narchitecture reduces the quadratic complexity of conventional multi-head\nself-attention from $O((TF)^2)$ to $O(T^2F+TF^2)$, yielding substantially fewer\ntotal floating-point operations and attention matrix multiplications per\ntransformer block compared to global self-attention. Relative to convolutional\nneural receiver baselines, the axial neural receiver achieves significantly\nlower computational cost with a fraction of the parameters. Experimental\nvalidation under 3GPP Clustered Delay Line (CDL) channels demonstrates\nconsistent performance gains across varying mobility scenarios. Under\nnon-line-of-sight CDL-C conditions, the axial neural receiver consistently\noutperforms all evaluated receiver architectures, including global\nself-attention, convolutional neural receivers, and traditional LS-LMMSE at\n10\\% BLER with reduced computational complexity per inference. At stringent\nreliability targets of 1\\% BLER, the axial receiver maintains robust symbol\ndetection at high user speeds, whereas the traditional LS-LMMSE receiver fails\nto converge, underscoring its suitability for ultra-reliable low-latency\n(URLLC) communication in dynamic 6G environments and beyond. These results\nestablish the axial neural receiver as a structured, scalable, and efficient\nframework for AI-Native 6G RAN systems, enabling deployment in\nresource-constrained edge environments.",
+    "url": "http://arxiv.org/abs/2510.12941v1"
+  },
+  {
+    "title": "State-Change Learning for Prediction of Future Events in Endoscopic Videos",
+    "authors": [
+      "Saurav Sharma",
+      "Chinedu Innocent Nwoye",
+      "Didier Mutter",
+      "Nicolas Padoy"
+    ],
+    "summary": "Surgical future prediction, driven by real-time AI analysis of surgical\nvideo, is critical for operating room safety and efficiency. It provides\nactionable insights into upcoming events, their timing, and risks-enabling\nbetter resource allocation, timely instrument readiness, and early warnings for\ncomplications (e.g., bleeding, bile duct injury). Despite this need, current\nsurgical AI research focuses on understanding what is happening rather than\npredicting future events. Existing methods target specific tasks in isolation,\nlacking unified approaches that span both short-term (action triplets, events)\nand long-term horizons (remaining surgery duration, phase transitions). These\nmethods rely on coarse-grained supervision while fine-grained surgical action\ntriplets and steps remain underexplored. Furthermore, methods based only on\nfuture feature prediction struggle to generalize across different surgical\ncontexts and procedures. We address these limits by reframing surgical future\nprediction as state-change learning. Rather than forecasting raw observations,\nour approach classifies state transitions between current and future timesteps.\nWe introduce SurgFUTR, implementing this through a teacher-student\narchitecture. Video clips are compressed into state representations via\nSinkhorn-Knopp clustering; the teacher network learns from both current and\nfuture clips, while the student network predicts future states from current\nvideos alone, guided by our Action Dynamics (ActDyn) module. We establish\nSFPBench with five prediction tasks spanning short-term (triplets, events) and\nlong-term (remaining surgery duration, phase and step transitions) horizons.\nExperiments across four datasets and three procedures show consistent\nimprovements. Cross-procedure transfer validates generalizability.",
+    "url": "http://arxiv.org/abs/2510.12904v1"
+  },
+  {
+    "title": "ALMAGAL VIII. Cataloging Hierarchical Mass Structure from Cores to Clumps across the Galactic Disk",
+    "authors": [
+      "Jennifer Wallace",
+      "Taevis Kolz",
+      "Cara Battersby",
+      "Aleksandra Kuznetsova",
+      "\u00c1lvaro S\u00e1nchez-Monge",
+      "Eugenio Schisano",
+      "Alessandro Coletta",
+      "Qizhou Zhang",
+      "Sergio Molinari",
+      "Peter Schilke",
+      "Paul T. P. Ho",
+      "Rolf Kuiper",
+      "Tianwei Zhang",
+      "Thomas M\u00f6ller",
+      "Ralf S. Klessen",
+      "Maria T. Beltr\u00e1n",
+      "Floris van der Tak",
+      "Stefania Pezzuto",
+      "Henrik Beuther",
+      "Alessio Traficante",
+      "Davide Elia",
+      "Leonardo Bronfman",
+      "Pamela Klaassen",
+      "Dariusz C. Lis",
+      "Luca Moscadelli",
+      "Kazi Rygl",
+      "Milena Benedettini",
+      "Chi Yan Law",
+      "Jofre Allande",
+      "Alice Nucara",
+      "Patrick M. Koch",
+      "Won-ju Kim",
+      "Patricio Sanhueza",
+      "Gary Fuller",
+      "Georgie Stroud",
+      "Beth Jones",
+      "Crystal Brogan",
+      "Todd Hunter",
+      "Aida Ahmadi",
+      "Adam Avison",
+      "Katharine Johnston",
+      "Sheng-Yuan Liu",
+      "Chiara Mininni",
+      "Yu-Nung Su"
+    ],
+    "summary": "Investigating the multi-scale fragmentation of dense clumps into compact\ncores is essential for understanding the processes that govern the initial\ndistribution of mass in stellar clusters and how high-mass stars\n($>8~M_{\\odot}$) form. We present a catalog of the hierarchical continuum\nstructure from 904 clumps observed in the ALMAGAL program, a high resolution\n($0.15-0.8$\\arcsec) 1.38 mm Atacama Large Millimeter/submillimeter Array (ALMA)\nlarge program targeting dense clumps capable of high-mass star formation\nthroughout the Galactic disk. We use \\verb|astrodendro|, a dendrogram-based\nalgorithm, on a uniform linear resolution (2000 au) version of the data to\nextract 5160 continuum structures with effective radii spanning $800-42000$ au\nand estimated masses between $~0.05-670~M_{\\odot}$. With our large sample, we\nstatistically examine the difference in clump properties for regions with\nvarying levels of hierarchical complexity. We find that clumps exhibiting the\nrichest hierarchical morphology have distributions with higher dust\ntemperatures, surface densities, luminosity-to-mass (\\textit{L/M}) ratios, and\nmost massive core (MMC) masses, indicating that these regions tend to be at\nlater evolutionary stages. We find a positive correlation between the mass of\ncores from the ALMAGAL core catalog and the surface density of their\nsurrounding structures identified in this work. However, this correlation is\nweaker for cores in more evolved clumps, where lower mass cores can be found at\nhigher local surface densities. This could indicate that some cores accrete\nmass less efficiently from the intra-clump reservoir than others, despite the\ntotal available mass increasing over time, a scenario that is congruent with a\nclump-fed core accretion model.",
+    "url": "http://arxiv.org/abs/2510.12892v1"
+  },
+  {
+    "title": "Dodoor: Efficient Randomized Decentralized Scheduling with Load Caching for Heterogeneous Tasks and Clusters",
+    "authors": [
+      "Wei Da",
+      "Evangelia Kalyvianaki"
+    ],
+    "summary": "This paper introduces Dodoor, an efficient randomized decentralized scheduler\ndesigned for task scheduling in modern data centers. Dodoor leverages advanced\nresearch on the weighted balls-into-bins model with b-batched setting. Unlike\nother decentralized schedulers that rely on real-time probing of remote\nservers, Dodoor makes scheduling decisions based on cached server information,\nwhich is updated in batches, to reduce communication overheads. To schedule\ntasks with dynamic, multidimensional resource requirements in heterogeneous\ncluster, Dodoor uses a novel load score to measure servers' loads for each\nscheduled task. This score captures the anti-affinity between servers and tasks\nin contrast to the commonly used heuristic of counting pending tasks to balance\nload. On a 101-node heterogeneous cluster, Dodoor is evaluated using two\nworkloads: (i) simulated Azure virtual machines placements and (ii) real\nserverless Python functions executions in Docker. The evaluation shows that\nDodoor reduces scheduling messages by 55--66% on both workloads. Dodoor can\nalso increase throughput by up to 33.2% and 21.5%, reduce mean makespan latency\nby 12.1% and 7.2%, and improve tail latency by 21.9% and 24.6% across the two\nworkloads.",
+    "url": "http://arxiv.org/abs/2510.12889v1"
+  },
+  {
+    "title": "Mapping the Perseus Galaxy Cluster with XRISM: Gas Kinematic Features and their Implications for Turbulence",
+    "authors": [
+      "Congyao Zhang",
+      "Irina Zhuravleva",
+      "Annie Heinrich",
+      "Elena Bellomi",
+      "Nhut Truong",
+      "John ZuHone",
+      "Eugene Churazov",
+      "Megan E. Eckart",
+      "Yutaka Fujita",
+      "Julie Hlavacek-Larrondo",
+      "Yuto Ichinohe",
+      "Maxim Markevitch",
+      "Kyoko Matsushita",
+      "Fran\u00e7ois Mernier",
+      "Eric D. Miller",
+      "Koji Mori",
+      "Hiroshi Nakajima",
+      "Anna Ogorzalek",
+      "Frederick S. Porter",
+      "Ay\u015feg\u00fcl T\u00fcmer",
+      "Shutaro Ueda",
+      "Norbert Werner"
+    ],
+    "summary": "In this paper, we present extended gas kinematic maps of the Perseus cluster\nby combining five new XRISM/Resolve pointings observed in 2025 with four\nPerformance Verification datasets from 2024, totaling 745 ks net exposure. To\ndate, Perseus remains the only cluster that has been extensively mapped out to\n~0.7$r_{2500}$ by XRISM/Resolve, while simultaneously offering sufficient\nspatial resolution to resolve gaseous substructures driven by mergers and AGN\nfeedback. Our observations cover multiple radial directions and a broad\ndynamical range, enabling us to characterize the intracluster medium kinematics\nup to the scale of ~500 kpc. In the measurements, we detect high velocity\ndispersions ($\\simeq$300 km/s) in the eastern region of the cluster,\ncorresponding to a nonthermal pressure fraction of $\\simeq$7-13%. The velocity\nfield outside the AGN-dominant region can be effectively described by a single,\nlarge-scale kinematic driver based on the velocity structure function, which\nstatistically favors an energy injection scale of at least a few hundred kpc.\nThe estimated turbulent dissipation energy is comparable to the gravitational\npotential energy released by a recent merger, implying a significant role of\nturbulent cascade in the merger energy conversion. In the bulk velocity field,\nwe observe a dipole-like pattern along the east-west direction with an\namplitude of $\\simeq\\pm$200-300 km/s, indicating rotational motions induced by\nthe recent merger event. This feature constrains the viewing direction to\n~30$^\\circ$-50$^\\circ$ relative to the normal of the merger plane. Our\nhydrodynamic simulations suggest that Perseus has experienced at least two\nenergetic mergers since redshift z~1, the latest associated with the radio\ngalaxy IC310. This study showcases exciting scientific opportunities for future\nmissions with high-resolution spectroscopic capabilities (e.g., HUBS, LEM, and\nNewAthena).",
+    "url": "http://arxiv.org/abs/2510.12782v1"
+  },
+  {
+    "title": "Personalized Federated Fine-Tuning of Vision Foundation Models for Healthcare",
+    "authors": [
+      "Adam Tupper",
+      "Christian Gagn\u00e9"
+    ],
+    "summary": "Foundation models open up new possibilities for the use of AI in healthcare.\nHowever, even when pre-trained on health data, they still need to be fine-tuned\nfor specific downstream tasks. Furthermore, although foundation models reduce\nthe amount of training data required to achieve good performance, obtaining\nsufficient data is still a challenge. This is due, in part, to restrictions on\nsharing and aggregating data from different sources to protect patients'\nprivacy. One possible solution to this is to fine-tune foundation models via\nfederated learning across multiple participating clients (i.e., hospitals,\nclinics, etc.). In this work, we propose a new personalized federated\nfine-tuning method that learns orthogonal LoRA adapters to disentangle general\nand client-specific knowledge, enabling each client to fully exploit both their\nown data and the data of others. Our preliminary results on real-world\nfederated medical imaging tasks demonstrate that our approach is competitive\nagainst current federated fine-tuning methods.",
+    "url": "http://arxiv.org/abs/2510.12741v1"
+  },
+  {
+    "title": "Characterizing Agent-Based Model Dynamics via $\u03b5$-Machines and Kolmogorov-Style Complexity",
+    "authors": [
+      "Roberto Garrone"
+    ],
+    "summary": "We propose a two-level information-theoretic framework for characterizing the\ninformational organization of Agent-Based Model (ABM) dynamics within the\nbroader paradigm of Complex Adaptive Systems (CAS). At the macro level, a\npooled $\\epsilon$-machine is reconstructed as a reference model that summarizes\nthe system-wide informational regime. At the micro level, $\\epsilon$-machines\nare reconstructed for each caregiver-elder dyad and variable, and are\ncomplemented with algorithm-agnostic Kolmogorov-style measures, including\nnormalized LZ78 complexity and bits per symbol from lossless compression. The\nresulting feature set $\\{h_{\\mu}, C_{\\mu}, E, \\mathrm{LZ78}, \\mathrm{bps}\\}$\nenables distributional analysis, stratified comparisons, and unsupervised\nclustering across agents and scenarios. This dual-scale design preserves agent\nheterogeneity while providing an interpretable macro-level baseline, aligning\nABM practice with CAS principles of emergence, feedback, and adaptation. A case\nstudy on caregiver-elder interactions illustrates the framework's\nimplementation; the results and discussion will be completed following final\nsimulation runs.",
+    "url": "http://arxiv.org/abs/2510.12729v1"
+  },
+  {
+    "title": "Hierarchical Federated Learning for Crop Yield Prediction in Smart Agricultural Production Systems",
+    "authors": [
+      "Anas Abouaomar",
+      "Mohammed El hanjri",
+      "Abdellatif Kobbane",
+      "Anis Laouiti",
+      "Khalid Nafil"
+    ],
+    "summary": "In this paper, we presents a novel hierarchical federated learning\narchitecture specifically designed for smart agricultural production systems\nand crop yield prediction. Our approach introduces a seasonal subscription\nmechanism where farms join crop-specific clusters at the beginning of each\nagricultural season. The proposed three-layer architecture consists of\nindividual smart farms at the client level, crop-specific aggregators at the\nmiddle layer, and a global model aggregator at the top level. Within each crop\ncluster, clients collaboratively train specialized models tailored to specific\ncrop types, which are then aggregated to produce a higher-level global model\nthat integrates knowledge across multiple crops. This hierarchical design\nenables both local specialization for individual crop types and global\ngeneralization across diverse agricultural contexts while preserving data\nprivacy and reducing communication overhead. Experiments demonstrate the\neffectiveness of the proposed system, showing that local and crop-layer models\nclosely follow actual yield patterns with consistent alignment, significantly\noutperforming standard machine learning models. The results validate the\nadvantages of hierarchical federated learning in the agricultural context,\nparticularly for scenarios involving heterogeneous farming environments and\nprivacy-sensitive agricultural data.",
+    "url": "http://arxiv.org/abs/2510.12727v1"
+  },
+  {
+    "title": "Enhanced Angle-Range Cluster Parameter Estimation in Full-Duplex ISAC Systems",
+    "authors": [
+      "Muhammad Talha",
+      "Besma Smida",
+      "David Gonz\u00e1lez G"
+    ],
+    "summary": "This work studies an integrated sensing and communication (ISAC) framework\nfor targets that are spread both in the angle and range domains. We model each\ntarget using a cluster of rays parameterized by a specific density function,\nand propose a truncated Multiple Signal Classification (MUSIC) spread (TMS)\nalgorithm to accurately estimate the parameters of the density function. Unlike\nthe conventional MUSIC spread (CMS), TMS restricts the signal subspace rank\nbased on the eigen decomposition of the received-signal autocorrelation. We\nalso propose a discrete Fourier transform (DFT) based algorithm for estimating\nthe distance and range spread of each target. Leveraging these estimates, we\nthen develop a dynamic transmit beamforming algorithm that successfully\nilluminates multiple targets while also serving multiple downlink (DL) users.\nSimulation results demonstrate the superiority of our proposed algorithms over\nbaseline schemes in both low and high signal-to-noise ratio (SNR) regimes as\nwell as under a wide angular spread regime.",
+    "url": "http://arxiv.org/abs/2510.12711v1"
+  }
+]

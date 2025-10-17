@@ -3,7 +3,7 @@ import arxiv, json
 from tqdm import tqdm
 
 client = arxiv.Client()
-def fetch_arxiv_papers(query="galaxy evolution", max_results=100):
+def fetch_arxiv_papers(query="stellar streams", max_results=100):
     search_query = arxiv.Search(
         query=query,
         max_results=max_results,
@@ -21,5 +21,5 @@ def fetch_arxiv_papers(query="galaxy evolution", max_results=100):
 
 if __name__ == "__main__":
     papers = fetch_arxiv_papers()
-    with open("../../data/raw/arxiv_galaxy.json", "w") as f:
+    with open("../../data/raw/arxiv_streams.json", "w") as f:
         json.dump(papers, f, indent=2)
